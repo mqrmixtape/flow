@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Michael S. Judge - "Autopsy Metropolis" (excerpt)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+
+
+/*
+@media (min-width: 768px) {
+
+
+
+
+/*
+.draggable { 
+		width: 500px; 
+	}
+}
+
+*/
+
+/*
+	.wrapper {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		flex-shrink: 0;
+		margin-bottom: 15px;
+	}
+*/
+
+
+/*
+#bigbody {
+        width: relative;
+        height: relative;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+*/
+
+.arrow {
+  border: solid black;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.arrow:hover{
+    border-color: blue;
+}
+
+.header:hover a{
+    color: blue;
+}
+
+#back{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+
+@media only screen and (max-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+	.draggable { 
+		height: relative%; 
+		width: 80%
+		padding: 0.5em;
+		overflow: scroll;
+		border-style: solid;
+    	border-width: 2px;
+    	padding: 10px;	
+    	margin: 20px;
+    	margin-top: 0px;
+    	background-color: white;
+    	text-align: justify;
+    } 
+
+    .draggable p{
+    	width:  80%;
+        margin-left: 10%;
+         padding-right: 5%;
+        font-family: garamond;
+        line-height: 1.6;
+        font-size: .4em;
+         text-align: left;
+
+    }
+
+
+
+.draggable h1{
+        margin-left: 8%;
+        text-align: left;
+font-family: sans-serif;
+		font-size: 26px;
+		font-style:  italic;
+    }
+
+    .draggable h2{
+          margin-left: 20%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .35em;
+        font-style: italic;
+        text-align: left;
+    }
+
+
+ .draggable h3{
+        margin-left: 20%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .3em;
+        font-style: italic;
+        text-align: left;
+
+    }
+
+.draggable h4{
+    text-align: right;
+    font-family: garamond;
+    font-style: normal;
+    font-size: 30px;
+    margin-right: 9%;
+    margin-left: 100px;
+}
+
+
+   .draggable:hover {
+    	border-color: blue;
+    }
+
+
+.italic{
+    font-style: italic;
+}
+
+.text-indent{
+    margin-left: 38px;
+}
+
+.text-indent2{
+    margin-left: 76px;
+}
+
+#cryptogram{
+width: 90%;
+    padding-left: 20px ;
+}
+
+#excerpt {
+    font-style: normal;
+}
+
+
+
+    #one{
+		position: absolute;
+		left: 3px;
+		top:  170px ;
+    }
+
+   #two{
+   	position: absolute;
+		left:  20px;
+		top:  525px;
+    	
+    }
+
+    #three{
+    	position:  absolute;
+   		left:  310px;
+   		top: 355px;
+    	
+    }
+
+    #four{
+    	position:  absolute;
+   		left:  605px;
+   		top:  230px;
+    	
+    }
+
+    #five{
+    	position:  absolute;
+   		left:  900px;
+   		top: 145px;
+
+
+    	
+    }
+
+	#six{
+    	position:  absolute;
+   		left:  385px;
+   		top:  575px;
+
+    	
+    }
+
+	#seven{
+    	position:  absolute;
+   		left:  665px;
+   		top:  545px;
+
+    	
+    }
+
+
+   	#eight{
+    	position:  absolute;
+   		left:  1190px;
+   		top: 25px;
+
+    	
+    }
+
+
+	#nine{
+    	position:  absolute;
+   		left:  1015px;
+   		top:  450px;
+
+    	
+    }
+
+
+   	#ten{
+    	position:  absolute;
+   		left:  295px;
+   		top:  10px;
+    	
+    }
+
+
+
+    #mixtape-logo{
+    	position:  fixed;
+    	bottom: 0px;
+    	right:  0px;
+    	height: 75px;
+    	width:  75px;
+    }
+
+
+
+
+    .header {
+		margin-left: 15px;
+		margin-right: 50px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: black;
+	font-size: 100%;
+
+
+
+
+}
+
+.content h5{
+	font-family: garamond;
+	font-style: italic;
+	color: black;
+	font-size: 14px;
+	margin-left:  100px;
+}
+
+
+.mobile {
+	margin-top: 0px;
+}
+
+.mobile a {
+	color: black;
+	text-decoration: none;
+	font-family:  sans-serif;
+	font-size: 20px;
+	display: block;
+	padding-bottom: 0px;
+	margin-left:  20px;
+
+
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-top: 0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+.scaled {
+		width: 1000px; 
+		height: auto; 
+		padding: 0.5em; 
+		overflow: scroll;
+		border-style: solid;
+    	border-width: 2px;
+    	border-color: maroon;
+    	padding: 15px;	
+    	margin: 20px;	
+}
+
+.lengthened {
+	width: auto;
+	height: auto;
+	padding: 0.5em; 
+	overflow: scroll;
+	border-style: solid;
+    border-width: 2px;
+    padding: 15px;	
+    margin: 20px;	
+}
+/*
+.sidenav {
+    height: 100%; /* 100% Full-height *//*
+    width: 0; /* 0 width - change this with JavaScript *//*
+    position: fixed; /* Stay in place *//*
+    z-index: 1; /* Stay on top */
+   /* top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding-top: 60px; /* Place content 60px from the top */
+   /* transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav 
+}*//*
+
+.sidenav p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav h3{
+	font-size:  35px;
+	margin-left:  75px;
+
+}
+
+.sidenav ul {
+	list-style-type: none;
+}
+
+.sidenav a {
+	color: black;
+	text-decoration: none;
+}
+
+.sidenav a:hover {
+	color: black;
+	font-style: italic;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+}
+*/
+@font-face {
+	font-family: lydian-regular;
+	src: url(lydian_regular.ttf);
+}
+
+#logo_menu ul {
+  list-style-type: none;
+  position:  fixed;
+  bottom: 0px;
+  right:  160px;
+  background-color: blue;
+}
+
+#logo_menu li{
+	  float: ;
+	  padding: 5px;
+}
+
+#logo_menu a{
+color: black;
+	text-decoration: none;
+		font-size:  15px;
+
+}
+
+#logo_menu a:hover {
+	color: black;
+	font-style: italic;
+}
+
+
+/*
+  #video-background {
+  position: fixed;
+  left: 500px; 
+  bottom: 0;
+ 	
+  z-index: -100;
+};
+
+*/
+
+}
+</style>	
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script>
+
+
+/*drag/drop below */
+/*
+$( function() {
+    $( ".draggable" ).draggable();
+  } );
+*/
+
+$( function() {
+		$("#logo_menu").toggle();
+ 		  } );
+
+
+$( function() {
+   		$( "#mixtape-logo" ).on( "click", function() {
+   			 $("#logo_menu").toggle();
+   			     });
+  } );
+
+/* scalable below */
+
+
+/*
+ $(function() {
+        $('.marquee')
+          .marquee({
+            //If you wish to always animate using jQuery
+            allowCss3Support: true
+            , //works when allowCss3Support is set to true - for full list see http://www.w3.org/TR/2013/WD-css3-transitions-20131119/#transition-timing-function
+            css3easing: 'linear'
+            , //requires jQuery easing plugin. Default is 'linear'
+            easing: 'linear'
+            , //pause time before the next animation turn in milliseconds
+            delayBeforeStart: 1
+            , //'left', 'right', 'up' or 'down'
+            direction: 'right'
+            , //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: true
+            , //speed in milliseconds of the marquee in milliseconds
+            duration: 100000
+            , //gap in pixels between the tickers
+            gap: 14
+            , //on cycle pause the marquee
+            pauseOnCycle: false
+            , //on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
+            pauseOnHover: false
+            , //the marquee is visible initially positioned next to the border towards it will be moving
+            startVisible: true
+          });
+      });
+*/
+
+/*SIDENAV below
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+</script>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+
+
+<br>
+<div class="marquee"> FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW </div>
+
+
+<div class="content">
+
+
+<div class="draggable" id="one">
+    <br>
+ <h1>AUTOPSY METROPOLIS <span id="excerpt">(excerpt)</span></h1>
+ <h2>Michael S. Judge</h2>
+          <p>
+<span class="text-indent">a cylinder of near-translucent fluid &#8212; set up carefully, lone object in your sight, </span>against the light depriving all its flesh of any object status in the eye, all such definition as implies a waiting depth and any edge more awfully lost now than the frame's celluloid border to the corpses caught on film, cinematography of myogram star's needle-voltage slipping through strict anticline of sarcomere hypogeum and up the steps, away, all past the infrared or night-vision eyes, the higher spectra all sent back and paroxysmal, still, with the repeated heats of their rejection, recurrent temperatures in visible ripple down the body, not much less than ecstatic for them and, for us, not much more than ecstasy observed, god help, and "help" alone, since targets of divine aid seem, at best, to swing toward the self-determined, the arrow finding the wind it should less meld with than draw friction from, as thin black hair pulled tight that we might fiddle gaunt starving horses' whisper from the strands, as offline DC transformer of sarcophagus-LAN star blowing the hundred thousand volts up on the telephone poles cold enough to touch for just a moment or quite less, really, more in a moment's skin, labial action of first consonantal nasals bursting membrane on demagnetized echography of wire-recorder star, and there we are and were; set up against such tungsten impurities as should impart the flicker of fictive flashbulbs, the brief squarewave hailstorm, wavetable star's analog synthesis deprived radiosurgery now rescued from the echelons of bunkers sent way back, back, back
+<br>
+   <span class="text-indent">long as you could ask, less for the asking than dredged out of the foreshortened interrogatives, </span>the maximum character length of anything that begins and ends with question marks, one of which must be upside down and either of which may be, depending on proclivities' abrupt necessitation and the way you'd seem to tilt there, up against the ATP star's codestring login, hitting falsified blockchain ledger of the flight-recorder blackbox with xenonucleic star's acid tape-delay backbone till we should all fall down, cinders of half-alleged posies in the pockets and the black carbonized shape of flowers' absence from the dirt now carved purple and subcutaneous on your cheek, as shouldn't it be, as liquid-crystallography of enantiomer lysosome-star's affine map phagocytosis fixing now on bits of false glass burnt or merely scalded into the image of a fixity they're never really mind to find and often find regardless of dim meaning, where it's all dim and remains so, down and way down, stratigraphy below the dry radio hiss of the redshift star's transducer brownout in the cardioid mic diaphragm's confused induction pumping velar motion back into the speakers' shiver, the thick paper cones gone porous if not punctured here &#8212; you ought, I'd say, remember &#8212; down and down past ruby light at the core-sample star's fuel cylinder for ziggurat heart-sacrifice, and blood not "only" blood there, not, as long across the several seas, the meat and water of the stars, but more a question of light's necessary deformation here, a way to mutate the blackening and leveling impulses of the sun, an early kind of solid-state compression, if you like, before we wholly scrape the oxide from the tape, wholly degauss cuneiform surgery of acetate encephalogram star, 
+    <br>
+<span class="text-indent">it's about flatness there, and flatness half-remembered for the vicious downward force, </span>the actual feeling &#8212; you can mock it up as many times as you like, maybe even commission and construct as "space program," as if the program were for space and not, precisely, its abridgement &#8212; of having your brain pushed against your brainpan, which is clear enough a few moments after it's over but which, in the necessary seconds, defies all clarity whatever.  Severed hoses flail to spray cerebrospinal liquid from waveshaper star's fluidic-computer terminal, and nothing but the falling then, the empty recourse of the drowned, grabbing onto accessible fistfuls of useless water as you too would clutch at the air, like you could pull it in through helpless skin and feed it somehow to the prejudicial precincts of the blood, now black and clotted at extremes of all your cranial extension, molecular-architecture star's cephalopod signal-path flow suddenly more obvious than even briefly smoldered intuition of flux linkage from the one coil to the other, transformers' first and secondary wires all disconnected up and down the spade-clipped tabs and nubs of any process, xiphoid, spinous, howsoever you should try and fail to grasp, solder's rosin flux re-lit now and abruptly sloped debridement from the axon-terminal star's bootscreen pictography, as
+<br>
+<span class="text-indent">it should matter, and it does, but quite as thoroughly in total flat  </span>confusion as in anything to be "learned" afterward.  Blood pouring from your ears, either blacker and slower or redder and thinner and quicker than you can quite believe, either the clotted solar autopsy you imagined lurching for hours from the throat of the bullock slain over the baptismal grate, right, or the narrow hemorrhage of ferrous time itself, the repeated superfices of the film-crew wrackage tracking wounded-hyperlink star's plane crash into aneurysmal obelisk, as
+<br>
+<span class="text-indent">all may yet proceed or, in its stilted process, still half-seem to "prove,"  </span>or seem to half-prove, which aren't and have never been the same thing, despite their frequent and half-mutual confusion.  Down through all the pseudorandom-number generators and the REM scatter reduced, or sped, to 24 fps on exobiologic star's dead-URL necropolis, whatever painful act of varispeed should re-confuse the sums and thus the differences remaining, where you come to that more primal act in precedent of simple "mathematics," the cutting off, the amputation with the phantom pain not merely an extension of poor cautery but spreading now to all "surviving" limbs, since none survive the sudden breach of strict bodily dreaming, the awareness, now, of flesh's long conspiracy against them and the way they've helped, and event meant, to nurse the epidemic that decides as to their uselessness when flesh becomes decision, and we wrap cold in the newly-tilted binaries, tags open, unimaginably dull against the toothaching blue-whiteness of the skull, feeling more volt-intensive afference shut down, seek-judder in the reboot panics less a strict affliction than a tenet of the seasons we forget
+  </p>
+  <p>
+<span class="text-indent">dark now &#8212; dark then &#8212; but all things faintly glowing, half-obscenely, </span>with the wet heat they would strain to spill as light, the humid wood's veins swollen to phloemic thrombosis, the moon clearly as ever some disfigurement of canceled pores and proud flesh's bitter assignation with the wounded meat below, burial mound for glyph-transcription star's mutagen surgery half-strata, strewn to shards, impossible to count as whole or broken without reference to whatever "wholes" might look like save a regional accent lathing down the aspirate or its lack at the beginning of that indrawn breath revers, a word like choking played backward, mono Dictaphone mixdown from cell-recording star's wire drum, and precious little as addition save piezo jolt exploding in bright brief xylemic crystal through the body, top/sides/back, or in the straining neck, drawn off in wan meniscus of a honey much diluted, serologic star's canopic teletype as chatter of black smaller bones consigned thus to the crumpling of the ears, the flesh so crippled as to allow some local healing, malleic smoke and all the tiny sonar clink of anvils crumbling to your touch, or to the faint notion of touch besides, as when wavetable star transduced coordinate systems out of pitch toward phosphorescence and straight back into night-soluble varietals of fluid-damaged software, 
+<br>
+<span class="text-indent">as you would know, or more or less presume, having been there or close enough, </span>all Demeter's sloughs and wallows slick there, wholly out of season and thus perhaps half a surprise, where codon-scanning star's .txt exobiology records for bitter broadcast the blown-out and squarer-than-square wave born of skipping steps, or of dim recovery to add what's skipped back, material panic pure enough to prove that the universe itself is not just capable of fear but is in terrible anxious flux most of the time, attempting to preclude the broken acid and so driving the next triode gain stage violently toward ATP-star nucleotide clipping, a ratio of input to compression you would never find unless you flat went looking to peddle and conceive this sort of "accident," blackbox login to the frameshift star's dead-URL necropolis now turning on a series of intentional amino "errors" each designed as proof against a pseudorandom codestring,
+<br>
+<span class="text-indent">toward precise degrees of likelihood, the numbed or overeager time in wooden houses </span>creaking loud as scattered corncrakes against the temperature shift of the afternoon, you understand, tape-edit override its evidence not just of a mistake but of some action somewhere taken as a camouflage retreating, desperately present there, unable to hide itself and so declaring what it otherwise should stammer to forget: yes sure we fucked up and there may be several seconds missing here I'm not entirely sure and I know that you know that I'd be lying if I claimed any kind of certainty even with the matrices and spreadsheets all laid out for average capstan cycle speed and feet per minute and the ferrous-oxide loss of frameshift star's cellular surgery beneath such pitch-warp gene-expression factors as must be considered more or less endemic and should be, if not planned for, because who's to plan for the precision of the errors of the Earth, I mean goddamn it, really, who's to ask against nerve spindle's errant firing or demyelinate sheath toward blackout-manic MIDI triggering xenonucleic star's cassette, 
+<br>
+<span class="text-indent">you're all smarter than that, I hope; you were all trained to feign a broader </span>and a wiser and a sadder sort of intelligence, if I'm not sure, no I'm quite sure, if I'm not wrong?; to shake your heads somewhere quite near, but never up against (who knows what's touching them, what slime mold capable of growing inside the coils of your ear where the Minotaur screams, who knows what labyrinthine feedback spiral of harmonic overgrowth's long FM synthesis might sum to mycological neural-network star's fracturous LAN, able to break itself, able to break whatever it should touch by mention only, to shatter by inference and, best of all, to corrupt by palimpsest, over and over atop what's atop, and we should all, I think here, I think not to know, I think only to enunciate an exact degree of such corruption, right?, to name it to the microsecond, picofarad, single ohm's resistance, to check the cold reactor cores in years of decommissioned xenosurgical star orbiting right in the gamma fraction with the specious cures for cancer and the decibels we daren't name for fear of us, ourselves, lending the meat and bone and blood to one of those statistics?, I think
+<br>
+<span class="text-indent">not to come to any conclusion but to mark the moment on the reel where somebody disastrously </span>started to think, epigenetic drift of aniline star's permeable carcinogen rainbow still less apt to float through the window, since it's the necessary almost-monotone of Historical Footage, something happening AtAnotherTime, wink or don't even bother, hardly needful now, and everything is one or another shade of brown, and everything is not just fading in front of your eyes but is thus disintegrating as a promise, as a fade toward your salvation, and christ, if you believe that now or even feel it someway sleek becoming to bestow belief's emphatic choreography upon it, well, there's nothing very much to tell you anymore, not to be heard at least.  Mount the steps, take up the fine scansion of X-ray separate, put the edible cartilage beneath the autodial rotary phone software of the gamma-knife star, careful to absorb as much as leaks from the old batteries or licks you sharp and short from thus uneven joins where cloth wire was replaced with New-Look Teflon! was replaced with cloth again and, now, who know, some nightmare crystallography, polyurethane grown in the wombs of species otherwise extinct, censored venography of benzene-ring star's gene-torching splitting alkaloid infinitives on any such report as you might even half-declassify, i.e. get them to gesture toward the naming and the number, get a videotape whereon the automatic closed-captioning appears to refer to the alphanumeric sequence which you're trying to track down, only appears, mind you, but that's the short of stuff you learn to live with, slant neon snowcrash /directory of glyph-mutation star's oil-barren pharmacogenomics
+  </p>
+  <p>
+<span class="text-indent">mumbling, whispering, then half-whispering numb triadic backing vocals to the anger, </span>the bafflement, the druggy resignation of control room scarcely heard through headphones long removed, at least, we'll come to tell ourselves, at least to lay out some index of lithium damage in that Faire Field of Enna for those who come after and may be less prepared to run when the horror begins, or yet much less prepared to recognize and, even still, acknowledge the mere presence of the horror, if you'd ask and if you'd try and if you'd merely start to run yourself with eyes grown overlarge, oh the awe-hungry swelling darkness of the pupils aimed right into that cracked lens itself athirst for dark, and who could know and, knowing, say, who make atonement or chisel in past visage for the runic spinal library of biointerface star's hippocampal runtime-script transduction, less language to language or even text to text than question of which of the main electrical properties is to be most immediately feared her, among young women who arrived in this place by frightening means and have had to leave frightening things behind in a frightening manner to keep themselves within the fictive temenos, the very-soon-seen-for-hell-ugly circle of thinner-than-imaginary protections, more diluted, based in less, the sickened mineral flavor of the water where it pushes up through inexplicably dry and cracked ground, the substrate opposition of the canceled-out exponents in transliterate RAM cache of exobiologic star's few fluent microseconds switching in and out before the automatic pingback, the immediate and uncontrolled blood-function of strange characters, oh christ and help you all and I mean it, the hungry intravenous fiction climbing from the ceiling to the floor in radiosurgical scar's neural scan to dredge, to hold, to sell what foul dendritic silt may sleep yet in the myograph star's rhizomatous-stilled clangor circuit-architecture built of axon terminals re-canceled,
+<br>
+<span class="text-indent">once brought up and once worn down and more than many times the subject </span>for a sniper's heart, dear help-ye-god, the half-bodily scripts of nearly ancient tribulation writ in ragged "silk," i.e. more likely polyurethane or, unlikely but possible, nitrocellulose, to print transliterate gain-staged circuit anatomy of ATP star's ROM-blanked cinematography, and
+<br>
+<span class="text-indent">to trust me hear, to trust me here, both ways of knocking off the phoneme </span>on the way, night after night, from the wreck of the studio, so professionally wrecked, so expensively destroyed as imprimatur of time spent amid the trenches of la boh&#232;me, and really maybe just the one, eh?, luminol for spatter of the mRNA password to blackbox of exobiologic star's dead-URL necropolis, remembered?, you recalling now?, or is this all in a past that couldn't be yours, because you, oh gift you are, oh new new day after new night, rewrite the histories magnificent by touch, a haptic breakdown, is it?, fluid-terminal star's crashed logout matrix no more matter of soured infants' milk gone bitter in the sugars of the babies more aborted by their mothers' murder than any single decision as was writ beneath themselves,
+<br>
+<span class="text-indent">as how forgotten, as unforgot, as perfect remembrance in a sequence </span>of things perfectly insequential: all this goes, you understand, in the first or the second montage, depending on how necessary it was to dial in the presets of her shitty homeland, the worse-than-dead-end she comes from, the end itself long dead of nothing but old age and the attention of none but such spiders as may find her a series of convenient shapes, a set of clefts and ridges for hanging their webs between, eh?, really quite understood and really of more, easier, and simpler skin-held comprehension than you're ready to admit or ever will be, hm?, compression voltage of the circuit-bending star's piezo crystal jumped from something in the hundreds, let's say (just for averages' sake) about 0.0347 v at the input jack, before the big resistor to ground, 68k&#937; or, hell, even a million if you're on the upper plug, and we'd remember that or think we would, and the thinking we would is more than good enough &#8212; is, in fact, in many cases, much too good, is archaeopteryx gramm&#234; of the waveshaper star in panic under such long-swapped-out bone, places for places, everyone!, xenonucleic star's molecular-signal flow gene-cassette tracklist, only here to there with the right panics in between, that we care not to recognize it for the moment, and
+<br>
+<span class="text-indent">this is no archaism of diction, "care not to," this is to say that we </span>violently if quietly care about a lack of stemmed cognition, no matter how shallow the stem's rooted, no matter what the contents by volume of the large black matte-surface drums easy enough to "spill" across the field-surface tRNA light grid of the mycologic nerve-net star's LAN, all enough to throw the angles out of their constituent bends for a weekend or two?,  I'd guess?, when the Support Staff trickles in?, never apparently more than a few at a time and this nonetheless a big enough enterprise to pay for such a big building with so many people on the rolls?, OK no doubt, little confusion, biohacking to upclock failing CPU mitochondrial star and
+<br>
+<span class="text-indent">it could be no more or less than it appears, right?  Like there's lots of people </span>in here all the time, like it never really stops, right, 24/7, lights always turned on in the parking lot, surveillance cameras always twisting around at the ends of their eyestalks (transglyptic sugar datasheet for cell-recording star obscured but more than present), and each new Team has its own Producer, Promoter, Manager, Project Manager, Agent, Publicist, Songwriters, Instrumentalists I guess you'd say?, is that a word, and guys who know ProTools and Logic and CUBASE, and guys who understand the math you have to understand to get things from one imaginary grave to another, how it is that we bury not our dead but the dead, someone's left to us, in deeper pits each time, because there are always more bones?, acquisition of some maybe-only-decorative but still unsettling wings, and since the last time, I don't know about you, but it looks to me like all their jaws have been opened till they snapped and then rewired to heal that wide?
+  </p>
+  <p>
+<span class="text-indent">"cause of death" cold cherries overripe against staid light, too dark then, </span>incommensurate down to the grain, wavetable star's myelin physics in eruption of  bloc-feedback at the node, with the dim day behind you, the dim day ahead, a few shades' scarce difference of sepulchral glow robbed even of that slight distinction, whitewashed where marbled, a place where men die fat in large dark ugly chairs and no one bothers to discover them, no entrance among the awful surgery of woman in black mesh-pyramid masks, carotid obelisk from neck up for destroyed faces not yet subject to even the pretense of "reconstruction," rather graft by slow degrees, codestring failed blackbox login to the exobiologic star's dead-URL necropolis and
+<br>
+<span class="text-indent">all else, then, a matter of the static in the sickly feint at yellow </span>underlying all this mortmain offwhite verticality, and no real question there, not much to be presumed about not much needing presumption, alien fructose gain staging for ATP star's fractured circuit schematic, impatiently picking at the strips of braided copper like a bird determined to poison itself specifically, the toxin made particular somewhere among the jostle of available nerves not yet overawed by changing weather and the difficulties of my hollow skull, your hollow bones, mycologic nerve-net star LAN caught up in each iteration at a thick geological index of carbon blowback and paused there to rattle in its most recent spoken microsecond, till the scriptural tongues' percussion, see, the cuneiform of flight-recorder star's millennial topology of palate and bent teeth, should extend into a wail, as fit for mourning as to be surveilled at all and, however fit you find it for surveillance, it will live beneath that caul; you and I know that it's wrong to say "there's no choice," of course there is, there always was, and you and I know it's likewise wrong to believe that the choice will be made differently this time out of the billion, the ten or hundred billion per day, per hour, across
+<br>
+<span class="text-indent">what's less a grid, once you learn to see it, less a decimal reduction </span>to eventual diodic pairs of on/off damned to worship thus forever, either down on knees and elbows and forehead or back to the axis of the temple, walking out of the front door, and the Awful Mysteries' revelation behind you a matter of spinal-radio star's bandwidth in a moment of foreclosure by the vast commercial traffic of the air, the holy ghost deformity of standing waves imposed upon what might otherwise be rattling in the pulp of your teeth, right now, right anytime, right picturable so far as pictures' manufacture, one by one or en masse, should persist, and we seem born to that persistence if few others, dedicated not as we should dedicate ourselves, see, but the way an ugly lump of civic architecture gets "dedicated," names of men who died rich on plaques and of men who died poor on the wall placards, names of those who died insane or "live" beneath the barometric hell of that insanity, asphyxiate, bones slowly spiderwebbing like a windshield replaying the spread vectors of a car crash several hours after filmed impact, cinematography of GABA star's deletion playing back the build toward more than only panic, much worse than simple fear, in every room where the afflicted will find themselves "living" "alone," less than the first and much, oh horribly much more than the second, fed on little but the thickening of the ghosts that feigned status as mere shadow evidentiary of all things' sundial potential if you stand them up in the right place and know how to read the light they disable, understand the biohacking star's serologic HTML in late acoustic afterbirth of browser-history deletion, the sound of there having been something and of much more than a dumb vacancy left, but active and debilitating nothing with its own shape and its own resilience to the shudder in the air, the unlikely favoritism
+<br>
+<span class="text-indent">of the scientists, if that's the word, if they're not more accurately </span>"employees" now, who will mill in, groups of respectably restrained size, given your Emotional Condition as codified on a 1-10 scale and the modest dimensions of the Levittown tomb you're dedicated sealing, chemokine hieroglyph for axon-terminal star's logout sarcophagus left standing at such angles as permit only a viewing, one at a time now, I'm going to have to ask you, sir, to stand behind the rope, I am fully empowered by both the laws of this state and my training to apprehend physically such subjects as I should deem possibly dangerous to the calm and welfare of my general vicinity, and you will find, if you should choose to press your case, that though these are rulings of local jurisdiction, they have been appealed well up the ladder of the federal court system, and that nothing federal is ever going to rule against the rights of men with badges or names sewn into their shirts to cripple anyone who makes them not uncomfortable themselves, even, but makes them suspect discomfort in those spectators now curious why the head-cracker isn't doing his job.  Never again.  Such rulings may have once occurred, may even have been common, I don't know.  I've been part of several cases.  I have given depositions; I have signed sworn affidavits.  The precedent is clear as water isn't anymore.  You'll please step back behind the line worn off the floor.  You don't have to know where it is.  I know where it is.  I'll tell you when you're far away enough for me not to recognize you.  Thanks and
+<br>
+<span class="text-indent">keep the cameras coming, long as they're basically just props, of course no </span>flash photography, what are you, stupid, save the artificial flash applied to every image captured by your phone &#8212; well, not to every image, actually to quite a small percentage; we wouldn't want the live feed overlaid with artificial Sonnenschein; it's either redeye ugly or designed as a report upon the real extent of artificial suns' horizon-casting in the detonations' early stage, before core samples nominate disease
+  </p>
+  <p>
+<span class="text-indent">whereafter (vide: nowish, come down hard upon that ish), gone hypernominal </span>and everything so normal that normality itself begins to shred along its weaker vectors but, you know, scarce real concern, soon enough snapped to a quantization grid of all syringes at right angles (later, earlier, whichever suits the moment past the moment to be suited, hey don't worry, hey no fear, we'll keep you terribly informed, and never cooed into your ears, no, never-tongue flick at the queasy lobe, but spoken mouth-to-mouth, droned lips-to-lips, a medical implant that looks like a kiss), and
+<br>
+<span class="text-indent">wave collapse's acid reflux in containment-breaching sheaf of </span>blackbox logout from the exobiologic star's dead-URL necropolis, who last here and who wont thus to deposit the butterfly pollen of the dead fingerprint, unwisely altering the tombed pharaoh's scleroses, rebreaking the already broken joints of the dead king, as you would have it, no real question, no real time, not overacting, solarizing silver-blood post-op surveillance glyph of Inca DNA-waveshaper star, black on sicklier white hatefully high-contrast in the recon for the falling of the bombs who only need to match the blinding detonation with the blindness of the place to fade real quick, faster than studio etiquette and post-production standards have demanded, into a comparable blank, acetate printout xerograph star's telex a question less of casualties than of operable signate matter afterward, whatever can be logarithmized over/under/sideways/down or perched up on an exponential shoulder, whatever molecular architecture shows some measure of promise at the line where oil still won't mix with water, despite all our fine finical inducement and our pleading and our outright remonstration, valence-shell index at the hippocampal biointerface of circuit-bending star, now come
+<br>
+<span class="text-indent">to huffing gasoline, to keeping as much diesel as you can in the smallest </span>container that will accept it, no holes, no overemphatic kinks or dents, nothing to pique evaporation, right, and hiding in the corner of a lean-to with a pointless door in front, since you can just walk past the door on either side, but we found the thing intact with handles, lock, doorframe, even the key on the inside (I guess the inside?), all just lightly scorched, still wearing most of its natal whitewash coat, like a bird swiftly rescued from some manner of molecular disaster, carbon-14 star Osiric bootscript slowly swarming back together in such biomass as still belies all plausible territories of origin, something, maybe, drawn up from the sea beneath the landform we were happy to catalogue unto something not wholly unlike crucifixion, numbered sefirothic as the coral tree of analog gamma-knife star and kept from the ambient rays of further radiosurgery
+<br>
+<span class="text-indent">still spinning down from above the city, what city's left, what isn't </span>to be catalogued and bagged in its own time as mere significant remains, scare quotes as you should find them valuable or, whatsay, maybe precious?, axon whip gone loose as splay cassette for startup wetware GABA star's myelin patchbay,
+<br>
+<span class="text-indent">plus the panic of connections thence construed and thus recorded, </span>printed out along the wings of the thing, difficult to ignore even in the quiet and unmentionable flights at night, usually in small four-seater planes, a pilot, a backup in case this is the kind of thing where you kill the pilot, at least one person who actually needs to go where the plane's going, and possibly as many as three people who are necessary to get him there and who, it doesn't hurt to add, should be allowed to feel that their necessity is not fully expended by mere transit &#8212; check the number of parachutes and maybe ask a funny question, and see how ready your interlocutor is with an answer: if he's got slick comebacks loaded in the chamber, everyone but him is going to die, or everyone but someone else is going to die, and he's accepted it &#8212; where the chemical formulae still throb out on the wings, ATP circuit-architecture star in double-triode gain stage tuned to amplify not just the flight and crash but the bare skittering survival afterward, trained for not that long, actually (you want to write "months" or "weeks" at least and ultimately come down, all too often, right on "hours"), on where specifically he ought to ball himself up near the luggage, and how to play it off as Famous Eccentricity or just the exact degree of obsessive compulsion necessary to maintain the kind of life where what you mostly do, if we're being honest, is wait.  Slide the lid off the sarcophagus and wait, then, to start bleeding honey from every burst vessel in your face, that the flies behind breached stelae comprehend exactly where to land.  Sympathetic-string virology we'd call non-coding genome in the ganglionic HTML shutdown protocol of cephalopod neural-network star overextended, or of sea life drowning in the open air and nerve net swapped for mycologic star-LAN's sagging scales nondiatonic under soil just thin enough to give some sign of their slow sprouting and just thick enough to drain all the stray minerals required,
+<br>
+<span class="text-indent">the rare-earth elements now suddenly so prized in quick-change </span>photoresist autop/o/sy star's fMRI vein-panic and unlist of strait carcinogen, the glossary not provided in the room never really meant to be entered: this is a cold place, where men come in from the heat of grass-wilting blacktop and anxiety in front of their superiors still keep their hats, coasts, vests, ornate gun harnesses strapped on, where there are no chairs, since the few women and men for which the place was built and furnished do their work entirely while standing and would not care to spend a single free instant sitting down here.  They get out quick as they can.  They slide the drawers shut, they fill out the notecards on the typewriter still used to override vagaries of word-processor myographic star's inconstant CPU encephalography, they slide the typebar-stricken cards into the small glass-fronted panels on the facing of each drawer, above the handle, so you can read and pull or push at the same time, so your hands don't get in the way of extracting a body from the place the bodies go, the sarcophagus-hive HTTP star so apt to swell with summer's excess
+  </p>
+  <p>
+<span class="text-indent">but set down this, set down</span>
+<br>
+<span class="text-indent">this: dragged to dust, though they'll say carried, </span>as in offering of crippled alms, timorous across the apse up to the blind maimed child god in its foul font of milk and ichor, eyes' horizon fixed delimited to a womb they cannot shed, uterine walls synonymous with glaucomatous corneae, that's what they'd have you fathom and fish shallow, but no, not carried, dragged as any river-prey, a snowfall of skin shed in the ruinous translation from a surface to a target, violent removal of trilled rhoticisms keeping as safe as tropos ever offers, the blow, the twist, the place, cell-voltage star's DAT-spooling gene cassette degaussed and tape speed torn past any matter of cotangent inches, meeting now, if met at all, in the higher and often inaudible harmonics of a function we should hardly know our way toward, calculus in every nominal reversion, back to the numbering of stones, the bitter calx of myographic star's nerve terminal descended toward swift zero in axonal signal passage where the heated filaments all go to wilt and all the anodes just explode backward through any built-up series, help us please, o blank for bootscreen fluidic computer circuit-architecture star and something maybe quite as solid then as gel across the mainframe where the cold mineral thunder may still beat, the peptide-hardware star seem capable of such tape-splice induction as should shear in torn suggestion of a world taken for operating system, as you like, as you can stand, and still the dust of all that dragging, metadata star's breached void-core spinal archaeology (a codicil &#8212; as frameshift star's grid-clipping protein index &#8212; of failures to be nothing, rigorous as any such record can be, since we're dealing with terms whereby zero is already too much, is extra evidence of faked nothing in over-protestation, like the man said, like the power mains still testifies on some non-celebrant occasion, third-rail scream of DNA-editing star's blown-out transformer on the secondary winding where the messages should testify past alien membrane, if at all possible, into the deeper recordings and past the flicker on the surface, though that flicker sets up linear "progression" for all of everything beneath, xenotic star's tape-bias HTML threatening a restart from a disk foreign enough to leave our gasp-initial code all marooned backwards between brackets of any but our own manufacture, as, perhaps, more than we'd perhaps like to admit, in network-backbone &lt;a href=&gt; star's dead-link HTTP osteon, and the failure thence to ring the dead sun of the city with the annulus of a dead gray eye, perfectly calibrated, so we're told, to engineer exactly one of exactly two responses in everybody who should see it, namely a) absolute panic or b) absolute vacancy, so some may stare and some may rip themselves up by the roots, so some may hang themselves from the nearest high-enough branch with the closest-to-hand cabling of requisite tensile strength, and some may walk slowly, slack-jawed, not dragging their heels on purpose but for wont of any stronger jolt of dopamine, endorphin, epinephrine, any goddamn thing at all, cephalopod neural-network star LAN in reactor meltdown strangely still too cold to catch as anything throbbing or even whispering up through the skin, RF-hacking star's lithium-cache radiosurgery in scarce black-market software application here, though capable, it seems, of applying at least one or two, well, applicable impedance curves, one to match a real speaker, basically, at high bitrates and in demand of significant memory, and one to do a good enough job once the track or tracks is or are in the mix and nobody's paying much attention there, you reckon?, etiology of terabyte star lost back in the critical gain stages, V3B there doubled-ganged, you see, and maximizing in- and output all in the same hesitant but thrilled torque of the thumb and middle finger, not quite stiff enough to beckon any action from the wrist, OK, you know, you've been here a few times before, you declare yourself "no stranger to the female form" in such a weary-sounding timbre that it almost seems regretful, like you wish you were still confused for the, if not quite pleasure, the motive force, at least, of getting yourself unconfused, of having something left to learn and the quite direct impetus to learn it, half-crying now, as those so inclined on the level of the endocrine-tape print-through star approach the massive Tree of the Dead, where corpses do not hang but simply marble the surface of the trunk, each in some mangled choreography it can't choose for itself but finds inerrantly upon physical contact with the tree, gray dead people stuck to its surface in thousand-layer palimpsest and deeper, deeper than that, you'd have to know, cathode mosaic borne to glitchy thyroid tonestack for the frameshift star's bent cuneiform in sleek bracketed codon very nearly righter-looking for its wrongness &#8212; and who's "wrong," and when's "right," and what proposes to make proposition wherewise as to saying, you know the deal, or rather the deal's abrogation, a bargain scarcely struck but broken off in angry haste and loudly declared in two different sets of terms by two different voices, both adolescently hoarse in their overemphatic need not simply to be heard but to be heard as authoritative, which they won't; none ever is; the terms are simply acquiesced to, in an age of very little aside from acquiescence, some quite simple, some disgustingly complex, but all come ultimately thus far down, this deep into a cheap CGI labyrinth of bafflement wherein we only need to render two or three sharp turns before the operators always just give up, you understand?, it's what they call "interactive," it's known in the business as one of the sub-businesses, and it's known in one of those sub-businesses as a "feedback loop," which is precisely what it isn't.  They set the terms.  You persist as long as you still feel you're making some kind of point with persistence.  You persist, perhaps, because you've never learned that you're supposed to quit.  You persist because you know it can't lead anywhere and hope the shutdown meets you as a suicide that cannot be distinguished from a glitch.)
+  </p>
+      <br>
+    <br>
+    <br>
+        <br>
+    <br>
+        <br>
+    <br>
+
+
+
+  <p>
+<span class="text-indent">sarcophagus-glyph USB star's runic nuclide serialized retrograde</span>
+  </p>
+      <br>
+    <br>
+    <br> 
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+  <p>
+<span class="text-indent">ATP star's xenobiologic bootscreen cache</span>
+<br>
+<span class="text-indent">circuit-bending XLR star's autopsy transliterate</span>
+<br>
+<span class="text-indent">exobiologic star's dead-URL necropolis frail mineralized login spume </span>for triode proteins bursting through the LED machinery for fine petrified tesseract distortion in the clip/compress/distort wings of the nerves around the spine
+<br>
+<span class="text-indent">bootcrash wavetable star's ziggurat codestring lined up long </span>and deep enough for phoneline telex transcript babbling
+<br>
+  </p>
+      <br>
+    <br>
+    <br>
+        <br>
+    <br>
+    <br>
+        <br>
+
+
+
+  <p>
+<span class="text-indent">FTP star's wetware sample rate collapsing backward into programmed </span>cell-death autofill script's frameshift star re-bracketed for shutdown, not that
+<br>
+<span class="text-indent">not that shutdown need occur, nor panic really, </span>save the terror's own chill physics in slow shrilling melt across circuit topology of EEG star's gain stage double-ganged around aortal-flux mitosis  </p>
+
+    <br>
+    <br>
+    <br>
+        <br>
+    <br>
+
+
+  <p>
+<span class="text-indent">// protein stripping from disc-rot substrate where </span>the pixel tremens slows to broken binary vibrato, mainframe ossuary myograph star's data-junk syringe // mitochondrial bitrate myelin-stripping frozen neon halo scarce enough for sample-and-hold ATP star's waveshape voltage autopsy, squared-off manual regen scarce comeuppance for a clipping-diode screech so soft and constant that you're functionally deaf to difference tone of HTTP star's necropolis fuel cylinder  </p>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+
+
+  <p>
+<span class="text-indent">corrupt as teletype-print readout of the RF-hacking </span>star's peak-limit delta wave <span class="right-align">glossolalia</span> 
+    <br>
+<span class="text-indent">spiders' sodden eggsacs in double helix trailing </span>away toward the faint fricative of microscopic syringe-lips, the cell-recording star's protein-domain virology in server-vertebrate meninges of sphinx  </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+  <p>
+<span class="text-indent2">mean heat, as you should cripple or go crawling to keep terminally warm </span></p>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+<h3>MICHAEL S. JUDGE is an American writer, musician, and host of the podcast Death Is Just Around the Corner.</h3>
+
+<br>
+<br>
+
+</div>
+
+
+<!-- RETURN TO TOP BUTTON??!-->
+
+
+<image id="mixtape-logo" src =mixtape_logo.png></image>
+<div id="logo_menu">
+<ul>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/">HOME</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-one/">ISSUE 1</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-two/">ISSUE 2</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-three/">ISSUE 3</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-four/">ISSUE 4</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-five/">ISSUE 5</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-six/">ISSUE 6</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-seven/">ISSUE 7</a></li>
+</ul>
+
+</div>
+</div>
+
+
+<div class="header" id="back">
+<a href="index.html"><i class="arrow left"></i>---</a>
+</div>
+</div>
+
+<!--
+
+<image id="video-background" src =flowgif1.gif>
+ </image>
+!-->
+</body>
+</html>

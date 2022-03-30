@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edward Helfers - "Fountains in Flux: An Unofficial Audio Tour"</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+
+
+/*
+@media (min-width: 768px) {
+
+
+
+
+/*
+.draggable { 
+		width: 500px; 
+	}
+}
+
+*/
+
+/*
+	.wrapper {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		flex-shrink: 0;
+		margin-bottom: 15px;
+	}
+*/
+
+
+/*
+#bigbody {
+        width: relative;
+        height: relative;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+*/
+
+.arrow {
+  border: solid black;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.arrow:hover{
+    border-color: blue;
+}
+
+.header:hover a{
+    color: blue;
+}
+
+#back{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+
+@media only screen and (max-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+
+@media only screen and (min-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+	.draggable { 
+		height: relative%; 
+		width: 90%
+		padding: 0.5em;
+		overflow: scroll;
+		border-style: solid;
+    	border-width: 2px;
+    	padding: 10px;	
+    	margin: 20px;
+    	margin-top: 0px;
+    	background-color: white;
+    	text-align: justify;
+    } 
+
+    .draggable p{
+    	width:  80%;
+        margin-left: 10%;
+         padding-right: 10%;
+        font-family: garamond;
+        line-height: 1.6;
+        font-size: .4em;
+         text-align: left;
+
+    }
+
+
+
+.draggable h1{
+        margin-left: 8%;
+        margin-right: 2%;
+        text-align: left;
+font-family: sans-serif;
+		font-size: 26px;
+		font-style:  italic;
+    }
+
+    .draggable h2{
+          margin-left: 20%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .35em;
+        font-style: italic;
+        text-align: left;
+    }
+
+
+ .draggable h3{
+        margin-left: 20%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .3em;
+        font-style: italic;
+        text-align: left;
+
+    }
+
+.draggable h4{
+    text-align: right;
+    font-family: garamond;
+    font-style: normal;
+    font-size: 30px;
+    margin-right: 9%;
+    margin-left: 100px;
+}
+
+
+   .draggable:hover {
+    	border-color: blue;
+    }
+
+
+.italic{
+    font-style: italic;
+}
+
+.text-indent{
+    margin-left: 38px;
+}
+
+#cryptogram{
+width: 90%;
+    padding-left: 20px ;
+}
+
+
+.fountains{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+    #one{
+		position: absolute;
+		left: 3px;
+		top:  170px ;
+    }
+
+   #two{
+   	position: absolute;
+		left:  20px;
+		top:  525px;
+    	
+    }
+
+    #three{
+    	position:  absolute;
+   		left:  310px;
+   		top: 355px;
+    	
+    }
+
+    #four{
+    	position:  absolute;
+   		left:  605px;
+   		top:  230px;
+    	
+    }
+
+    #five{
+    	position:  absolute;
+   		left:  900px;
+   		top: 145px;
+
+
+    	
+    }
+
+	#six{
+    	position:  absolute;
+   		left:  385px;
+   		top:  575px;
+
+    	
+    }
+
+	#seven{
+    	position:  absolute;
+   		left:  665px;
+   		top:  545px;
+
+    	
+    }
+
+
+   	#eight{
+    	position:  absolute;
+   		left:  1190px;
+   		top: 25px;
+
+    	
+    }
+
+
+	#nine{
+    	position:  absolute;
+   		left:  1015px;
+   		top:  450px;
+
+    	
+    }
+
+
+   	#ten{
+    	position:  absolute;
+   		left:  295px;
+   		top:  10px;
+    	
+    }
+
+
+
+    #mixtape-logo{
+    	position:  fixed;
+    	bottom: 0px;
+    	right:  0px;
+    	height: 75px;
+    	width:  75px;
+    }
+
+
+
+
+    .header {
+		margin-left: 15px;
+		margin-right: 50px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: black;
+	font-size: 100%;
+
+
+
+
+}
+
+.content h5{
+	font-family: garamond;
+	font-style: italic;
+	color: black;
+	font-size: 14px;
+	margin-left:  100px;
+}
+
+
+.mobile {
+	margin-top: 0px;
+}
+
+.mobile a {
+	color: black;
+	text-decoration: none;
+	font-family:  sans-serif;
+	font-size: 20px;
+	display: block;
+	padding-bottom: 0px;
+	margin-left:  20px;
+
+
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-top: 0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+.scaled {
+		width: 1000px; 
+		height: auto; 
+		padding: 0.5em; 
+		overflow: scroll;
+		border-style: solid;
+    	border-width: 2px;
+    	border-color: maroon;
+    	padding: 15px;	
+    	margin: 20px;	
+}
+
+.lengthened {
+	width: auto;
+	height: auto;
+	padding: 0.5em; 
+	overflow: scroll;
+	border-style: solid;
+    border-width: 2px;
+    padding: 15px;	
+    margin: 20px;	
+}
+/*
+.sidenav {
+    height: 100%; /* 100% Full-height *//*
+    width: 0; /* 0 width - change this with JavaScript *//*
+    position: fixed; /* Stay in place *//*
+    z-index: 1; /* Stay on top */
+   /* top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding-top: 60px; /* Place content 60px from the top */
+   /* transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav 
+}*//*
+
+.sidenav p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav h3{
+	font-size:  35px;
+	margin-left:  75px;
+
+}
+
+.sidenav ul {
+	list-style-type: none;
+}
+
+.sidenav a {
+	color: black;
+	text-decoration: none;
+}
+
+.sidenav a:hover {
+	color: black;
+	font-style: italic;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+}
+*/
+@font-face {
+	font-family: lydian-regular;
+	src: url(lydian_regular.ttf);
+}
+
+#logo_menu ul {
+  list-style-type: none;
+  position:  fixed;
+  bottom: 0px;
+  right:  160px;
+  background-color: blue;
+}
+
+#logo_menu li{
+	  float: ;
+	  padding: 5px;
+}
+
+#logo_menu a{
+color: black;
+	text-decoration: none;
+		font-size:  15px;
+
+}
+
+#logo_menu a:hover {
+	color: black;
+	font-style: italic;
+}
+
+
+/*
+  #video-background {
+  position: fixed;
+  left: 500px; 
+  bottom: 0;
+ 	
+  z-index: -100;
+};
+
+*/
+
+}
+</style>	
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script>
+
+
+/*drag/drop below */
+/*
+$( function() {
+    $( ".draggable" ).draggable();
+  } );
+*/
+
+$( function() {
+		$("#logo_menu").toggle();
+ 		  } );
+
+
+$( function() {
+   		$( "#mixtape-logo" ).on( "click", function() {
+   			 $("#logo_menu").toggle();
+   			     });
+  } );
+
+/* scalable below */
+
+
+/*
+ $(function() {
+        $('.marquee')
+          .marquee({
+            //If you wish to always animate using jQuery
+            allowCss3Support: true
+            , //works when allowCss3Support is set to true - for full list see http://www.w3.org/TR/2013/WD-css3-transitions-20131119/#transition-timing-function
+            css3easing: 'linear'
+            , //requires jQuery easing plugin. Default is 'linear'
+            easing: 'linear'
+            , //pause time before the next animation turn in milliseconds
+            delayBeforeStart: 1
+            , //'left', 'right', 'up' or 'down'
+            direction: 'right'
+            , //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: true
+            , //speed in milliseconds of the marquee in milliseconds
+            duration: 100000
+            , //gap in pixels between the tickers
+            gap: 14
+            , //on cycle pause the marquee
+            pauseOnCycle: false
+            , //on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
+            pauseOnHover: false
+            , //the marquee is visible initially positioned next to the border towards it will be moving
+            startVisible: true
+          });
+      });
+*/
+
+/*SIDENAV below
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+</script>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+
+<br>
+
+<div class="marquee"> FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW </div>
+
+
+<div class="content">
+
+
+<div class="draggable" id="one">
+  <br>
+     <h1>FOUNTAINS IN FLUX: AN UNOFFICIAL AUDIO TOUR</h1>
+  <h2>Edward Helfers</h2>
+    <p><span class="fountains">1 Origin Story. </span>The suburb where I live, the suburb you will soon discover, is named for a mineral spring. Our journey begins steps from the bus depot, where over one hundred years ago, a prominent publisher discovered the site of his future estate. He had left the city on horseback that morning, the story goes, accompanied by his teenage daughter. They rode north past gothic academies and grandiloquent churches, grist and plaster mills lining the banks of a roiling creek, farmsteads and cemeteries and sycamore stands depicted in early maps as green smudges. What happened next remains a subject of spirited debate: in one account, the publisher's horse got spooked after flushing a fox; in another, it was the daughter who fell, her petticoat firm in flight like a shuttlecock. She landed in a brook, or near a brook, or perhaps a blow to the head unlocked dormant powers of divination. In any case, the pair soon traced the water to its source&mdash;a deep, silvery pool, precious lifeblood in a region devoid of naturally occurring lakes.
+<br>
+    <span class="text-indent">Here, within sight of an underfunded community </span>college, a small grotto commemorates the find. Maintained by the park and planning commission, this heart-shaped enclosure leaves much to be desired. Cigarette butts litter the steps; rust has rendered all placards illegible; graffiti accents a retaining wall bordered by wilting shrubs. Don't be fooled by puddles in the depression below. Despite turquoise sketches in faded info pamphlets, despite neighboring condo complexes with names like Clarity and the Pearl, the spring itself now runs dry. Brief excavation reveals coarse soil at risk of collapse, of caving into unseen chambers. Pedestrians&mdash;submerged in smartphones, marching to and from the transit center&mdash;don't seem to mind, nor do the hard hats standing in circles up the street, on break from the unending work of gentrification. Sometimes I worry the irony escapes everyone but me.</p>
+<br>
+    <p>
+    <span class="fountains">2 Throwback Pedestal. </span> The closest potable unit lies three blocks west on Welker Avenue, a strip long known as the Dirty Garment District until its recent reincarnation as Little Ethiopia. As you browse among thrift shops and secondhand bookstores&mdash;markets suffused with the scent of injera, frankincense, and mythic coffee beans&mdash;be sure not to bypass Degu's Dry Clean. Beneath the cantilevered canopy stands a limited release Tan River Rock Pedestal (TRRP), one of only seventeen remaining east of the Mississippi. Up close, you can see why early product reviewers dubbed this model Robot Butler. Behold the pewter basins and swooping splashguards; the polished stone aggregate and smooth, beveled buttons; the bi-level overhang originally meant to accommodate children and polio-stricken populations. A relic of post-war functionalism, the TRRP symbolizes a time when even the most innocuous of urban fixtures were built to last.
+<br>
+<span class="text-indent">Sadly, modern tastes have jeopardized </span>the fate of this unsung landmark. The odd placement, the hair-trigger sensitivity, how the stream starts cloudy, sputters before spouting high and crystalline, a thick arch that overshoots the lip&mdash;too wasteful, the penny-pushers say, too costly to maintain. A development plan released by the county council last year flagged the very spot you are standing as a candidate for "vertically integrated hydration upgrades." The way I see it, on this sun-bleached lot, where concrete buckles and cracks, state-of-the-art will only erase flashbacks of seamstress smoking breaks, of sit ins and ribbon cuttings, of labor rallies and Timket processions prompted by that nostalgic metallic tinge. If you value civic artifacts&mdash;or if you believe the projected timeline assumes a level of competence the county has yet to demonstrate&mdash;then feel free to flood the inbox of the Suburban Sanitation Commission with strongly worded emails.</p>
+<br>
+<p>
+<span class="fountains">5 Conflicting Cascades.</span> The next leg of our trek follows the commuter footbridge, past the roundabout and a penguin mural that reminds bottlenecked drivers of their systemic insignificance. On your right, soaring above the chamber of commerce, Brookvale Heights ranks among the tallest living communities in the metro area. Dueling towers, described as penal by many tenants, may well deflect serious aesthetic consideration, but those willing to circumnavigate the compound&mdash;left on Poplar Lane, left under the perpetual scaffolds of Fiddler Alley&mdash;can relish a cryptic installation. Tucked in a quiet courtyard, stone obelisks dribbling toilet blue demand interpretation. Vaguely phallic, reminiscent of basalt columns endemic to Northern Ireland, these pillars not only contradict their boxy brick environs, but also number three instead of two. There is no sign explaining this incongruity, no artist's statement outlining the rationale for such a curious choice. Was the sculptor hinting at prospective additions? Pranking perceptive idlers? Critiquing arbitrary human affection for symmetry?
+<br>
+<span class="text-indent">None of the front office supervisors </span>I spoke with over the years had anything meaningful to say on the matter, nor the maintenance technicians tasked with draining the pool at first and last frost. Phone calls to the management company yielded countless hours on hold, in which customer service representatives passed me back and forth while instrumental oldies blared in the background until finally, by way of goodbye, I was met with the same refrain: "You don't live there anymore." My number has since been flagged, but perhaps you will have better luck. For the time being, the creation stands unattributed, untitled, ripe for conjecture in a postdiluvial paradigm, when the world we once knew is inundated, obscured by surface ripples.</p>
+<br>
+<p>
+<span class="fountains">6 Landlocked Rollers.</span> For a more immersive experience, take a hike across Bennett Boulevard and check out <i>The Littoral Zone</i>. Commissioned in the early nineties by local environmental agencies, this innovative fountain uses real-time surf data from coastal research facilities to recreate miniature waves. In theory, hypnotic swells crashing into rock conglomerate demonstrate the erosive power our oceans possess; in reality, finicky pumps emit perturbations barely discernible to the naked eye. Wading is strictly forbidden but rarely policed, and you can simulate a soothing sea dip by floating on your back spread-eagle. Close your eyes, breathe deep, and let the rustle of sidewalk saplings transport you to craggy panoramas. Picture toothy outcroppings, ghostly fog, wind lashing harbor flagpoles, sandbars stretching beyond the horizon. Should the pigeons squabbling overhead prove distracting, translate their chatter into the language of gulls, the hot breath of lurching buses into breaching humpbacks. To enhance your visit, please consult tidal charts available online through the National Maritime Association. Sunscreen can be purchased at the convenience store across the street, but if you prefer organic alternatives, mulch from nearby planter boxes does the trick.</p>
+<br>
+<p>
+<span class="fountains">11 Soak It All In.</span> Pop Quiz: What percentage of the planet is covered by saltwater? How many stages comprise the hydrologic cycle? Why do dehydration and hyponatremia produce similar symptoms? When to expect resource rationing in your neck of the woods? Scratch past surface answers at the branch library on Hawthorne Court. Skip the self-serve kiosks and must-read displays for the natural science stacks, row upon row of forsaken volumes. My personal favorites include <i>Rivers Revisited</i>, <i>Fluid Body Composition</i>, and <i>Flow Assessment in the Digital Age</i>. Fifth floor, HE 22.43-89.5, catercorner to Collaboration Hub #2, a sleek, panoptic promontory with floor-to-ceiling windows, one of countless budgetary indiscretions that led to the elimination of over one hundred jobs including mine.
+<br>
+<span class="text-indent">On the plus side, should you find </span>yourself fatigued, this room remains largely unused. Rest easy on ergonomic chairs, high above the Whole Foods parking lot and cul-de-sacs beyond, where a scar of felled trees&mdash;the latest light rail line&mdash;channels contaminants into streams, creating a flash flood corridor. But here, removed from the elements, you can safely steal a wink, though be sure to set an alarm, as aggressive air conditioning plunges the brain deep into REM cycles. Take extra care entering and exiting hypnagogia: at threshold consciousness, the moveable walls overlooking the atrium have been known to induce vertigo, an unsettling sensation of spinning in a diorama or swimming naked in a giant fishbowl. In the event of nausea, restrooms can be located two floors down behind the reference desk.
+</p>
+<br>
+<p>
+<span class="fountains">12 Requiem for a Watering Hole.</span> Feeling better? Good. Now that you have your sea legs, make your way a few hundred feet east for a popular haunt&mdash;the Wellspring Plaza. Not long ago, this site was characterized by some as blight, a strip-mall stretch of car dealerships and pawn shops, clapboard fa&#231;ades and shattered glass. True, mom-and-pop stalwarts held strong&mdash;the hardware store, rival trattorias, a widely celebrated ice cream parlor&mdash;but after dark, poorly lit corners became the provenance of rowdy teens, and families steered clear of this sector, fearful of epidemics at turns ignored and exaggerated on nightly news.
+<br>
+<span class="text-indent">Revamped in the late eighties </span>as part of a public-private partnership, the plaza now shares much in common with transit-oriented developments built elsewhere in the region. Quick bite chains. Mid-range retailers. Saturday morning farmer's markets with exotic cheeses and crab cakes trucked from the shore, with bluegrass trios and experimental jazz quartets and past-their-prime cover bands playing to indifferent crowds. An Astroturf pavilion, planted in the last few years, conceals the remnants of a splash fountain, recently moved without meaningful resident input. Picture cold-water jets, geysers spouting at unpredictable intervals, curling against the sky, pressure enough for soothing hydrotherapy. Visitors suffering from shingles and neuralgia spoke highly of the site's curative powers, though I must confess little movement on my own condition. At the very least, on a humid day, as children frolicked in the spray, this fixture brought together folks from all walks of life&mdash;parents gathered on stadium steps, waiters tending to patio tables, panhandlers and proselytizers, shirtless youths weaving back and forth on trick bicycles, even the less fortunate whose reliance on such resources runs deeper than many realize. Where most urban landscapes minimize the individual, here, for a few months every year, it truly felt like you belonged.</p>
+<br>
+<p><span class="fountains">17 Immortal Liquid.</span> On the far side of the business district, stretching four blocks, the campus of Nucleo Therapies (NT) looms overhead like a spaceship. Founded by startup gurus after their youngest daughter succumbed to neuroblastoma, NT develops treatments for orphan diseases and other life-threatening conditions. Twelve successful patents have allowed the company to undertake moonshot endeavors, best illustrated by the fifty-thousand-square-foot organ warehouse that has no doubt caught your eye. As biotechnology evolves, marketing materials suggest, mankind will soon be able to extend life indefinitely. NT believes in the possibility of bio-stasis, of parking consciousness in the cloud before uploading digital selves onto artificial anatomies. All for the right price, of course.
+<br>
+<span class="text-indent">Deep into summer dusk, </span>the fantasy almost feels within reach. Cast aside your mortal misgivings and earmark fifteen minutes for the highly underrated NT pavilion. Sequestered from commercial quarters, at the right hour this bewitching hamlet sustains the soothing tranquility of a spa. Stone benches invite relaxation, meditation; speakers play meadow melodies and whale-song; on a recessed wall, solar powered LED screens loop slow motion hummingbirds dodging jungle rainfall; spare change in the zero-entry pool shimmers sunset hues. Each coin speaks of a secret wish, a ritual whereby optimistic souls hope to buy what can't be bought. Why? Kick off your shoes, shuffle into the shallows, and perhaps you will grasp what these tokens truly mean, twinkling on the bottom like unanswered prayers.</p>
+<br>
+<p>
+<span class="fountains">25 Great Gourd.</span> The Romans built aqueducts to move water through mountains. Aquifers fed channels measuring thousands of miles; on any given day, millions of gallons coursed through cement-spackled conduits. Near Tunis and Mons, some sections are still in use thanks to the foresight of the engineer Vitruvius, whose grasp of gravity put armies to work. Think: long before engines, mankind knew how to beat drought, how to fill reservoirs and fight fires.
+<br>
+<span class="text-indent">Nowhere are these</span> lessons more apparent than Space Pumpkin, a can't-miss water supply situated just shy of the interstate clover. Twice recognized as "Tank of the Year" by the Steel Fabricators Association, this storied standpipe earned its nickname when vandals spray painted jack-o'-lantern eyes on its southern face, an exploit abetted by volunteer firefighters. Today, sightseers can appreciate satellite antennae, submarine hatches and spinning weather bulbs from any number of proximate thoroughfares, but the most stunning vista can only be enjoyed atop the dome, best accessed after nightfall. Ignore the faded warning signs. Scout the chain-link fence for corrosion before applying bolt cutters. Tiptoe or army-crawl across a vacant field overrun with dandelions until you attain the base, from which a cylindrical ladder will facilitate your ascent. Hold tight. Count the rungs. Don't look down.
+<br>
+<span class="text-indent">Congratulations. </span>You are now free to release whatever sublunary fixations burden your day-to-day grind. Wine and other substances accelerate that effort, and as you lay on the catwalk, studying the path of passenger planes, take comfort in the thought of strangers looking down through frosty windows, contemplating time-travel or infinity or human smallness on the cosmic scale or any one of the same mysteries that have captured countless imaginations across history. If only in this regard, you are not alone.</p>
+<br>
+<p>
+<span class="fountains">36 Whitewater Retreat.</span> Moonrise. Fireflies emerge from darkness, floating on wooded fringes. As you glance at your watch, perhaps the knowledge that our tour will soon end fills your heart with sadness. Perhaps you were hoping for more. Perhaps these streets have tickled your fancy, and you find yourself comparing hotel prices on digital applications. Don't be swayed by lukewarm reviews, lobby photographs taken on grand opening day. Hilton Garden, Courtyard Marriott, Embassy Suites&mdash;devoid of character, overpriced and underwhelming, the usual suspects fail to capture the true spirit of this crossroads.
+<br>
+<span class="text-indent">Should you crave one more adventure</span>, head south along Route 37. Trace narrow shoulders past the tumbledown YMCA before traversing Fourteen Corners, famous for fried aromas and multi-vehicle accidents. At the bottom of the next hill, below a liquor store and two auto-body shops, runs Broken Branch, a tributary once treasured by aristocrats before industrial runoff made swimming unsafe. Across from the disused clubhouse, a wooden post marks the path. Riprap gives way to gravel, and soon the trail wends among boulders dusted with climbing chalk. After half a mile or so, the gorge opens into a waterfall, chutes spread like fingers through knuckles of stone and wood. The beach below offers a suitable camping stage, as do the scree caves, but to truly enjoy the splendor of this site, consider rock-hopping across the rapids, where eons of highwater eddies have carved granite cavities, hollow tubes big enough to squeeze into. Smooth surfaces cup the body, walls flecked with mica once mined for stove windows and lampshades, stained-glass scenes in distant cathedrals. On cloudless nights, there is no better way to retreat from the crush of civilization, to reconnect with the landscape as it was before greed, the sound of rushing water drowning out helicopters and sirens, the echoes inside your head. Now you are empty. Now you are clean. Now you can begin again.</p>
+
+<br>
+<br>
+<br>
+
+<h3>EDWARD HELFERS writes short fiction, music, and the occasional essay. His stories have been nominated for the Pushcart Prize, and chosen as a finalist for "Best of the Net" out of Sundress Press. You can find some of his work in The Rupture, DIAGRAM, Conjunctions, Puerto Del Sol, and elsewhere. He currently teaches courses in critical and creative writing for the Literature Department at American University in Washington, DC.</h3>
+<br>
+<br>
+</div>
+
+
+<!-- RETURN TO TOP BUTTON??!-->
+
+
+<image id="mixtape-logo" src =mixtape_logo.png>
+<div id="logo_menu">
+<ul>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/">HOME</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-one/">ISSUE 1</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-two/">ISSUE 2</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-three/">ISSUE 3</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-four/">ISSUE 4</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-five/">ISSUE 5</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-six/">ISSUE 6</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-seven/">ISSUE 7</a></li>
+</ul>
+
+</div>
+
+
+</div>
+
+<div class="header" id="back">
+<a href="index.html"><i class="arrow left"></i>---</a>
+</div>
+</div>
+
+<!--
+
+<image id="video-background" src =flowgif1.gif>
+ </image>
+!-->
+</body>
+</html>

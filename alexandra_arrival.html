@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>janan alexandra - "arrival</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+
+
+/*
+@media (min-width: 768px) {
+
+
+
+
+/*
+.draggable { 
+		width: 500px; 
+	}
+}
+
+*/
+
+/*
+	.wrapper {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		flex-shrink: 0;
+		margin-bottom: 15px;
+	}
+*/
+
+
+/*
+#bigbody {
+        width: relative;
+        height: relative;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+*/
+.arrow {
+  border: solid black;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.arrow:hover{
+    border-color: blue;
+}
+
+.header:hover a{
+    color: blue;
+}
+
+#back{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+
+@media only screen and (max-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+	.draggable { 
+		height: relative%; 
+		width: 90%
+		padding: 0.5em;
+		overflow: scroll;
+		border-style: solid;
+    	border-width: 2px;
+    	padding: 10px;	
+    	margin: 20px;
+    	margin-top: 0px;
+    	background-color: white;
+    	text-align: justify;
+    } 
+
+    .draggable p{
+    	width:  80%;
+        margin-left: 10%;
+         padding-right: 5%;
+        font-family: serif;
+        line-height: 1.6;
+        font-size: .26em;
+         text-align: left;
+
+    }
+
+
+
+.draggable h1{
+        margin-left: 10%;
+        text-align: left;
+font-family: sans-serif;
+		font-size: 26px;
+		font-style:  italic;
+    }
+
+    .draggable h2{
+          margin-left: 20%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .35em;
+        font-style: italic;
+        text-align: left;
+    }
+
+
+ .draggable h3{
+        margin-left: 20%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .3em;
+        font-style: italic;
+        text-align: left;
+
+    }
+
+
+
+
+   .draggable:hover {
+    	border-color: blue;
+    }
+
+
+
+
+    #one{
+		position: absolute;
+		left: 3px;
+		top:  170px ;
+    }
+
+   #two{
+   	position: absolute;
+		left:  20px;
+		top:  525px;
+    	
+    }
+
+    #three{
+    	position:  absolute;
+   		left:  310px;
+   		top: 355px;
+    	
+    }
+
+    #four{
+    	position:  absolute;
+   		left:  605px;
+   		top:  230px;
+    	
+    }
+
+    #five{
+    	position:  absolute;
+   		left:  900px;
+   		top: 145px;
+
+
+    	
+    }
+
+	#six{
+    	position:  absolute;
+   		left:  385px;
+   		top:  575px;
+
+    	
+    }
+
+	#seven{
+    	position:  absolute;
+   		left:  665px;
+   		top:  545px;
+
+    	
+    }
+
+
+   	#eight{
+    	position:  absolute;
+   		left:  1190px;
+   		top: 25px;
+
+    	
+    }
+
+
+	#nine{
+    	position:  absolute;
+   		left:  1015px;
+   		top:  450px;
+
+    	
+    }
+
+
+   	#ten{
+    	position:  absolute;
+   		left:  295px;
+   		top:  10px;
+    	
+    }
+
+
+
+    #mixtape-logo{
+    	position:  fixed;
+    	bottom: 0px;
+    	right:  0px;
+    	height: 75px;
+    	width:  75px;
+    }
+
+
+
+
+    .header {
+		margin-left: 15px;
+		margin-right: 50px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: black;
+	font-size: 100%;
+
+
+
+
+}
+
+.content h5{
+	font-family: garamond;
+	font-style: italic;
+	color: black;
+	font-size: 14px;
+	margin-left:  100px;
+}
+
+
+.mobile {
+	margin-top: 0px;
+}
+
+.mobile a {
+	color: black;
+	text-decoration: none;
+	font-family:  sans-serif;
+	font-size: 20px;
+	display: block;
+	padding-bottom: 0px;
+	margin-left:  20px;
+
+
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 50px;
+	margin-top: 0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+.scaled {
+		width: 1000px; 
+		height: auto; 
+		padding: 0.5em; 
+		overflow: scroll;
+		border-style: solid;
+    	border-width: 2px;
+    	border-color: maroon;
+    	padding: 15px;	
+    	margin: 20px;	
+}
+
+.lengthened {
+	width: auto;
+	height: auto;
+	padding: 0.5em; 
+	overflow: scroll;
+	border-style: solid;
+    border-width: 2px;
+    padding: 15px;	
+    margin: 20px;	
+}
+/*
+.sidenav {
+    height: 100%; /* 100% Full-height *//*
+    width: 0; /* 0 width - change this with JavaScript *//*
+    position: fixed; /* Stay in place *//*
+    z-index: 1; /* Stay on top */
+   /* top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /*padding-top: 60px; /* Place content 60px from the top */
+   /* transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav 
+}*//*
+
+.sidenav p {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav h3{
+	font-size:  35px;
+	margin-left:  75px;
+
+}
+
+.sidenav ul {
+	list-style-type: none;
+}
+
+.sidenav a {
+	color: black;
+	text-decoration: none;
+}
+
+.sidenav a:hover {
+	color: black;
+	font-style: italic;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+}
+*/
+@font-face {
+	font-family: lydian-regular;
+	src: url(lydian_regular.ttf);
+}
+
+#logo_menu ul {
+  list-style-type: none;
+  position:  fixed;
+  bottom: 0px;
+  right:  160px;
+  background-color: blue;
+}
+
+#logo_menu li{
+	  float: ;
+	  padding: 5px;
+}
+
+#logo_menu a{
+color: black;
+	text-decoration: none;
+		font-size:  15px;
+
+}
+
+#logo_menu a:hover {
+	color: black;
+	font-style: italic;
+}
+
+
+/*
+  #video-background {
+  position: fixed;
+  left: 500px; 
+  bottom: 0;
+ 	
+  z-index: -100;
+};
+
+*/
+
+}
+</style>	
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script>
+
+
+/*drag/drop below */
+/*
+$( function() {
+    $( ".draggable" ).draggable();
+  } );
+*/
+
+$( function() {
+		$("#logo_menu").toggle();
+ 		  } );
+
+
+$( function() {
+   		$( "#mixtape-logo" ).on( "click", function() {
+   			 $("#logo_menu").toggle();
+   			     });
+  } );
+
+/* scalable below */
+
+/*
+
+ $(function() {
+        $('.marquee')
+          .marquee({
+            //If you wish to always animate using jQuery
+            allowCss3Support: true
+            , //works when allowCss3Support is set to true - for full list see http://www.w3.org/TR/2013/WD-css3-transitions-20131119/#transition-timing-function
+            css3easing: 'linear'
+            , //requires jQuery easing plugin. Default is 'linear'
+            easing: 'linear'
+            , //pause time before the next animation turn in milliseconds
+            delayBeforeStart: 1
+            , //'left', 'right', 'up' or 'down'
+            direction: 'right'
+            , //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: true
+            , //speed in milliseconds of the marquee in milliseconds
+            duration: 100000
+            , //gap in pixels between the tickers
+            gap: 14
+            , //on cycle pause the marquee
+            pauseOnCycle: false
+            , //on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
+            pauseOnHover: false
+            , //the marquee is visible initially positioned next to the border towards it will be moving
+            startVisible: true
+          });
+      });
+
+*/
+/*SIDENAV below
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+</script>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+<br>
+
+<div class="marquee"> FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW </div>
+
+
+<div class="content">
+
+
+<div class="draggable" id="one">
+ <br>
+ <h1>arrival</h1>
+<p>
+i touch my face to the oval window,
+<br>
+peering out from my seat in the sky. i am
+<br>
+small, tinier even than a housefly riding
+<br>
+the edge of a cloud. at the bottom
+<br>
+of my sight, cars hug the bending asphalt
+<br>
+roads. city buses lurch & sway, packed
+<br>
+with the people of the world. a freight
+<br>
+train cuts soundlessly through sepia
+<br>
+fields & i feel my fly's forehead wrinkle
+<br>
+at the hard lacework of highways
+<br>
+hammered & human poured, twisting
+<br>
+around earth. how like ants we are,
+<br>
+mapping our routes for food, for children,
+<br>
+for industry. drilling through quiet hills
+<br>
+of sand & clay to get where we want
+<br>
+to go. just now i thought the calm over
+<br>
+the mountains eternal, their moss-green
+<br>
+faces marbled & capped with light. how
+<br>
+finely hewn from here, shaped by the quick
+<br>
+fingers of rain. rain who drums the ground
+<br>
+& sharpens the pass of wind. wind whose
+<br>
+hundred names comb the treetops, sweep
+<br>
+the rocks soft. how still & silent the stretch
+<br>
+of earth from here. no tunnel dug through.
+<br>
+nor forest fired or felled, no thrusting
+<br>
+pumpjack. nothing moves save my eye,
+<br>
+its long slow blink wanting not to miss
+<br>
+any life under the mist. i press further
+<br>
+into the glass. i can't hear them, but know
+<br>
+the trees creak & moan 30,000 feet below,
+<br>
+leaf-floor clicking with the errands of insects.
+<br>
+where light & water are god of the living
+<br>
+& earthworms speak in strides, draw breath
+<br>
+through their skin, touch their faces to dirt.
+
+
+
+</p>
+<br>
+<br>
+<br>
+
+<h3>janan alexandra is a Lebanese American poet currently based in Nicosia, Cyprus. Her poems have appeared in River Styx, Beloit Poetry Journal, Ninth Letter, Gulf Coast, Ploughshares, Mizna, and elsewhere.</h3>
+<br>
+<br>
+</div>
+
+
+<!-- RETURN TO TOP BUTTON??!-->
+
+
+<image id="mixtape-logo" src =mixtape_logo.png></image>
+<div id="logo_menu">
+<ul>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/">HOME</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-one/">ISSUE 1</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-two/">ISSUE 2</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-three/">ISSUE 3</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-four/">ISSUE 4</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-five/">ISSUE 5</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-six/">ISSUE 6</a></li>
+	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-seven/">ISSUE 7</a></li>
+</ul>
+
+</div>
+
+
+</div>
+<div class="header" id="back">
+<a href="index.html"><i class="arrow left"></i>---</a>
+</div>
+</div>
+
+<!--
+
+<image id="video-background" src =flowgif1.gif>
+ </image>
+!-->
+</body>
+</html>
