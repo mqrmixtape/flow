@@ -1,0 +1,2744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MQR MIXTAPE - FLOW</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+
+
+/*
+@media (min-width: 768px) {
+/*
+#bigbody {
+		width: auto;
+		height: auto;
+		display: relative;
+	}
+*/
+
+
+/*
+.draggable { 
+		width: 500px; 
+	}
+}
+
+*/
+
+/*
+	.wrapper {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		flex-shrink: 0;
+		margin-bottom: 15px;
+	}
+*/
+/*
+
+	#bigbody{
+		width: 1800px;
+		height: 1200px;
+		overflow: hidden;
+	}
+*/
+
+@media only screen and (max-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 700px) {
+  .marquee{
+    overflow: hidden;
+      white-space: nowrap;
+
+    }
+}
+
+
+
+.draggable { 
+   height: 28%;
+	width: 17%;
+	padding: 0.5em;
+	overflow: scroll;
+	border-style: solid;
+   border-width: 2.5px;
+   padding: 10px;
+   margin: 10px;;
+   background-color: white;
+   text-align: left;
+   cursor: pointer;
+} 
+
+.text{
+    cursor: text;
+}
+
+    .draggable p{
+    	width:  800px;
+        margin-left: 10% ;
+        padding-right: 10%;
+        font-size: .495em;
+        font-family: serif;
+        line-height: 1.6;
+    }
+
+    .draggable h1{
+        margin-left: 8%;
+        text-align: left;
+
+    }
+
+    .draggable h2{
+        margin-left: 22%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .35em;
+        font-style: italic;
+        text-align: left;
+    }
+
+    .draggable h3{
+        margin-left: 20%;
+        margin-right: 10%;
+        padding-bottom: 75px;
+        font-size: .35em;
+        font-style: italic;
+        text-align: left;
+
+    }
+
+    .draggable h6{
+        width:  985px;
+        text-align: right;
+        font-size: 25px;
+        color: blue;
+        margin-right: 1%;
+        margin-top: 0px;
+        margin-bottom: -18px;
+    }
+
+
+   .draggable:hover {
+    	border-color: blue;
+    }
+
+
+    .draggable:hover h1{
+        color:  blue;
+
+    }
+
+    .draggable ol{
+        width:  800px;
+        margin-left: 10% ;
+        font-size: .495em;
+        font-family: serif;
+        line-height: 1.6;
+        text-align: left;
+    }
+
+    .draggable li{
+        padding-bottom: 0.7em;
+        padding-right: 10%;
+
+    }
+
+
+
+#one{
+	position: absolute;
+    left: 1.5%;
+    top:  20% ;
+}
+
+#two{
+    position: absolute;
+	left:  3.1%;
+	top:  60.5%;
+}
+
+#three{
+   position:  absolute;
+   left:  21.25%;
+   top: 39%;
+    	
+}
+
+#four{
+   position:  absolute;
+   left:  39.5%;
+   top:  21%;
+    	
+    }
+
+#five{
+   position:  absolute;
+   left:  57.75%;
+   top: 12%; 	
+}
+
+
+#seven{
+   position:  absolute;
+   left:  34%;
+   top:  66.5%;	
+}
+
+
+#eight{
+   position:  absolute;
+   left: 75.75%;
+   top: 3.5%;
+}
+
+
+#nine{
+   position:  absolute;
+   left:  54%;
+   top:  49%;
+}
+
+#ten{
+   position:  absolute;
+   left:  19.5%;
+   top:  1%; 	
+}
+
+
+#eleven{
+   position:  absolute;
+   left:  74%;
+   top:  40%;
+}
+
+
+#mixtape-logo{
+    position:  fixed;
+    bottom: 0px;
+    right:  0px;
+    height: 125px;
+    width:  125px;
+   cursor: pointer;
+}
+
+
+
+.header {
+	margin-left: 40px;
+	margin-top: 0px;
+	margin-right: 50px;
+}
+
+	.header h1 {
+		text-decoration: none;
+		font-size: 40px;
+	}
+
+	.header h1 span{
+		display: inline-block;
+		transition: 1s;
+	}
+
+	.header h1:hover span{
+		transform: skewX( -10deg ) translateX( 10px );
+  		cursor: pointer;
+      color: blue;
+	}
+
+	.header a {
+		font-family: sans-serif;
+		text-decoration: none;
+		color: black;
+		font-size: 30px;
+	}
+
+	.header p {
+		font-family: serif;
+		color: cyan;
+		text-decoration: none;
+		font-size: 12px;
+		margin-left: 20%;
+	}
+
+
+
+.content h1{
+	  font-family: sans-serif;
+	  font-size: 23.5px;
+	  font-style:  italic;
+
+}
+
+.content h5{
+	font-family: serif;
+	font-style: italic;
+	color: black;
+	font-size: 14px;
+	margin-left:  100px;
+}
+
+
+
+.mobile {
+	margin-top: 0px;
+}
+
+   .mobile a {
+   	color: black;
+   	text-decoration: none;
+   	font-family:  sans-serif;
+   	font-size: 20px;
+   	display: block;
+   	padding-bottom: 0px;
+   	margin-left:  20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .mobile h3{
+    padding-bottom: 0px;
+    padding-top: 0px;
+        margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .mobile h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+   }
+
+   .mobile hr{
+      border-color: blue;
+        padding-bottom: 0px;
+        padding-top: 0px;
+
+
+   }
+
+
+
+body {
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+
+
+.scaled {
+	width: 1000px; 
+	height: auto; 
+	padding: 0.5em; 
+	overflow: scroll;
+	border-style: solid;
+   border-width: 2px;
+   border-color: blue;
+	
+}
+
+.lengthened {
+	width: auto;
+	height: auto;
+	padding: 0.5em; 
+	overflow: scroll;
+	border-style: solid;
+   border-width: 2px;
+	
+}
+
+
+
+.sidenav {
+   height: 100%; /* 100% Full-height */
+   width: 0; /* 0 width - change this with JavaScript */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Stay on top */
+   top: 0;
+   left: 0;
+   background-color: white;
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 60px; /* Place content 60px from the top */
+   transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+   .sidenav p {
+       padding: 8px 8px 8px 32px;
+       text-decoration: none;
+       font-size: 20px;
+       color: black;
+       display: block;
+       transition: 0.3s;
+   }
+
+   .sidenav h3{
+   	font-size:  35px;
+   	margin-left:  75px;
+
+   }
+
+   .sidenav h4{
+    text-align: right;
+    margin-right: 8%;
+    color: black;
+        font-size:  20px;
+        padding-top: 5px;
+}
+
+   .sidenav hr{
+     border: 1px solid blue;
+   }
+
+   .sidenav ul {
+   	list-style-type: none;
+   }
+
+   .sidenav a {
+   	color: black;
+   	text-decoration: none;
+   }
+
+   .sidenav a:hover {
+   	color: blue;
+   }
+
+   .sidenav .closebtn {
+       position: absolute;
+       top: 0;
+       right: 25px;
+       font-size: 36px;
+       margin-left: 50px;
+       color: black;
+   }
+
+
+   .pause{
+    position: absolute;
+    right: 1%;
+    padding-top: 0px;
+    margin-top: 3.4%;
+   }
+
+   .pause p{
+    color: black;
+    font-size:  0.25em;
+    cursor: pointer;
+   }
+
+     .pause p:hover{
+    color: blue;
+   }
+
+
+  .back p{
+    text-align: center;
+    font-style: normal;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 0.3em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+
+
+
+   #logo_menu ul {
+     list-style-type: none;
+     position:  fixed;
+     bottom: 0px;
+     right:  160px;
+     background-color: none;
+   }
+
+   #logo_menu li{
+   	float: right;
+   	padding: 5px;
+   }
+
+   #logo_menu a{
+      color: blue;
+   	text-decoration: none;
+   	font-size:  15px;
+   }
+
+   #logo_menu a:hover {
+      color: black;
+   	font-style: italic;
+   }
+
+
+
+::-webkit-scrollbar {
+   -webkit-appearance: none;
+   width: 5px;
+   height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: blue;
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+
+.fountains{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*.right-align {
+    margin-left: 88%;
+}*/
+
+.text-indent{
+    margin-left: 70px;
+}
+
+.text-indent-mobile{
+        margin-left: 70px;
+}
+
+.text-indent2{
+    margin-left: 140px;
+}
+
+
+.italic{
+    font-style: italic;
+}
+/*
+.unitalic{
+    font-style: normal;
+}
+*/
+
+#cryptogram{
+   width: 86%;
+   margin-left: 7%;
+}
+
+
+
+.erasure{
+   width: 55%;
+   margin-left: 20% ;
+}
+
+    #one p{
+        font-size: .4em;
+        padding-top: 18px;
+    }
+
+    #one .back p{
+    text-align: center;
+    font-style: normal;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 0.3em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+
+    #two a{
+      color: black;
+      font-style: italic;
+      text-decoration: none;
+   }
+
+  #two a:hover{
+      color: blue;
+      font-style: normal;
+        text-decoration: none;
+      font-style: italic
+
+   }
+
+    #four p{
+      font-size: .4em;
+
+   }
+
+   #four .back p{
+    text-align: center;
+    font-style: normal;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 0.3em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+
+    #five p{
+      font-size: .4em;
+        padding-top: 18px;
+   }
+
+ #five .back p{
+    text-align: center;
+    font-style: normal;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 0.3em;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   }
+
+
+    #four h1{
+
+   }
+
+
+    #four h4{
+      text-align: left;
+      font-family: sans-serif;
+      margin-left: 10% ;
+      font-size: .4em;
+      width:  800px;
+      margin-left: 10% ;
+      padding-right: 10%;
+   }
+
+   #seven h4{
+      text-align: left;
+      font-family: sans-serif;
+      margin-left: 10% ;
+      font-size: .52em;
+      width:  800px;
+      margin-left: 10% ;
+      padding-right: 10%;
+   }
+
+        #eight h4{
+          text-align: center;
+          font-family: sans-serif;
+          font-size: .5em;
+          width:  800px;
+          margin-left: 10% ;
+          padding-right: 10%;
+
+       }
+
+       #eight h5{
+            text-align: right;
+            padding-right: 10%;
+            font-family: sans-serif;
+            font-size: .3em;
+
+       }
+
+   #nine h4{
+      width: 800ox;
+      text-align: right;
+      font-family: serif;
+      font-style: normal;
+      font-size: 29px;
+      margin-right: 10%;
+      margin-left: 200px;
+   }
+
+
+   #eleven h4{
+      text-align: left;
+      font-family: sans-serif;
+      font-size: .3em;
+      margin-left: 35% ;
+      padding-right: 20%;
+   }
+
+
+      #eleven a{
+      color: black;
+      font-style: italic;
+      text-decoration: none;
+   }
+
+  #eleven a:hover{
+      color: blue;
+      font-style: normal;
+        text-decoration: none;
+      font-style: italic;
+
+   }
+
+
+.text-center{
+    text-align: center;
+}
+
+
+#video-background {
+   position: absolute;
+   left: 0px; 
+   bottom: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -100;
+};
+
+
+
+
+
+}
+</style>	
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.Marquee/1.5.0/jquery.marquee.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script>
+
+
+
+/*drag/drop below */
+
+$( function() {
+    $( ".draggable" ).draggable({ cancel: '.text' });
+  } );
+
+$( function() {
+		$("#logo_menu").toggle();
+ 		  } );
+
+$( function() {
+   		$( "#mixtape-logo" ).on( "click", function() {
+   			 $("#logo_menu").toggle();
+   			     });
+  } );
+
+
+
+/* scalable below */
+
+if ( $(window).width() > 650 ) {
+
+    $( function() {
+		$(".mobile").toggle();
+ 		  } );
+
+   $( function() {
+    
+    var toggeled = true;
+    $("#one").click(function(){
+      if(toggeled == true){
+        $('#one').animate({top: '1%'});
+        $('#one').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#one").animate({left: '1.5%'});
+        $('#one').animate({top: '20%'});
+        toggeled = true;
+      };
+
+            $( "#one" ).toggleClass( "scaled", 1000 );
+                $("#two").toggle();
+             	$("#three").toggle();
+             	$("#four").toggle();
+             	$("#five").toggle();
+             	$("#six").toggle();
+             	$("#seven").toggle();
+             	$("#eight").toggle();
+             	$("#nine").toggle();
+             	$("#ten").toggle();
+                $("#eleven").toggle();
+            });
+        } );
+
+
+   $( function() {
+              var toggeled = true;
+            $("#two").click(function(){
+             if(toggeled == true){
+                $('#two').animate({top: '1%'});
+                $('#two').animate({left: '35px'});
+                 toggeled = false;
+            }else{
+                  $("#two").animate({left: '3.1%'});
+                 $('#two').animate({top: '60.5%'});
+        toggeled = true;
+      };
+
+            $( "#two" ).toggleClass( "scaled", 1000 );
+                $("#one").toggle();
+          		$("#three").toggle();
+          		$("#four").toggle();
+          		$("#five").toggle();
+          		$("#six").toggle();
+          		$("#seven").toggle();
+          		$("#eight").toggle();
+          		$("#nine").toggle();
+          		$("#ten").toggle();
+                $("#eleven").toggle();
+            });
+          } );
+
+
+   $( function() {
+            var toggeled = true;
+            $("#three").click(function(){
+             if(toggeled == true){
+                $('#three').animate({top: '1%'});
+                $('#three').animate({left: '35px'});
+                 toggeled = false;
+            }else{
+                $('#three').animate({top: '39%'});
+                $("#three").animate({left: '21.25%'});
+        toggeled = true;
+      };
+            $( "#three" ).toggleClass( "scaled", 1000 );
+                $("#one").toggle();
+                $("#two").toggle();
+                $("#four").toggle();
+          		$("#five").toggle();
+          		$("#six").toggle();
+          		$("#seven").toggle();
+                $("#eight").toggle();
+          		$("#nine").toggle();
+          		$("#ten").toggle();
+                $("#eleven").toggle();
+            });
+         } );
+
+
+   $( function() {
+         var toggeled = true;
+    $("#four").click(function(){
+      if(toggeled == true){
+        $('#four').animate({top: '1%'});
+        $('#four').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#four").animate({left: '39.5%'});
+        $('#four').animate({top: '21%'});
+        toggeled = true;
+      };
+            $( "#four" ).toggleClass( "scaled", 1000 );
+                $("#one").toggle();
+                $("#two").toggle();
+             	$("#three").toggle();
+                $("#five").toggle();
+             	$("#six").toggle();
+             	$("#seven").toggle();
+             	$("#eight").toggle();
+             	$("#nine").toggle();
+             	$("#ten").toggle();
+                $("#eleven").toggle();
+            });
+         } );
+
+
+   $( function() {
+             var toggeled = true;
+        $("#five").click(function(){
+      if(toggeled == true){
+        $('#five').animate({top: '1%'});
+        $('#five').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#five").animate({left: '57.75%'});
+        $('#five').animate({top: '12%'});
+        toggeled = true;
+      };
+            $( "#five" ).toggleClass( "scaled", 1000 );
+                $("#one").toggle();
+             	$("#two").toggle();
+             	$("#three").toggle();
+             	$("#four").toggle();
+             	$("#six").toggle();
+             	$("#seven").toggle();
+             	$("#eight").toggle();
+             	$("#nine").toggle();
+             	$("#ten").toggle();
+                $("#eleven").toggle();
+            });
+         } );
+
+
+   $( function() {
+           var toggeled = true;
+        $("#seven").click(function(){
+      if(toggeled == true){
+        $('#seven').animate({top: '1%'});
+        $('#seven').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#seven").animate({left: '34%'});
+        $('#seven').animate({top: '66.5%'});
+        toggeled = true;
+      };
+            $( "#seven" ).toggleClass( "scaled", 1000 );
+                $("#one").toggle();
+             	$("#two").toggle();
+             	$("#three").toggle();
+             	$("#four").toggle();
+             	$("#five").toggle();
+             	$("#six").toggle();
+             	$("#eight").toggle();
+             	$("#nine").toggle();
+             	$("#ten").toggle();
+                $("#eleven").toggle();
+            });
+         } );
+
+   $( function() {
+           var toggeled = true;
+        $("#eight").click(function(){
+      if(toggeled == true){
+        $('#eight').animate({top: '1%'});
+        $('#eight').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#eight").animate({left: '75.75%'});
+        $('#eight').animate({top: '3.5%'});
+        toggeled = true;
+      };
+            $( "#eight" ).toggleClass( "scaled", 1000 );
+                $("#one").toggle();
+             	$("#two").toggle();
+             	$("#three").toggle();
+             	$("#four").toggle();
+             	$("#five").toggle();
+             	$("#six").toggle();
+             	$("#seven").toggle();
+             	$("#nine").toggle();
+             	$("#ten").toggle();
+                $("#eleven").toggle();
+            });
+          } );
+
+   $( function() {
+           var toggeled = true;
+        $("#nine").click(function(){
+      if(toggeled == true){
+        $('#nine').animate({top: '1%'});
+        $('#nine').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#nine").animate({left: '54%'});
+        $('#nine').animate({top: '49%'});
+        toggeled = true;
+      };
+            $( "#nine" ).toggleClass( "scaled", 1000 );
+                $("#one").toggle();
+          		$("#two").toggle();
+          		$("#three").toggle();
+          		$("#four").toggle();
+          		$("#five").toggle();
+          		$("#six").toggle();
+          		$("#seven").toggle();
+          		$("#eight").toggle();
+          		$("#ten").toggle();
+                $("#eleven").toggle();
+             });
+           } );
+
+   $( function() {
+        var toggeled = true;
+        $("#ten").click(function(){
+      if(toggeled == true){
+        $('#ten').animate({top: '1%'});
+        $('#ten').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#ten").animate({left: '19.5%'});
+        $('#ten').animate({top: '1%'});
+        toggeled = true;
+      };
+          $( "#ten" ).toggleClass( "scaled", 1000 );
+            $("#one").toggle();
+      		$("#two").toggle();
+       		$("#three").toggle();
+       		$("#four").toggle();
+       		$("#five").toggle();
+       		$("#six").toggle();
+       		$("#seven").toggle();
+        	$("#eight").toggle();
+        	$("#nine").toggle();
+            $("#eleven").toggle();
+          });
+       } );
+
+   $( function() {
+       var toggeled = true;
+        $("#eleven").click(function(){
+      if(toggeled == true){
+        $('#eleven').animate({top: '1%'});
+        $('#eleven').animate({left: '35px'});
+        toggeled = false;
+      }else{
+         $("#eleven").animate({left: '74%'});
+        $('#eleven').animate({top: '40%'});
+        toggeled = true;
+      };
+         $( "#eleven" ).toggleClass( "scaled", 1000 );
+            $("#one").toggle();
+            $("#two").toggle();
+            $("#three").toggle();
+            $("#four").toggle();
+            $("#five").toggle();
+            $("#six").toggle();
+            $("#seven").toggle();
+            $("#eight").toggle();
+            $("#nine").toggle();
+            $("#ten").toggle();
+            });
+          } );
+
+}
+
+
+
+else{
+
+   $( function() {
+       $( "#one" ).on( "click", function() {
+         $( "#one" ).toggleClass( "lengthened", 1000 );
+       });
+
+     } );
+
+   $( function() {
+       $( "#two" ).on( "click", function() {
+         $( "#two" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+   $( function() {
+       $( "#three" ).on( "click", function() {
+         $( "#three" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+   $( function() {
+       $( "#four" ).on( "click", function() {
+         $( "#four" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+
+   $( function() {
+       $( "#five" ).on( "click", function() {
+         $( "#five" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+
+   $( function() {
+       $( "#six" ).on( "click", function() {
+         $( "#six" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+
+   $( function() {
+       $( "#seven" ).on( "click", function() {
+         $( "#seven" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+
+   $( function() {
+       $( "#eight" ).on( "click", function() {
+         $( "#eight" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+
+   $( function() {
+       $( "#nine" ).on( "click", function() {
+         $( "#nine" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+
+   $( function() {
+       $( "#ten" ).on( "click", function() {
+         $( "#ten" ).toggleClass( "lengthened", 1000 );
+       });
+     } );
+
+}
+
+/*
+
+$(function() {
+        $('.marquee')
+          .marquee({
+            //If you wish to always animate using jQuery
+            allowCss3Support: true
+            , //works when allowCss3Support is set to true - for full list see http://www.w3.org/TR/2013/WD-css3-transitions-20131119/#transition-timing-function
+            css3easing: 'linear'
+            , //requires jQuery easing plugin. Default is 'linear'
+            easing: 'linear'
+            , //pause time before the next animation turn in milliseconds
+            delayBeforeStart: 1
+            , //'left', 'right', 'up' or 'down'
+            direction: 'right'
+            , //true or false - should the marquee be duplicated to show an effect of continues flow
+            duplicated: true
+            , //speed in milliseconds of the marquee in milliseconds
+            duration: 500000
+            , //gap in pixels between the tickers
+            gap: 14
+            , //on cycle pause the marquee
+            pauseOnCycle: false
+            , //on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
+            pauseOnHover: true
+            , //the marquee is visible initially positioned next to the border towards it will be moving
+            startVisible: true
+          });
+      });
+
+$(".pause").click(function(){
+var myMarquee = $('.marquee').marquee();
+myMarquee.marquee('pause');
+
+
+});
+
+*/
+
+if ( $(window).width() < 700 ) {
+	$( function() {
+		$(".draggable").toggle();
+		$(".header").toggle();
+   } );
+	
+
+
+}
+
+
+
+/*SIDENAV below
+/* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+</script>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+
+<div id="mySidenav" class="sidenav">
+  
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<br>
+<div class="marquee"> 
+   FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW 
+</div>
+   <hr>
+      <h3><a href="alexandra_arrival.html"><i>ARRIVAL</i> &#8212; JANAN ALEXANDRA</a></h3>
+   <hr>
+      <h3><a href="judge_autopsy.html"><i>AUTOPSY METROPOLIS</i> (excerpt) &#8212; MICHAEL S. JUDGE</a></h3>
+   <hr>
+      <h3><a href="irish_taxisderma.html"><i>TAXIS DERMA</i> &#8212; JENNY IRISH</a></h3>
+   <hr>
+      <h3><a href="helfers_fountainsinflux.html"><i>FOUNTAINS IN FLUX: AN UNOFFICIAL AUDIO TOUR</i> &#8212;  EDWARD HELFERS</a></h3>
+   <hr>
+      <h3><a href="karczmar_twopoems.html">TWO POEMS &#8212; NAIMA KARCZMAR</a></h3>
+   <hr>
+      <h3><a href="khan_preliminarymanual.html"><i>A PRELIMINARY MANUAL OF TARGETED INDIVIDUALS</i> &#8212; J S KHAN</a></h3>
+   <hr>
+      <h3><a href="bartman_twostories.html">TWO STORIES &#8212; JAKE BARTMAN </a></h3>
+   <hr>
+      <h3><a href="abba_whyhadtheyneverleft.html"><i>WHY HAD THEY NEVER LEFT</i> &#8212; IMMACULATA ABBA </a></h3>
+   <hr>
+      <h3><a href="huffaker_twoerasures.html">TWO ERASURES &#8212; LISA HUFFAKER</a></h3>
+   <hr>
+      <h3><a href="kaplan_thecryingstation.html"><i>THE CRYING STATION</i> &#8212; MICHAEL KAPLAN</a></h3>
+   <hr>
+        <h4>GUEST EDITOR: CONNOR GREER</h4></span>
+   <br> 
+</div>
+
+
+<div class="wrapper">
+	
+<div class="header">
+		<!--<h1><a><span onclick="openNav()"><span class="sl1 span-letter">G</span><span class="sl2 span-letter">O</span><span class="sl3 span-letter">I</span><span class="sl4 span-letter">N</span><span class="sl5 span-letter">G</span></span></a></h1> !-->
+		<h1><a><span onclick="openNav()"><span class="sl1 span-letter">M</span><span class="sl2 span-letter">I</span><span class="sl3 span-letter">X</span><span class="sl5 span-letter">T</span><span class="sl6 span-letter">A</span><span class="sl7 span-letter">P</span><span class="sl8 span-letter">E</span></span></span></a></h1>
+	</div>
+</div>
+
+<!--
+<div class ="pause">
+    <p>&#9616;&#9616;</p>
+</div>
+!-->
+
+<div class="marquee"> 
+   FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW FLOW 
+</div>
+
+
+<div class="content">
+
+
+<div class="mobile">
+   <hr>
+      <h3><a href="alexandra_arrival.html"><i>ARRIVAL</i><br> <span class="text-indent-mobile"> &#8212; janan alexandra</span></a></h3>
+   <hr>
+      <h3><a href="judge_autopsy.html"><i>AUTOPSY METROPOLIS</i> (excerpt)<br> <span class="text-indent-mobile"> &#8212; Michael S. Judge</span></a></h3>
+   <hr>
+      <h3><a href="irish_taxisderma.html"><i>TAXIS DERMA</i><br>  <span class="text-indent-mobile"> &#8212; Jenny Irish</span></a></h3>
+   <hr>
+      <h3><a href="helfers_fountainsinflux.html"><i>FOUNTAINS IN FLUX: AN UNOFFICIAL AUDIO TOUR</i><br> <span class="text-indent-mobile">  &#8212; Edward Helfers</span></a></h3>
+   <hr>
+      <h3><a href="karczmar_twopoems.html">TWO POEMS<br> <span class="text-indent-mobile"> &#8212; Naima Karczmar</span></a></h3>
+   <hr>
+      <h3><a href="khan_preliminarymanual.html"><i>A PRELIMINARY MANUAL OF TARGETED INDIVIDUALS</i><br> <span class="text-indent-mobile"> &#8212; J S Khan</span></a></h3>
+   <hr>
+      <h3><a href="bartman_twostories.html">TWO STORIES<br> <span class="text-indent-mobile"> &#8212; Jake Bartman </span></a></h3>
+   <hr>
+      <h3><a href="abba_whyhadtheyneverleft.html"><i>WHY HAD THEY NEVER LEFT</i><br> <span class="text-indent-mobile"> &#8212; Immaculata Abba </span></a></h3>
+   <hr>
+      <h3><a href="huffaker_twoerasures.html">TWO ERASURES<br> <span class="text-indent-mobile"> &#8212; Lisa Huffaker</span></a></h3>
+   <hr>
+      <h3><a href="kaplan_thecryingstation.html"><i>THE CRYING STATION</i><br> <span class="text-indent-mobile"> &#8212; Michael Kaplan</span></a></h3>
+    <hr>
+</div>
+
+
+
+<div class="draggable" id="one">
+   <h6>x</h6>
+   <br>
+   <h1>ARRIVAL</h1>
+   <h2>janan alexandra</h2>
+   <div class="text" onclick="event.stopPropagation()">
+   <p>
+      i touch my face to the oval window,
+      <br>
+      peering out from my seat in the sky. i am
+      <br>
+      small, tinier even than a housefly riding
+      <br>
+      the edge of a cloud. at the bottom
+      <br>
+      of my sight, cars hug the bending asphalt
+      <br>
+      roads. city buses lurch & sway, packed
+      <br>
+      with the people of the world. a freight
+      <br>
+      train cuts soundlessly through sepia
+      <br>
+      fields & i feel my fly's forehead wrinkle
+      <br>
+      at the hard lacework of highways
+      <br>
+      hammered & human poured, twisting
+      <br>
+      around earth. how like ants we are,
+      <br>
+      mapping our routes for food, for children,
+      <br>
+      for industry. drilling through quiet hills
+      <br>
+      of sand & clay to get where we want
+      <br>
+      to go. just now i thought the calm over
+      <br>
+      the mountains eternal, their moss-green
+      <br>
+      faces marbled & capped with light. how
+      <br>
+      finely hewn from here, shaped by the quick
+      <br>
+      fingers of rain. rain who drums the ground
+      <br>
+      & sharpens the pass of wind. wind whose
+      <br>
+      hundred names comb the treetops, sweep
+      <br>
+      the rocks soft. how still & silent the stretch
+      <br>
+      of earth from here. no tunnel dug through.
+      <br>
+      nor forest fired or felled, no thrusting
+      <br>
+      pumpjack. nothing moves save my eye,
+      <br>
+      its long slow blink wanting not to miss
+      <br>
+      any life under the mist. i press further
+      <br>
+      into the glass. i can't hear them, but know
+      <br>
+      the trees creak & moan 30,000 feet below,
+      <br>
+      leaf-floor clicking with the errands of insects.
+      <br>
+      where light & water are god of the living
+      <br>
+      & earthworms speak in strides, draw breath
+      <br>
+      through their skin, touch their faces to dirt.
+   </p>
+
+   <br>
+   <br>
+    <br>
+   <br>
+
+   <h3>janan alexandra is a Lebanese American poet currently based in Nicosia, Cyprus. Her poems have appeared in <em>River Styx</em>, <em>Beloit Poetry Journal</em>, <em>Ninth Letter</em>, <em>Gulf Coast</em>, <em>Ploughshares</em>, <em>Mizna</em>, and elsewhere.
+   </h3>
+</div>
+   <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+<div class="draggable" id="two">
+   <h6>x</h6>
+   <h1>WHY HAD THEY NEVER LEFT</h1>
+   <h2>Immaculata Abba</h2>
+<br>
+   <div class="text" onclick="event.stopPropagation()">
+   <p>
+      One summer, my extended family travelled all the way from Nigeria to go on a road trip around England. I was already living in London at the time, and I had not done much exploring myself, so I joined them. 
+      <br>
+      <br>
+      During this trip, we came upon a remote village with its own Gods, laws, and money. It was late afternoon when we arrived, but the sky showed no signs of aging. We found a bed and breakfast, rented rooms, and set out to meet the people of the village. Many of them lounged about leisurely on the streets. The vendors in their stalls offered passers-by chairs to sit a while. Girls braided each other's hair, toddlers ran about, women cooked in the open, and men played chess and draught around little tables. I passed one stall, where, inside, two girls were braiding hair, and they called out to me to come sit with them. When I said no thank you, I could not tell if they were relieved or disappointed. They stared on, hooking their gaze on my family's difference as we zigzagged through the street. 
+      <br>
+      <br>
+      My father became his charismatic-politician self, laughing and nodding in the right places, showing respect by attempting what little speech he could to fill the language gap. My mother, in turn, became her wife-of-the-charismatic-politician self, smiling and cradling every baby she could, that is, every time my father paused our entourage. Even the tree branches hanging low seemed to haggle over our attention. 
+      <br>
+      <br>
+      We stopped to eat in a restaurant and I saw the two braiding girls again. I went to sit with them. "Who are you people?" I asked, "What is this place?" but they only giggled in response. They looked like the sorts of girls who had become my competition in the last two of years of primary school&mdash;at ease and certain about their place in the world. The way they skipped my questions for theirs ("How did you make it here? How long was the journey?") made clear that I was the ignorant one. As they asked their questions, a thought came into my mind&mdash;even after the hours we had spent here, the sun had still not moved in the sky. It remained directly overhead. And this led to a second, disquieting thought, that something else was going on here that I didn't understand, that this village might not be merely remote, it might, in fact, not actually exist at all. <em>Maybe the sky here never ages and the sun never sets.</em>
+      <br>
+      <br>
+      When we returned to our bed and breakfast, it appeared the same thought had occurred to others in our group. There were murmurs and whispers that we should leave, that we might be trapped here in this place without time. My father did not see it this way. He looked to me just like he did that one day when he returned home from work animated by an unfamiliar force, and I saw in his eyes that it was as though he had been replaced by an identical impostor. I was six years old then and it was not that an excited father was so untrue I rejected the possibility, but, rather that, like this day in the village, I couldn't quite tell what it was that was true instead.
+      <br>
+      <br>
+      Nevertheless, we managed to grumble enough to convince my mother who, in turn, convinced my father, and soon we were on our way out, back to our road trip. Perhaps we would return on a day that did not seem so eerie. We drove out quietly. It should have been night by this point and the village was silent, even though the sky still remained bright as the middle of the day. 
+      <br>
+      <br>
+      It was not long before we arrived at a checkpoint that had not been there earlier. The guards at this checkpoint told us to step out of our vehicles. They said they had been instructed to kill us by their king, who was wary of having their little village 'discovered' and colonized. <em>Did they really mean 'kill us'? Surely they could detain us or make us part of them? </em>My father asked if he could speak to their king and, in response, they simply asked us to follow them in a line. 
+      <br>
+      <br>
+      We understood they really meant to 'kill us' when they stopped our line in front of a ditch and one of them pulled out a knife. Pointing it at my cousin, the guard asked him to step forward. I saw the sun lick the knife's jagged edges. He sliced my cousin's head from his body and the blood that erupted from his neck called on the blood in our own bodies. Realizing that I would soon follow him, I pissed myself, but I did not freeze or attempt to run. Some of us started whispering escape plots, but I knew, standing there, that there was no escape. Death was death. Maybe it was also new life, maybe rest, but, in the end, it was always just death.<br>
+      <br>
+      And then, in the midst of this chaos, with all the adrenaline in the air, I noticed the two braiding girls again, sitting high on a tree branch at a slight distance, watching the scene. I saw them fabricate the mask of the village's chief Goddess and clamber down the branches and walk towards us, masquerading as her. They ordered the guards to let us go and mended my cousin's body and spirit. As we drove out from the edges of the village, I wondered: <em>if they could deceive the guards, if they could blaspheme against their Goddess and save strangers with their cunning, if they were so self-aware of their condition, of their village as neither the beginning nor end of the world, why had they never saved themselves, why had they never left?</em>
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <h3>IMMACULATA is a Nigerian writer. She is an alumni of the 2021 Tampered Press Workshop, 2017 Apples and Snakes Writing Room and 2017 Writivism writers program. Her writing has been published in <em>Arts and Africa</em>, <em>Lunch Ticket</em>, <em>Brittle Paper</em> and others. See <a href="https://www.immaculataabba.com">immaculataabba.com </a>for more. 
+   </h3>
+</div>
+   <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+<div class="draggable" id="three">
+   <h6>x</h6>
+
+   <h1>FOUNTAINS IN FLUX: AN UNOFFICIAL AUDIO TOUR</h1>
+   <h2>Edward Helfers</h2>
+
+   <br>
+   <div class="text" onclick="event.stopPropagation()">
+   <p>
+      <span class="fountains">1 Origin Story. </span>The suburb where I live, the suburb you will soon discover, is named for a mineral spring. Our journey begins steps from the bus depot, where over one hundred years ago, a prominent publisher discovered the site of his future estate. He had left the city on horseback that morning, the story goes, accompanied by his teenage daughter. They rode north past gothic academies and grandiloquent churches, grist and plaster mills lining the banks of a roiling creek, farmsteads and cemeteries and sycamore stands depicted in early maps as green smudges. What happened next remains a subject of spirited debate: in one account, the publisher's horse got spooked after flushing a fox; in another, it was the daughter who fell, her petticoat firm in flight like a shuttlecock. She landed in a brook, or near a brook, or perhaps a blow to the head unlocked dormant powers of divination. In any case, the pair soon traced the water to its source&mdash;a deep, silvery pool, precious lifeblood in a region devoid of naturally occurring lakes.
+      <br>
+      <span class="text-indent">Here, within sight of an underfunded community </span>college, a small grotto commemorates the find. Maintained by the park and planning commission, this heart-shaped enclosure leaves much to be desired. Cigarette butts litter the steps; rust has rendered all placards illegible; graffiti accents a retaining wall bordered by wilting shrubs. Don't be fooled by puddles in the depression below. Despite turquoise sketches in faded info pamphlets, despite neighboring condo complexes with names like Clarity and the Pearl, the spring itself now runs dry. Brief excavation reveals coarse soil at risk of collapse, of caving into unseen chambers. Pedestrians&mdash;submerged in smartphones, marching to and from the transit center&mdash;don't seem to mind, nor do the hard hats standing in circles up the street, on break from the unending work of gentrification. Sometimes I worry the irony escapes everyone but me.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">2 Throwback Pedestal. </span> The closest potable unit lies three blocks west on Welker Avenue, a strip long known as the Dirty Garment District until its recent reincarnation as Little Ethiopia. As you browse among thrift shops and secondhand bookstores&mdash;markets suffused with the scent of injera, frankincense, and mythic coffee beans&mdash;be sure not to bypass Degu's Dry Clean. Beneath the cantilevered canopy stands a limited release Tan River Rock Pedestal (TRRP), one of only seventeen remaining east of the Mississippi. Up close, you can see why early product reviewers dubbed this model Robot Butler. Behold the pewter basins and swooping splashguards; the polished stone aggregate and smooth, beveled buttons; the bi-level overhang originally meant to accommodate children and polio-stricken populations. A relic of post-war functionalism, the TRRP symbolizes a time when even the most innocuous of urban fixtures were built to last.
+      <br>
+      <span class="text-indent">Sadly, modern tastes have jeopardized </span>the fate of this unsung landmark. The odd placement, the hair-trigger sensitivity, how the stream starts cloudy, sputters before spouting high and crystalline, a thick arch that overshoots the lip&mdash;too wasteful, the penny-pushers say, too costly to maintain. A development plan released by the county council last year flagged the very spot you are standing as a candidate for "vertically integrated hydration upgrades." The way I see it, on this sun-bleached lot, where concrete buckles and cracks, state-of-the-art will only erase flashbacks of seamstress smoking breaks, of sit ins and ribbon cuttings, of labor rallies and Timket processions prompted by that nostalgic metallic tinge. If you value civic artifacts&mdash;or if you believe the projected timeline assumes a level of competence the county has yet to demonstrate&mdash;then feel free to flood the inbox of the Suburban Sanitation Commission with strongly worded emails.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">5 Conflicting Cascades.</span> The next leg of our trek follows the commuter footbridge, past the roundabout and a penguin mural that reminds bottlenecked drivers of their systemic insignificance. On your right, soaring above the chamber of commerce, Brookvale Heights ranks among the tallest living communities in the metro area. Dueling towers, described as penal by many tenants, may well deflect serious aesthetic consideration, but those willing to circumnavigate the compound&mdash;left on Poplar Lane, left under the perpetual scaffolds of Fiddler Alley&mdash;can relish a cryptic installation. Tucked in a quiet courtyard, stone obelisks dribbling toilet blue demand interpretation. Vaguely phallic, reminiscent of basalt columns endemic to Northern Ireland, these pillars not only contradict their boxy brick environs, but also number three instead of two. There is no sign explaining this incongruity, no artist's statement outlining the rationale for such a curious choice. Was the sculptor hinting at prospective additions? Pranking perceptive idlers? Critiquing arbitrary human affection for symmetry?
+      <br>
+      <span class="text-indent">None of the front office supervisors </span>I spoke with over the years had anything meaningful to say on the matter, nor the maintenance technicians tasked with draining the pool at first and last frost. Phone calls to the management company yielded countless hours on hold, in which customer service representatives passed me back and forth while instrumental oldies blared in the background until finally, by way of goodbye, I was met with the same refrain: "You don't live there anymore." My number has since been flagged, but perhaps you will have better luck. For the time being, the creation stands unattributed, untitled, ripe for conjecture in a postdiluvial paradigm, when the world we once knew is inundated, obscured by surface ripples.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">6 Landlocked Rollers.</span> For a more immersive experience, take a hike across Bennett Boulevard and check out <i>The Littoral Zone</i>. Commissioned in the early nineties by local environmental agencies, this innovative fountain uses real-time surf data from coastal research facilities to recreate miniature waves. In theory, hypnotic swells crashing into rock conglomerate demonstrate the erosive power our oceans possess; in reality, finicky pumps emit perturbations barely discernible to the naked eye. Wading is strictly forbidden but rarely policed, and you can simulate a soothing sea dip by floating on your back spread-eagle. Close your eyes, breathe deep, and let the rustle of sidewalk saplings transport you to craggy panoramas. Picture toothy outcroppings, ghostly fog, wind lashing harbor flagpoles, sandbars stretching beyond the horizon. Should the pigeons squabbling overhead prove distracting, translate their chatter into the language of gulls, the hot breath of lurching buses into breaching humpbacks. To enhance your visit, please consult tidal charts available online through the National Maritime Association. Sunscreen can be purchased at the convenience store across the street, but if you prefer organic alternatives, mulch from nearby planter boxes does the trick.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">11 Soak It All In.</span> Pop Quiz: What percentage of the planet is covered by saltwater? How many stages comprise the hydrologic cycle? Why do dehydration and hyponatremia produce similar symptoms? When to expect resource rationing in your neck of the woods? Scratch past surface answers at the branch library on Hawthorne Court. Skip the self-serve kiosks and must-read displays for the natural science stacks, row upon row of forsaken volumes. My personal favorites include <i>Rivers Revisited</i>, <i>Fluid Body Composition</i>, and <i>Flow Assessment in the Digital Age</i>. Fifth floor, HE 22.43-89.5, catercorner to Collaboration Hub #2, a sleek, panoptic promontory with floor-to-ceiling windows, one of countless budgetary indiscretions that led to the elimination of over one hundred jobs including mine.
+      <br>
+      <span class="text-indent">On the plus side, should you find </span>yourself fatigued, this room remains largely unused. Rest easy on ergonomic chairs, high above the Whole Foods parking lot and cul-de-sacs beyond, where a scar of felled trees&mdash;the latest light rail line&mdash;channels contaminants into streams, creating a flash flood corridor. But here, removed from the elements, you can safely steal a wink, though be sure to set an alarm, as aggressive air conditioning plunges the brain deep into REM cycles. Take extra care entering and exiting hypnagogia: at threshold consciousness, the moveable walls overlooking the atrium have been known to induce vertigo, an unsettling sensation of spinning in a diorama or swimming naked in a giant fishbowl. In the event of nausea, restrooms can be located two floors down behind the reference desk.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">12 Requiem for a Watering Hole.</span> Feeling better? Good. Now that you have your sea legs, make your way a few hundred feet east for a popular haunt&mdash;the Wellspring Plaza. Not long ago, this site was characterized by some as blight, a strip-mall stretch of car dealerships and pawn shops, clapboard fa&#231;ades and shattered glass. True, mom-and-pop stalwarts held strong&mdash;the hardware store, rival trattorias, a widely celebrated ice cream parlor&mdash;but after dark, poorly lit corners became the provenance of rowdy teens, and families steered clear of this sector, fearful of epidemics at turns ignored and exaggerated on nightly news.
+      <br>
+      <span class="text-indent">Revamped in the late eighties </span>as part of a public-private partnership, the plaza now shares much in common with transit-oriented developments built elsewhere in the region. Quick bite chains. Mid-range retailers. Saturday morning farmer's markets with exotic cheeses and crab cakes trucked from the shore, with bluegrass trios and experimental jazz quartets and past-their-prime cover bands playing to indifferent crowds. An Astroturf pavilion, planted in the last few years, conceals the remnants of a splash fountain, recently moved without meaningful resident input. Picture cold-water jets, geysers spouting at unpredictable intervals, curling against the sky, pressure enough for soothing hydrotherapy. Visitors suffering from shingles and neuralgia spoke highly of the site's curative powers, though I must confess little movement on my own condition. At the very least, on a humid day, as children frolicked in the spray, this fixture brought together folks from all walks of life&mdash;parents gathered on stadium steps, waiters tending to patio tables, panhandlers and proselytizers, shirtless youths weaving back and forth on trick bicycles, even the less fortunate whose reliance on such resources runs deeper than many realize. Where most urban landscapes minimize the individual, here, for a few months every year, it truly felt like you belonged.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">17 Immortal Liquid.</span> On the far side of the business district, stretching four blocks, the campus of Nucleo Therapies (NT) looms overhead like a spaceship. Founded by startup gurus after their youngest daughter succumbed to neuroblastoma, NT develops treatments for orphan diseases and other life-threatening conditions. Twelve successful patents have allowed the company to undertake moonshot endeavors, best illustrated by the fifty-thousand-square-foot organ warehouse that has no doubt caught your eye. As biotechnology evolves, marketing materials suggest, mankind will soon be able to extend life indefinitely. NT believes in the possibility of bio-stasis, of parking consciousness in the cloud before uploading digital selves onto artificial anatomies. All for the right price, of course.
+      <br>
+      <span class="text-indent">Deep into summer dusk, </span>the fantasy almost feels within reach. Cast aside your mortal misgivings and earmark fifteen minutes for the highly underrated NT pavilion. Sequestered from commercial quarters, at the right hour this bewitching hamlet sustains the soothing tranquility of a spa. Stone benches invite relaxation, meditation; speakers play meadow melodies and whale-song; on a recessed wall, solar powered LED screens loop slow motion hummingbirds dodging jungle rainfall; spare change in the zero-entry pool shimmers sunset hues. Each coin speaks of a secret wish, a ritual whereby optimistic souls hope to buy what can't be bought. Why? Kick off your shoes, shuffle into the shallows, and perhaps you will grasp what these tokens truly mean, twinkling on the bottom like unanswered prayers.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">25 Great Gourd.</span> The Romans built aqueducts to move water through mountains. Aquifers fed channels measuring thousands of miles; on any given day, millions of gallons coursed through cement-spackled conduits. Near Tunis and Mons, some sections are still in use thanks to the foresight of the engineer Vitruvius, whose grasp of gravity put armies to work. Think: long before engines, mankind knew how to beat drought, how to fill reservoirs and fight fires.
+      <br>
+      <span class="text-indent">Nowhere are these</span> lessons more apparent than Space Pumpkin, a can't-miss water supply situated just shy of the interstate clover. Twice recognized as "Tank of the Year" by the Steel Fabricators Association, this storied standpipe earned its nickname when vandals spray painted jack-o'-lantern eyes on its southern face, an exploit abetted by volunteer firefighters. Today, sightseers can appreciate satellite antennae, submarine hatches and spinning weather bulbs from any number of proximate thoroughfares, but the most stunning vista can only be enjoyed atop the dome, best accessed after nightfall. Ignore the faded warning signs. Scout the chain-link fence for corrosion before applying bolt cutters. Tiptoe or army-crawl across a vacant field overrun with dandelions until you attain the base, from which a cylindrical ladder will facilitate your ascent. Hold tight. Count the rungs. Don't look down.
+      <br>
+      <span class="text-indent">Congratulations. </span>You are now free to release whatever sublunary fixations burden your day-to-day grind. Wine and other substances accelerate that effort, and as you lay on the catwalk, studying the path of passenger planes, take comfort in the thought of strangers looking down through frosty windows, contemplating time-travel or infinity or human smallness on the cosmic scale or any one of the same mysteries that have captured countless imaginations across history. If only in this regard, you are not alone.
+   </p>
+   <br>
+   <p>
+      <span class="fountains">36 Whitewater Retreat.</span> Moonrise. Fireflies emerge from darkness, floating on wooded fringes. As you glance at your watch, perhaps the knowledge that our tour will soon end fills your heart with sadness. Perhaps you were hoping for more. Perhaps these streets have tickled your fancy, and you find yourself comparing hotel prices on digital applications. Don't be swayed by lukewarm reviews, lobby photographs taken on grand opening day. Hilton Garden, Courtyard Marriott, Embassy Suites&mdash;devoid of character, overpriced and underwhelming, the usual suspects fail to capture the true spirit of this crossroads.
+      <br>
+      <span class="text-indent">Should you crave one more adventure</span>, head south along Route 37. Trace narrow shoulders past the tumbledown YMCA before traversing Fourteen Corners, famous for fried aromas and multi-vehicle accidents. At the bottom of the next hill, below a liquor store and two auto-body shops, runs Broken Branch, a tributary once treasured by aristocrats before industrial runoff made swimming unsafe. Across from the disused clubhouse, a wooden post marks the path. Riprap gives way to gravel, and soon the trail wends among boulders dusted with climbing chalk. After half a mile or so, the gorge opens into a waterfall, chutes spread like fingers through knuckles of stone and wood. The beach below offers a suitable camping stage, as do the scree caves, but to truly enjoy the splendor of this site, consider rock-hopping across the rapids, where eons of highwater eddies have carved granite cavities, hollow tubes big enough to squeeze into. Smooth surfaces cup the body, walls flecked with mica once mined for stove windows and lampshades, stained-glass scenes in distant cathedrals. On cloudless nights, there is no better way to retreat from the crush of civilization, to reconnect with the landscape as it was before greed, the sound of rushing water drowning out helicopters and sirens, the echoes inside your head. Now you are empty. Now you are clean. Now you can begin again.
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <h3>EDWARD HELFERS writes short fiction, music, and the occasional essay. His stories have been nominated for the Pushcart Prize, and chosen as a finalist for "Best of the Net" out of Sundress Press. You can find some of his work in <em>The Rupture</em>, <em>DIAGRAM</em>, <em>Conjunctions</em>, <em>Puerto Del Sol</em>, and elsewhere. He currently teaches courses in critical and creative writing for the Literature Department at American University in Washington, DC.</h3>
+</div>
+   <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+<div class="draggable" id="ten">
+   <h6>x</h6>
+
+   <h1>AUTOPSY METROPOLIS (excerpt)</h1>
+   <h2>Michael S. Judge</h2>
+
+   <br>
+   <div class="text" onclick="event.stopPropagation()">
+   <p>
+      <span class="text-indent">a cylinder of near-translucent fluid &#8212; set up carefully, lone object in your sight, </span>against the light depriving all its flesh of any object status in the eye, all such definition as implies a waiting depth and any edge more awfully lost now than the frame's celluloid border to the corpses caught on film, cinematography of myogram star's needle-voltage slipping through strict anticline of sarcomere hypogeum and up the steps, away, all past the infrared or night-vision eyes, the higher spectra all sent back and paroxysmal, still, with the repeated heats of their rejection, recurrent temperatures in visible ripple down the body, not much less than ecstatic for them and, for us, not much more than ecstasy observed, god help, and "help" alone, since targets of divine aid seem, at best, to swing toward the self-determined, the arrow finding the wind it should less meld with than draw friction from, as thin black hair pulled tight that we might fiddle gaunt starving horses' whisper from the strands, as offline DC transformer of sarcophagus-LAN star blowing the hundred thousand volts up on the telephone poles cold enough to touch for just a moment or quite less, really, more in a moment's skin, labial action of first consonantal nasals bursting membrane on demagnetized echography of wire-recorder star, and there we are and were; set up against such tungsten impurities as should impart the flicker of fictive flashbulbs, the brief squarewave hailstorm, wavetable star's analog synthesis deprived radiosurgery now rescued from the echelons of bunkers sent way back, back, back
+      <br>
+      <span class="text-indent">long as you could ask, less for the asking than dredged out of the foreshortened interrogatives, </span>the maximum character length of anything that begins and ends with question marks, one of which must be upside down and either of which may be, depending on proclivities' abrupt necessitation and the way you'd seem to tilt there, up against the ATP star's codestring login, hitting falsified blockchain ledger of the flight-recorder blackbox with xenonucleic star's acid tape-delay backbone till we should all fall down, cinders of half-alleged posies in the pockets and the black carbonized shape of flowers' absence from the dirt now carved purple and subcutaneous on your cheek, as shouldn't it be, as liquid-crystallography of enantiomer lysosome-star's affine map phagocytosis fixing now on bits of false glass burnt or merely scalded into the image of a fixity they're never really mind to find and often find regardless of dim meaning, where it's all dim and remains so, down and way down, stratigraphy below the dry radio hiss of the redshift star's transducer brownout in the cardioid mic diaphragm's confused induction pumping velar motion back into the speakers' shiver, the thick paper cones gone porous if not punctured here &#8212; you ought, I'd say, remember &#8212; down and down past ruby light at the core-sample star's fuel cylinder for ziggurat heart-sacrifice, and blood not "only" blood there, not, as long across the several seas, the meat and water of the stars, but more a question of light's necessary deformation here, a way to mutate the blackening and leveling impulses of the sun, an early kind of solid-state compression, if you like, before we wholly scrape the oxide from the tape, wholly degauss cuneiform surgery of acetate encephalogram star, 
+      <br>
+      <span class="text-indent">it's about flatness there, and flatness half-remembered for the vicious downward force, </span>the actual feeling &#8212; you can mock it up as many times as you like, maybe even commission and construct as "space program," as if the program were for space and not, precisely, its abridgement &#8212; of having your brain pushed against your brainpan, which is clear enough a few moments after it's over but which, in the necessary seconds, defies all clarity whatever.  Severed hoses flail to spray cerebrospinal liquid from waveshaper star's fluidic-computer terminal, and nothing but the falling then, the empty recourse of the drowned, grabbing onto accessible fistfuls of useless water as you too would clutch at the air, like you could pull it in through helpless skin and feed it somehow to the prejudicial precincts of the blood, now black and clotted at extremes of all your cranial extension, molecular-architecture star's cephalopod signal-path flow suddenly more obvious than even briefly smoldered intuition of flux linkage from the one coil to the other, transformers' first and secondary wires all disconnected up and down the spade-clipped tabs and nubs of any process, xiphoid, spinous, howsoever you should try and fail to grasp, solder's rosin flux re-lit now and abruptly sloped debridement from the axon-terminal star's bootscreen pictography, as
+      <br>
+      <span class="text-indent">it should matter, and it does, but quite as thoroughly in total flat  </span>confusion as in anything to be "learned" afterward.  Blood pouring from your ears, either blacker and slower or redder and thinner and quicker than you can quite believe, either the clotted solar autopsy you imagined lurching for hours from the throat of the bullock slain over the baptismal grate, right, or the narrow hemorrhage of ferrous time itself, the repeated superfices of the film-crew wrackage tracking wounded-hyperlink star's plane crash into aneurysmal obelisk, as
+      <br>
+      <span class="text-indent">all may yet proceed or, in its stilted process, still half-seem to "prove,"  </span>or seem to half-prove, which aren't and have never been the same thing, despite their frequent and half-mutual confusion.  Down through all the pseudorandom-number generators and the REM scatter reduced, or sped, to 24 fps on exobiologic star's dead-URL necropolis, whatever painful act of varispeed should re-confuse the sums and thus the differences remaining, where you come to that more primal act in precedent of simple "mathematics," the cutting off, the amputation with the phantom pain not merely an extension of poor cautery but spreading now to all "surviving" limbs, since none survive the sudden breach of strict bodily dreaming, the awareness, now, of flesh's long conspiracy against them and the way they've helped, and event meant, to nurse the epidemic that decides as to their uselessness when flesh becomes decision, and we wrap cold in the newly-tilted binaries, tags open, unimaginably dull against the toothaching blue-whiteness of the skull, feeling more volt-intensive afference shut down, seek-judder in the reboot panics less a strict affliction than a tenet of the seasons we forget
+   </p>
+   <p>
+      <span class="text-indent">dark now &#8212; dark then &#8212; but all things faintly glowing, half-obscenely, </span>with the wet heat they would strain to spill as light, the humid wood's veins swollen to phloemic thrombosis, the moon clearly as ever some disfigurement of canceled pores and proud flesh's bitter assignation with the wounded meat below, burial mound for glyph-transcription star's mutagen surgery half-strata, strewn to shards, impossible to count as whole or broken without reference to whatever "wholes" might look like save a regional accent lathing down the aspirate or its lack at the beginning of that indrawn breath revers, a word like choking played backward, mono Dictaphone mixdown from cell-recording star's wire drum, and precious little as addition save piezo jolt exploding in bright brief xylemic crystal through the body, top/sides/back, or in the straining neck, drawn off in wan meniscus of a honey much diluted, serologic star's canopic teletype as chatter of black smaller bones consigned thus to the crumpling of the ears, the flesh so crippled as to allow some local healing, malleic smoke and all the tiny sonar clink of anvils crumbling to your touch, or to the faint notion of touch besides, as when wavetable star transduced coordinate systems out of pitch toward phosphorescence and straight back into night-soluble varietals of fluid-damaged software, 
+      <br>
+      <span class="text-indent">as you would know, or more or less presume, having been there or close enough, </span>all Demeter's sloughs and wallows slick there, wholly out of season and thus perhaps half a surprise, where codon-scanning star's .txt exobiology records for bitter broadcast the blown-out and squarer-than-square wave born of skipping steps, or of dim recovery to add what's skipped back, material panic pure enough to prove that the universe itself is not just capable of fear but is in terrible anxious flux most of the time, attempting to preclude the broken acid and so driving the next triode gain stage violently toward ATP-star nucleotide clipping, a ratio of input to compression you would never find unless you flat went looking to peddle and conceive this sort of "accident," blackbox login to the frameshift star's dead-URL necropolis now turning on a series of intentional amino "errors" each designed as proof against a pseudorandom codestring,
+      <br>
+      <span class="text-indent">toward precise degrees of likelihood, the numbed or overeager time in wooden houses </span>creaking loud as scattered corncrakes against the temperature shift of the afternoon, you understand, tape-edit override its evidence not just of a mistake but of some action somewhere taken as a camouflage retreating, desperately present there, unable to hide itself and so declaring what it otherwise should stammer to forget: yes sure we fucked up and there may be several seconds missing here I'm not entirely sure and I know that you know that I'd be lying if I claimed any kind of certainty even with the matrices and spreadsheets all laid out for average capstan cycle speed and feet per minute and the ferrous-oxide loss of frameshift star's cellular surgery beneath such pitch-warp gene-expression factors as must be considered more or less endemic and should be, if not planned for, because who's to plan for the precision of the errors of the Earth, I mean goddamn it, really, who's to ask against nerve spindle's errant firing or demyelinate sheath toward blackout-manic MIDI triggering xenonucleic star's cassette, 
+      <br>
+      <span class="text-indent">you're all smarter than that, I hope; you were all trained to feign a broader </span>and a wiser and a sadder sort of intelligence, if I'm not sure, no I'm quite sure, if I'm not wrong?; to shake your heads somewhere quite near, but never up against (who knows what's touching them, what slime mold capable of growing inside the coils of your ear where the Minotaur screams, who knows what labyrinthine feedback spiral of harmonic overgrowth's long FM synthesis might sum to mycological neural-network star's fracturous LAN, able to break itself, able to break whatever it should touch by mention only, to shatter by inference and, best of all, to corrupt by palimpsest, over and over atop what's atop, and we should all, I think here, I think not to know, I think only to enunciate an exact degree of such corruption, right?, to name it to the microsecond, picofarad, single ohm's resistance, to check the cold reactor cores in years of decommissioned xenosurgical star orbiting right in the gamma fraction with the specious cures for cancer and the decibels we daren't name for fear of us, ourselves, lending the meat and bone and blood to one of those statistics?, I think
+      <br>
+      <span class="text-indent">not to come to any conclusion but to mark the moment on the reel where somebody disastrously </span>started to think, epigenetic drift of aniline star's permeable carcinogen rainbow still less apt to float through the window, since it's the necessary almost-monotone of Historical Footage, something happening AtAnotherTime, wink or don't even bother, hardly needful now, and everything is one or another shade of brown, and everything is not just fading in front of your eyes but is thus disintegrating as a promise, as a fade toward your salvation, and christ, if you believe that now or even feel it someway sleek becoming to bestow belief's emphatic choreography upon it, well, there's nothing very much to tell you anymore, not to be heard at least.  Mount the steps, take up the fine scansion of X-ray separate, put the edible cartilage beneath the autodial rotary phone software of the gamma-knife star, careful to absorb as much as leaks from the old batteries or licks you sharp and short from thus uneven joins where cloth wire was replaced with New-Look Teflon! was replaced with cloth again and, now, who know, some nightmare crystallography, polyurethane grown in the wombs of species otherwise extinct, censored venography of benzene-ring star's gene-torching splitting alkaloid infinitives on any such report as you might even half-declassify, i.e. get them to gesture toward the naming and the number, get a videotape whereon the automatic closed-captioning appears to refer to the alphanumeric sequence which you're trying to track down, only appears, mind you, but that's the short of stuff you learn to live with, slant neon snowcrash /directory of glyph-mutation star's oil-barren pharmacogenomics
+   </p>
+   <p>
+      <span class="text-indent">mumbling, whispering, then half-whispering numb triadic backing vocals to the anger, </span>the bafflement, the druggy resignation of control room scarcely heard through headphones long removed, at least, we'll come to tell ourselves, at least to lay out some index of lithium damage in that Faire Field of Enna for those who come after and may be less prepared to run when the horror begins, or yet much less prepared to recognize and, even still, acknowledge the mere presence of the horror, if you'd ask and if you'd try and if you'd merely start to run yourself with eyes grown overlarge, oh the awe-hungry swelling darkness of the pupils aimed right into that cracked lens itself athirst for dark, and who could know and, knowing, say, who make atonement or chisel in past visage for the runic spinal library of biointerface star's hippocampal runtime-script transduction, less language to language or even text to text than question of which of the main electrical properties is to be most immediately feared her, among young women who arrived in this place by frightening means and have had to leave frightening things behind in a frightening manner to keep themselves within the fictive temenos, the very-soon-seen-for-hell-ugly circle of thinner-than-imaginary protections, more diluted, based in less, the sickened mineral flavor of the water where it pushes up through inexplicably dry and cracked ground, the substrate opposition of the canceled-out exponents in transliterate RAM cache of exobiologic star's few fluent microseconds switching in and out before the automatic pingback, the immediate and uncontrolled blood-function of strange characters, oh christ and help you all and I mean it, the hungry intravenous fiction climbing from the ceiling to the floor in radiosurgical scar's neural scan to dredge, to hold, to sell what foul dendritic silt may sleep yet in the myograph star's rhizomatous-stilled clangor circuit-architecture built of axon terminals re-canceled,
+      <br>
+      <span class="text-indent">once brought up and once worn down and more than many times the subject </span>for a sniper's heart, dear help-ye-god, the half-bodily scripts of nearly ancient tribulation writ in ragged "silk," i.e. more likely polyurethane or, unlikely but possible, nitrocellulose, to print transliterate gain-staged circuit anatomy of ATP star's ROM-blanked cinematography, and
+      <br>
+      <span class="text-indent">to trust me hear, to trust me here, both ways of knocking off the phoneme </span>on the way, night after night, from the wreck of the studio, so professionally wrecked, so expensively destroyed as imprimatur of time spent amid the trenches of la bohème, and really maybe just the one, eh?, luminol for spatter of the mRNA password to blackbox of exobiologic star's dead-URL necropolis, remembered?, you recalling now?, or is this all in a past that couldn't be yours, because you, oh gift you are, oh new new day after new night, rewrite the histories magnificent by touch, a haptic breakdown, is it?, fluid-terminal star's crashed logout matrix no more matter of soured infants' milk gone bitter in the sugars of the babies more aborted by their mothers' murder than any single decision as was writ beneath themselves,
+      <br>
+      <span class="text-indent">as how forgotten, as unforgot, as perfect remembrance in a sequence </span>of things perfectly insequential: all this goes, you understand, in the first or the second montage, depending on how necessary it was to dial in the presets of her shitty homeland, the worse-than-dead-end she comes from, the end itself long dead of nothing but old age and the attention of none but such spiders as may find her a series of convenient shapes, a set of clefts and ridges for hanging their webs between, eh?, really quite understood and really of more, easier, and simpler skin-held comprehension than you're ready to admit or ever will be, hm?, compression voltage of the circuit-bending star's piezo crystal jumped from something in the hundreds, let's say (just for averages' sake) about 0.0347 v at the input jack, before the big resistor to ground, 68k&#937; or, hell, even a million if you're on the upper plug, and we'd remember that or think we would, and the thinking we would is more than good enough &#8212; is, in fact, in many cases, much too good, is archaeopteryx gramm&#234; of the waveshaper star in panic under such long-swapped-out bone, places for places, everyone!, xenonucleic star's molecular-signal flow gene-cassette tracklist, only here to there with the right panics in between, that we care not to recognize it for the moment, and
+      <br>
+      <span class="text-indent">this is no archaism of diction, "care not to,"" this is to say that we </span>violently if quietly care about a lack of stemmed cognition, no matter how shallow the stem's rooted, no matter what the contents by volume of the large black matte-surface drums easy enough to "spill" across the field-surface tRNA light grid of the mycologic nerve-net star's LAN, all enough to throw the angles out of their constituent bends for a weekend or two?,  I'd guess?, when the Support Staff trickles in?, never apparently more than a few at a time and this nonetheless a big enough enterprise to pay for such a big building with so many people on the rolls?, OK no doubt, little confusion, biohacking to upclock failing CPU mitochondrial star and
+      <br>
+      <span class="text-indent">it could be no more or less than it appears, right?  Like there's lots of people </span>in here all the time, like it never really stops, right, 24/7, lights always turned on in the parking lot, surveillance cameras always twisting around at the ends of their eyestalks (transglyptic sugar datasheet for cell-recording star obscured but more than present), and each new Team has its own Producer, Promoter, Manager, Project Manager, Agent, Publicist, Songwriters, Instrumentalists I guess you'd say?, is that a word, and guys who know ProTools and Logic and CUBASE, and guys who understand the math you have to understand to get things from one imaginary grave to another, how it is that we bury not our dead but the dead, someone's left to us, in deeper pits each time, because there are always more bones?, acquisition of some maybe-only-decorative but still unsettling wings, and since the last time, I don't know about you, but it looks to me like all their jaws have been opened till they snapped and then rewired to heal that wide?
+   </p>
+   <p>
+      <span class="text-indent">"cause of death" cold cherries overripe against staid light, too dark then, </span>incommensurate down to the grain, wavetable star's myelin physics in eruption of  bloc-feedback at the node, with the dim day behind you, the dim day ahead, a few shades' scarce difference of sepulchral glow robbed even of that slight distinction, whitewashed where marbled, a place where men die fat in large dark ugly chairs and no one bothers to discover them, no entrance among the awful surgery of woman in black mesh-pyramid masks, carotid obelisk from neck up for destroyed faces not yet subject to even the pretense of "reconstruction," rather graft by slow degrees, codestring failed blackbox login to the exobiologic star's dead-URL necropolis and
+      <br>
+      <span class="text-indent">all else, then, a matter of the static in the sickly feint at yellow </span>underlying all this mortmain offwhite verticality, and no real question there, not much to be presumed about not much needing presumption, alien fructose gain staging for ATP star's fractured circuit schematic, impatiently picking at the strips of braided copper like a bird determined to poison itself specifically, the toxin made particular somewhere among the jostle of available nerves not yet overawed by changing weather and the difficulties of my hollow skull, your hollow bones, mycologic nerve-net star LAN caught up in each iteration at a thick geological index of carbon blowback and paused there to rattle in its most recent spoken microsecond, till the scriptural tongues' percussion, see, the cuneiform of flight-recorder star's millennial topology of palate and bent teeth, should extend into a wail, as fit for mourning as to be surveilled at all and, however fit you find it for surveillance, it will live beneath that caul; you and I know that it's wrong to say "there's no choice," of course there is, there always was, and you and I know it's likewise wrong to believe that the choice will be made differently this time out of the billion, the ten or hundred billion per day, per hour, across
+      <br>
+      <span class="text-indent">what's less a grid, once you learn to see it, less a decimal reduction </span>to eventual diodic pairs of on/off damned to worship thus forever, either down on knees and elbows and forehead or back to the axis of the temple, walking out of the front door, and the Awful Mysteries' revelation behind you a matter of spinal-radio star's bandwidth in a moment of foreclosure by the vast commercial traffic of the air, the holy ghost deformity of standing waves imposed upon what might otherwise be rattling in the pulp of your teeth, right now, right anytime, right picturable so far as pictures' manufacture, one by one or en masse, should persist, and we seem born to that persistence if few others, dedicated not as we should dedicate ourselves, see, but the way an ugly lump of civic architecture gets "dedicated," names of men who died rich on plaques and of men who died poor on the wall placards, names of those who died insane or "live" beneath the barometric hell of that insanity, asphyxiate, bones slowly spiderwebbing like a windshield replaying the spread vectors of a car crash several hours after filmed impact, cinematography of GABA star's deletion playing back the build toward more than only panic, much worse than simple fear, in every room where the afflicted will find themselves "living" "alone," less than the first and much, oh horribly much more than the second, fed on little but the thickening of the ghosts that feigned status as mere shadow evidentiary of all things' sundial potential if you stand them up in the right place and know how to read the light they disable, understand the biohacking star's serologic HTML in late acoustic afterbirth of browser-history deletion, the sound of there having been something and of much more than a dumb vacancy left, but active and debilitating nothing with its own shape and its own resilience to the shudder in the air, the unlikely favoritism
+      <br>
+      <span class="text-indent">of the scientists, if that's the word, if they're not more accurately </span>"employees" now, who will mill in, groups of respectably restrained size, given your Emotional Condition as codified on a 1-10 scale and the modest dimensions of the Levittown tomb you're dedicated sealing, chemokine hieroglyph for axon-terminal star's logout sarcophagus left standing at such angles as permit only a viewing, one at a time now, I'm going to have to ask you, sir, to stand behind the rope, I am fully empowered by both the laws of this state and my training to apprehend physically such subjects as I should deem possibly dangerous to the calm and welfare of my general vicinity, and you will find, if you should choose to press your case, that though these are rulings of local jurisdiction, they have been appealed well up the ladder of the federal court system, and that nothing federal is ever going to rule against the rights of men with badges or names sewn into their shirts to cripple anyone who makes them not uncomfortable themselves, even, but makes them suspect discomfort in those spectators now curious why the head-cracker isn't doing his job.  Never again.  Such rulings may have once occurred, may even have been common, I don't know.  I've been part of several cases.  I have given depositions; I have signed sworn affidavits.  The precedent is clear as water isn't anymore.  You'll please step back behind the line worn off the floor.  You don't have to know where it is.  I know where it is.  I'll tell you when you're far away enough for me not to recognize you.  Thanks and
+      <br>
+      <span class="text-indent">keep the cameras coming, long as they're basically just props, of course no </span>flash photography, what are you, stupid, save the artificial flash applied to every image captured by your phone &#8212; well, not to every image, actually to quite a small percentage; we wouldn't want the live feed overlaid with artificial Sonnenschein; it's either redeye ugly or designed as a report upon the real extent of artificial suns' horizon-casting in the detonations' early stage, before core samples nominate disease
+   </p>
+   <p>
+      <span class="text-indent">whereafter (vide: nowish, come down hard upon that ish), gone hypernominal </span>and everything so normal that normality itself begins to shred along its weaker vectors but, you know, scarce real concern, soon enough snapped to a quantization grid of all syringes at right angles (later, earlier, whichever suits the moment past the moment to be suited, hey don't worry, hey no fear, we'll keep you terribly informed, and never cooed into your ears, no, never-tongue flick at the queasy lobe, but spoken mouth-to-mouth, droned lips-to-lips, a medical implant that looks like a kiss), and
+      <br>
+      <span class="text-indent">wave collapse's acid reflux in containment-breaching sheaf of </span>blackbox logout from the exobiologic star's dead-URL necropolis, who last here and who wont thus to deposit the butterfly pollen of the dead fingerprint, unwisely altering the tombed pharaoh's scleroses, rebreaking the already broken joints of the dead king, as you would have it, no real question, no real time, not overacting, solarizing silver-blood post-op surveillance glyph of Inca DNA-waveshaper star, black on sicklier white hatefully high-contrast in the recon for the falling of the bombs who only need to match the blinding detonation with the blindness of the place to fade real quick, faster than studio etiquette and post-production standards have demanded, into a comparable blank, acetate printout xerograph star's telex a question less of casualties than of operable signate matter afterward, whatever can be logarithmized over/under/sideways/down or perched up on an exponential shoulder, whatever molecular architecture shows some measure of promise at the line where oil still won't mix with water, despite all our fine finical inducement and our pleading and our outright remonstration, valence-shell index at the hippocampal biointerface of circuit-bending star, now come
+      <br>
+      <span class="text-indent">to huffing gasoline, to keeping as much diesel as you can in the smallest </span>container that will accept it, no holes, no overemphatic kinks or dents, nothing to pique evaporation, right, and hiding in the corner of a lean-to with a pointless door in front, since you can just walk past the door on either side, but we found the thing intact with handles, lock, doorframe, even the key on the inside (I guess the inside?), all just lightly scorched, still wearing most of its natal whitewash coat, like a bird swiftly rescued from some manner of molecular disaster, carbon-14 star Osiric bootscript slowly swarming back together in such biomass as still belies all plausible territories of origin, something, maybe, drawn up from the sea beneath the landform we were happy to catalogue unto something not wholly unlike crucifixion, numbered sefirothic as the coral tree of analog gamma-knife star and kept from the ambient rays of further radiosurgery
+      <br>
+      <span class="text-indent">still spinning down from above the city, what city's left, what isn't </span>to be catalogued and bagged in its own time as mere significant remains, scare quotes as you should find them valuable or, whatsay, maybe precious?, axon whip gone loose as splay cassette for startup wetware GABA star's myelin patchbay,
+      <br>
+      <span class="text-indent">plus the panic of connections thence construed and thus recorded, </span>printed out along the wings of the thing, difficult to ignore even in the quiet and unmentionable flights at night, usually in small four-seater planes, a pilot, a backup in case this is the kind of thing where you kill the pilot, at least one person who actually needs to go where the plane's going, and possibly as many as three people who are necessary to get him there and who, it doesn't hurt to add, should be allowed to feel that their necessity is not fully expended by mere transit &#8212; check the number of parachutes and maybe ask a funny question, and see how ready your interlocutor is with an answer: if he's got slick comebacks loaded in the chamber, everyone but him is going to die, or everyone but someone else is going to die, and he's accepted it &#8212; where the chemical formulae still throb out on the wings, ATP circuit-architecture star in double-triode gain stage tuned to amplify not just the flight and crash but the bare skittering survival afterward, trained for not that long, actually (you want to write "months" or "weeks" at least and ultimately come down, all too often, right on "hours"), on where specifically he ought to ball himself up near the luggage, and how to play it off as Famous Eccentricity or just the exact degree of obsessive compulsion necessary to maintain the kind of life where what you mostly do, if we're being honest, is wait.  Slide the lid off the sarcophagus and wait, then, to start bleeding honey from every burst vessel in your face, that the flies behind breached stelae comprehend exactly where to land.  Sympathetic-string virology we'd call non-coding genome in the ganglionic HTML shutdown protocol of cephalopod neural-network star overextended, or of sea life drowning in the open air and nerve net swapped for mycologic star-LAN's sagging scales nondiatonic under soil just thin enough to give some sign of their slow sprouting and just thick enough to drain all the stray minerals required,
+      <br>
+      <span class="text-indent">the rare-earth elements now suddenly so prized in quick-change </span>photoresist autop/o/sy star's fMRI vein-panic and unlist of strait carcinogen, the glossary not provided in the room never really meant to be entered: this is a cold place, where men come in from the heat of grass-wilting blacktop and anxiety in front of their superiors still keep their hats, coasts, vests, ornate gun harnesses strapped on, where there are no chairs, since the few women and men for which the place was built and furnished do their work entirely while standing and would not care to spend a single free instant sitting down here.  They get out quick as they can.  They slide the drawers shut, they fill out the notecards on the typewriter still used to override vagaries of word-processor myographic star's inconstant CPU encephalography, they slide the typebar-stricken cards into the small glass-fronted panels on the facing of each drawer, above the handle, so you can read and pull or push at the same time, so your hands don't get in the way of extracting a body from the place the bodies go, the sarcophagus-hive HTTP star so apt to swell with summer's excess
+   </p>
+   <p>
+      <span class="text-indent">but set down this, set down</span>
+      <br>
+      <span class="text-indent">this: dragged to dust, though they'll say carried, </span>as in offering of crippled alms, timorous across the apse up to the blind maimed child god in its foul font of milk and ichor, eyes' horizon fixed delimited to a womb they cannot shed, uterine walls synonymous with glaucomatous corneae, that's what they'd have you fathom and fish shallow, but no, not carried, dragged as any river-prey, a snowfall of skin shed in the ruinous translation from a surface to a target, violent removal of trilled rhoticisms keeping as safe as tropos ever offers, the blow, the twist, the place, cell-voltage star's DAT-spooling gene cassette degaussed and tape speed torn past any matter of cotangent inches, meeting now, if met at all, in the higher and often inaudible harmonics of a function we should hardly know our way toward, calculus in every nominal reversion, back to the numbering of stones, the bitter calx of myographic star's nerve terminal descended toward swift zero in axonal signal passage where the heated filaments all go to wilt and all the anodes just explode backward through any built-up series, help us please, o blank for bootscreen fluidic computer circuit-architecture star and something maybe quite as solid then as gel across the mainframe where the cold mineral thunder may still beat, the peptide-hardware star seem capable of such tape-splice induction as should shear in torn suggestion of a world taken for operating system, as you like, as you can stand, and still the dust of all that dragging, metadata star's breached void-core spinal archaeology (a codicil &#8212; as frameshift star's grid-clipping protein index &#8212; of failures to be nothing, rigorous as any such record can be, since we're dealing with terms whereby zero is already too much, is extra evidence of faked nothing in over-protestation, like the man said, like the power mains still testifies on some non-celebrant occasion, third-rail scream of DNA-editing star's blown-out transformer on the secondary winding where the messages should testify past alien membrane, if at all possible, into the deeper recordings and past the flicker on the surface, though that flicker sets up linear "progression" for all of everything beneath, xenotic star's tape-bias HTML threatening a restart from a disk foreign enough to leave our gasp-initial code all marooned backwards between brackets of any but our own manufacture, as, perhaps, more than we'd perhaps like to admit, in network-backbone &lt;a href=&gt; star's dead-link HTTP osteon, and the failure thence to ring the dead sun of the city with the annulus of a dead gray eye, perfectly calibrated, so we're told, to engineer exactly one of exactly two responses in everybody who should see it, namely a) absolute panic or b) absolute vacancy, so some may stare and some may rip themselves up by the roots, so some may hang themselves from the nearest high-enough branch with the closest-to-hand cabling of requisite tensile strength, and some may walk slowly, slack-jawed, not dragging their heels on purpose but for wont of any stronger jolt of dopamine, endorphin, epinephrine, any goddamn thing at all, cephalopod neural-network star LAN in reactor meltdown strangely still too cold to catch as anything throbbing or even whispering up through the skin, RF-hacking star's lithium-cache radiosurgery in scarce black-market software application here, though capable, it seems, of applying at least one or two, well, applicable impedance curves, one to match a real speaker, basically, at high bitrates and in demand of significant memory, and one to do a good enough job once the track or tracks is or are in the mix and nobody's paying much attention there, you reckon?, etiology of terabyte star lost back in the critical gain stages, V3B there doubled-ganged, you see, and maximizing in- and output all in the same hesitant but thrilled torque of the thumb and middle finger, not quite stiff enough to beckon any action from the wrist, OK, you know, you've been here a few times before, you declare yourself "no stranger to the female form" in such a weary-sounding timbre that it almost seems regretful, like you wish you were still confused for the, if not quite pleasure, the motive force, at least, of getting yourself unconfused, of having something left to learn and the quite direct impetus to learn it, half-crying now, as those so inclined on the level of the endocrine-tape print-through star approach the massive Tree of the Dead, where corpses do not hang but simply marble the surface of the trunk, each in some mangled choreography it can't choose for itself but finds inerrantly upon physical contact with the tree, gray dead people stuck to its surface in thousand-layer palimpsest and deeper, deeper than that, you'd have to know, cathode mosaic borne to glitchy thyroid tonestack for the frameshift star's bent cuneiform in sleek bracketed codon very nearly righter-looking for its wrongness &#8212; and who's "wrong," and when's "right," and what proposes to make proposition wherewise as to saying, you know the deal, or rather the deal's abrogation, a bargain scarcely struck but broken off in angry haste and loudly declared in two different sets of terms by two different voices, both adolescently hoarse in their overemphatic need not simply to be heard but to be heard as authoritative, which they won't; none ever is; the terms are simply acquiesced to, in an age of very little aside from acquiescence, some quite simple, some disgustingly complex, but all come ultimately thus far down, this deep into a cheap CGI labyrinth of bafflement wherein we only need to render two or three sharp turns before the operators always just give up, you understand?, it's what they call "interactive," it's known in the business as one of the sub-businesses, and it's known in one of those sub-businesses as a "feedback loop," which is precisely what it isn't.  They set the terms.  You persist as long as you still feel you're making some kind of point with persistence.  You persist, perhaps, because you've never learned that you're supposed to quit.  You persist because you know it can't lead anywhere and hope the shutdown meets you as a suicide that cannot be distinguished from a glitch.)
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <p>
+      <span class="text-indent">sarcophagus-glyph USB star's runic nuclide serialized retrograde</span>
+   </p>
+
+   <br>
+   <br>
+   <br> 
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <p>
+      <span class="text-indent">ATP star's xenobiologic bootscreen cache</span>
+      <br>
+      <span class="text-indent">circuit-bending XLR star's autopsy transliterate</span>
+      <br>
+      <span class="text-indent">exobiologic star's dead-URL necropolis frail mineralized login spume </span>for triode proteins bursting through the LED machinery for fine petrified tesseract distortion in the clip/compress/distort wings of the nerves around the spine
+      <br>
+      <span class="text-indent">bootcrash wavetable star's ziggurat codestring lined up long </span>and deep enough for phoneline telex transcript babbling
+      <br>
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <p>
+      <span class="text-indent">FTP star's wetware sample rate collapsing backward into programmed </span>cell-death autofill script's frameshift star re-bracketed for shutdown, not that
+      <br>
+      <span class="text-indent">not that shutdown need occur, nor panic really, </span>save the terror's own chill physics in slow shrilling melt across circuit topology of EEG star's gain stage double-ganged around aortal-flux mitosis  
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+
+   <p>
+      <span class="text-indent">// protein stripping from disc-rot substrate where </span>the pixel tremens slows to broken binary vibrato, mainframe ossuary myograph star's data-junk syringe // mitochondrial bitrate myelin-stripping frozen neon halo scarce enough for sample-and-hold ATP star's waveshape voltage autopsy, squared-off manual regen scarce comeuppance for a clipping-diode screech so soft and constant that you're functionally deaf to difference tone of HTTP star's necropolis fuel cylinder  
+   </p>
+       
+   <br>
+   <br>
+   <br> 
+   <br>
+   <br>
+   <br>
+
+
+   <p>
+      <span class="text-indent">corrupt as teletype-print readout of the RF-hacking </span>star's peak-limit delta wave <span class="right-align">glossolalia</span> 
+      <br>
+      <span class="text-indent">spiders' sodden eggsacs in double helix trailing </span>away toward the faint fricative of microscopic syringe-lips, the cell-recording star's protein-domain virology in server-vertebrate meninges of sphinx
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <p>
+   <span class="text-indent2">mean heat, as you should cripple or go crawling to keep terminally warm </span>
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <h3>MICHAEL S. JUDGE is an American writer, musician, and host of the podcast <em>Death Is Just Around the Corner</em>.</h3>
+</div>
+      <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+<div class="draggable" id="four">
+   <h6>x</h6>
+
+   <br>
+
+   <h1><div class="unitalic">TWO POEMS</div></h1>
+   <h2>Naima Karczmar</h2>
+
+   <br>
+   <div class="text" onclick="event.stopPropagation()">
+ <h4>n.n.november</h4>
+   <p>
+      I realized I lose my mind around the same time every year and came across a chalkboard that said <br>electoral violence femicide so I copied it into my notebook along with there is no chemical that is <br>not dynamic & i want to be/in more beautiful pain then this. 
+      <br>
+      <br>
+      I went to a concert and when the lights came on they were orange. I almost turned
+      <br>
+      to the woman next to me and said did you know the color was named after the fruit, not
+      <br>
+      the other way around, but I didn't and that's also not what this is about, it's just that I find
+      <br>
+      it funny how what I knew about the color orange spun in my head like the handle of a teacup 
+      <br>
+      ride while I stood there trying to swallow sound
+      <br>
+      back into the throat or chest or wherever it fucking came from, and thought it's okay because 
+      <br>
+      the world is still gripped by nascent illness, there's cloth over the part of my face that's twisting 
+      <br>
+      like it's ready to split open and does, at the mouth, where I turn a plea into a repeated phrase 
+      <br>
+        in the cool dark&mdash;thin, pulled taut, ready to fly apart, the body doesn't work like a levy. 
+   </p>
+   
+   <br>
+   <br>
+      <span class="text-center"><p>*</p></span>
+   <br>
+   <br>
+<h4>loveliness is not a noun </h4>
+   <p>
+      stand, just for a minute, under the falling 
+        <br>
+      plums.
+      <br>
+      scan the branches
+      <br>
+      look for ones that will burst 
+      <br>
+      not the ones that have already
+      <br>
+      not the corpses, not the yellow guts. 
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <h3>NAIMA KARCZMAR is a PhD student in English and Critical Theory and an MA candidate in Creative Writing. She serves on the editorial board for <em>Qui Parle: Critical Humanities and Social Sciences </em>and <emn>Ki</emn>, where she also works as managing editor. She has been a finalist for the Glimmer Train Short Story Award and the Disquiet International Literary Prize in nonfiction. Her work has appeared or is forthcoming in <em>The Iowa Review</em>, <em>Gramma Poetry</em>, <em>Autofocus</em> and other people's living rooms.</h3>
+</div>
+     <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+<div class="draggable" id="five">
+   <h6>x</h6>
+
+   <br>
+
+   <h1>TAXIS DERMA</h1>
+   <h2>Jenny Irish</h2>
+   <div class="text" onclick="event.stopPropagation()">
+   <p>
+      Motheaten, flea infested, a corpse killed twice, first shot then stabbed, gutted, tamped into a trunk for transport, turned-inside-out, split into halves, skin scraped smooth, stroked with poisons, then stitched seam to seam and stuffed with saw dust and rags, history, retaining in its preservation, the thinnest resemblance to its living form. <i> Behold the beast. Some wicked work. A maneater, devil sent.</i> But in preparation for display, dissection of an eye discovers only an eye, with no evidence of advanced malevolence, no sign of the anticipated spiritual infection, only an eye like a hundred other eyes, enucleated from the cracked skulls of monsters tracked by red mastiffs through massifs to caves full of bones, first shot then stabbed, then shipped, tamped into a trunk, to a baffled naturalist squinting through unsteady light at the remains, trying to see what he has been told there is no longer cause to fear. <i>The maw of a boar? Lion-like, though not a lion? Tusked? </i>Spectacle and specimen, eyes enucleated, dissected, submerged in fluid chemicals and sealed in jars, replaced with discs of flat black glass. The reconstruction of an animal you have never seen in life, is a complex exercise in the application of hearsay. 
+   </p>
+
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <h3>JENNY IRISH is the author of the hybrid poetry collections <em>Common Ancestor</em> (Black Lawrence Press, 2017) and <em>Tooth Box</em> (Spuyten Duyvil, 2022), the short story collection <em>I Am Faithful</em> (Black Lawrence Press, 2019), and the forthcoming chapbooks <em>Hatch</em> (Ethel, 2022) and <em>Lupine</em> (Black Lawrence, 2023). She teaches creative writing at Arizona State University and facilitates free community workshops every summer.</h3>
+</div>
+     <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+<div class="draggable" id="seven">
+   <h6>x</h6>
+
+   <br>
+
+   <h1><div class="unitalic">TWO STORIES</div></h1>
+   <h2>Jake Bartman</h2>
+
+   <br>
+   <div class="text" onclick="event.stopPropagation()">
+   <h4>Winning Streak</h4>
+   <p>
+      Except the thing was that she <em>could</em> control the world with her mind&#8212;that sometimes, if she thought really hard about something, it would happen. For example, there'd been the time a few months ago when she'd decided to splurge and take herself out to Fabricio's Ristorante Italiano, and partway through dinner, she'd realized that she was in desperate need of another glass of wine. The server had been on the far side of the dining room, talking with the host, but rather than wave him over and risk drawing other diners' attention to just how many glasses of wine she'd had, she'd closed her eyes and pictured sort of a beam of energy that shot from her third eye-area across the restaurant and directly into the server's back. And sure enough, in a moment she'd heard him say "More merlot, ma'am?" Then there'd been the sound of the wine as it cascaded around inside her glass, which, with her eyes still closed, she'd pictured as if in slow-motion. She'd felt so relieved that she could have cried.
+      <br>
+      <span class="text-indent">Or what about the time a couple weeks </span> later when she'd been sitting on her sofa, drinking wine and watching TV, thinking about a friend whom she hadn't spoken with in maybe ten years, not since college anyway, and then when she checked her phone there was a voicemail from that exact friend saying hey, it'd sure been a while, hadn't it...
+      <br>
+      <span class="text-indent">You couldn't say that these were coincidences. </span>Hadn't her AA sponsor said that she didn't believe in coincidence? You couldn't say that there wasn't something going on, some connection between her mind and the world that went beyond what was merely rational.
+      <br>
+      <span class="text-indent">On the other side of the table, her sponsor </span>sat listening with her usual blank stare. They were on the patio of the same Starbucks where they always met, her sponsor's immaculate brown coif dancing ever so slightly in the breeze. The afternoon light beyond the patio was bright and flat and gleamed off the windshields of cars. "Yes and no," her sponsor said.
+      <br>
+      <span class="text-indent">Which was just the kind of thing her </span>sponsor would always say. She'd say these things, and then she'd stare at you, waiting for you to say something else. And so it was a surprise when this time she elaborated. "But how many times have you really wanted something to happen that then hasn't?" her sponsor said. "Or how about the opposite? How many times have you really wanted something not to happen that then has happened anyway?"
+      <br>
+      <span class="text-indent">She considered this. Well, she told her sponsor,</span> there'd been Graham. One night not long after he'd left her, she'd gotten the urge to call him over and over, maybe two dozen times, until at last he'd answered and said "What?" She hadn't replied, but had remained on the line, listening to him demand an explanation, until eventually he fell silent. They'd stayed like that for a couple minutes, listening to each other breathe, until without a word he'd hung up and driven across town to her place, where they'd fucked on her couch, knocking over the end table's lamp in the process. Its bulb had burst on the carpet into a puff of white smoke.
+      <br>
+      <span class="text-indent">"And?" her sponsor said.</span>
+      <br>
+      <span class="text-indent"><em>And nothing</em>, she wanted to say. G</span>raham had broken up with her again a couple weeks later. Which, in retrospect, was maybe for the best. Maybe there was a part of her that'd <em>wanted</em> him to dump her, that'd known all along they weren't right for each other. Afterward, it all sort of blurred together.
+      <br>
+      <span class="text-indent">Her sponsor didn't say anything. </span>She peeled the foil from a thimble-sized container of creamer, stirring its contents and a sachet of Splenda into her coffee. Then she laid the stirring-stick onto the table, reached into her purse, and produced a small can of mace, flicking its red safety-switch to the off-position. "So do it," her sponsor said.
+      <br>
+      <span class="text-indent">"I'm not sure that I&#8212;um&#8212;," she</span> said.
+      <br>
+      <span class="text-indent">"You're saying that I'm beyond your control. </span>You're saying that it's beyond your control whether or not I squeeze the lever on this can of bear mace."
+      <br>
+      <span class="text-indent">"Bear mace?</span>"
+      <br>
+      <span class="text-indent">"Ten," her sponsor said, sipping her coffee.</span> "Nine."
+      <br>
+      <span class="text-indent">Well, but there had been other times, too. </span>What about the time she'd been thinking of that one Foreigner song while she stood in line at Kelly Liquor Mart? And then, just as she'd been paying, that song, that exact song, had come on the store's radio? Or what about the time last week when she'd been in her apartment, thinking how great some wine would be, only to realize that she didn't have any more wine, she'd drunk the last of it the night before, she was 100 percent sure of that, except that when she went and checked the cabinet there was another box of Franzia? How did you explain that? You couldn't explain it. You&#8212;
+      <br>
+      <span class="text-indent">"Six," her sponsor said, thumb resting on the mace can's plastic lever. </span>"Five."
+      <br>
+      <span class="text-indent">And what if she wanted to get maced? </span>What if she made up her mind right then that really that was what she wanted? That it was what she deserved? Then it would be her choice. Then it was within her power to choose. Did that matter? Did it matter what you wanted if life kept macing you in the face anyhow? 
+      <br>
+      <span class="text-indent"><em>Do it</em>, she thought at her sponsor. </span><em>I dare you.</em>
+      <br>
+      <span class="text-indent">"Three," her sponsor said. </span>"Two."
+      <br>
+      <span class="text-indent">Later, she wouldn't </span>be able to say if she'd reconsidered, if in the moment she'd suffered any stirring of doubt. What she'd remember: the mace's black plastic eye, the bright sunlight, and a faint buzzing in her fingertips. Everything else sort of blurred together.
+      <br>
+      <span class="text-indent">"One," her sponsor said. </span>
+      <br>
+      <span class="text-indent">She closed her eyes.</span>
+   </p>
+
+   <br>
+   <br>
+
+   <span class="text-center"><p>*</p></span>
+
+   <br>
+   <br>
+
+   <h4>Gumball Girl</h4>
+   <p>
+      The boy spends a lot of time thinking about the gumball&#8212;the one his stepmother said they took from the girl's stomach. She said that the gumball was what the girl had gotten for swallowing her gum, and that her doctors had no choice but to remove it. 
+      <br>
+      <span class="text-indent">In the boy's mind it is softball-sized,</span> but dense, heavy as a bowling ball. Its surface neatly spherical, smooth like sea glass from having been turned over and over, and particolored, a patchwork of ketchup-colored Big Red, lemon-yellow Juicy Fruit, and clover-green Wrigley's Spearmint. Some pieces started out pink, only to be bleached by age, turning gradually the color of guts. (He knows what color guts are from the time his father got a fishbone stuck in his throat. Afterward, the boy's father had returned from the hospital with a small folder of images taken of the inside of his esophagus&#8212;a souvenir.)
+      <br>
+      <span class="text-indent">Nights, in his darkened bedroom, the boy pictures a surgeon holding</span> the gumball in one hand, its form glistening with acid or mucus beneath the operating room's harsh overhead. He sees disgust behind the surgeon's face mask&#8212;not at the surgery itself, but at the thought that the girl was so stupid as to swallow her gum, when everyone knew the stuff would stay in your stomach for seven years. She should have listened to her parents.
+      <br>
+      <span class="text-indent">The boy can't say what bothers him most about this story. When he'd first</span> started to chew gum, his father had told him not to swallow it. He'd done his best to obey, although in the months since, he'd swallowed a handful of pieces on accident. But he hadn't worried about these until his stepmother told him of the gumball girl.
+      <br>
+      <span class="text-indent">Now he worries that some surgeon will have to cut a gumball out of him,</span> too. Somehow, losing one's gumball seems so much worse than having one's tonsils or appendix removed. He can understand why the girl would've swallowed her gum on purpose, can see how each piece would've brought her a little closer to satisfying some gnawing in her stomach's pit. It is comforting to have something like that inside you&#8212;a thing that is yours alone. When the girl's stepmother called her a brat, when her stepmother threatened to punish her if she wet the bed again, she could touch her stomach and feel the gumball pressing out against the skin. 
+      <br>
+      <span class="text-indent">It is strange that when the boy thinks to ask, his stepmother can't</span> explain what is so wrong about having a gumball in one's stomach. "It isn't natural," she says, in a way that means he'd better knock it off, that if he doesn't quit asking questions he'll be punished for talking back. But the more the boy thinks about the operation, the more unnatural removing the gumball seems. 
+      <br>
+      <span class="text-indent">Gradually, over the course of weeks, the boy's thoughts begin to</span> center less on the surgery and more on what happened to the gumball after it was taken from the girl's stomach. According to his stepmother, the gumball was put on display in a museum somewhere. 
+      <br>
+      <span class="text-indent">Late one night, the boy wakes on the verge of wetting himself. </span>He sees the gumball on a pedestal in the middle of a white-painted room, lit from above and below, seeming almost to levitate inside its glass case. The gumball emits a low, pulsing hum. He can feel its rhythm tapping like a drumstick against his too-full bladder.
+          <br>
+      <span class="text-indent">The boy understands then what the girl would've felt to</span> see the gumball inside its case. He felt the same thing on the day his father and stepmother married. Dressed in a black suit and a blue clip-on tie, he kept his composure all through the afternoon, charming the wedding guests by bowing and telling jokes and speaking in complete sentences. But when the ceremony began, when he had to follow his father down the aisle, he started crying and couldn't stop. At the altar, his father laid a hand on his shoulder, which only made things worse. The boy didn't want a stepmother. He stood there sobbing, while the minister said how great it was that the boy understood the beauty of marriage, until his aunt took him by the hand and led him away. From how his stepmother-to-be glared at him throughout this scene, the boy sensed, even then, that she wouldn't forgive him.
+      <br>
+      <span class="text-indent">Now, the bedroom's dark broken by a streetlamp whose orange </span>light edges the window's blinds, the boy tries to remember every piece of gum he's ever swallowed. Already the pieces will have joined into a lump the size of a superball&#8212;a ball that at that moment bounces in his stomach like a cork upon the ocean. 
+      <br>
+      <span class="text-indent">He pictures a masked surgeon in the hallway outside his bedroom, </span>scalpel in hand. He sees his gumball glistening on a pedestal in the middle of a white-painted room. 
+      <br>
+      <span class="text-indent">Rather than heed these warnings, he rolls onto his side </span>and retrieves a half-chewed piece of Double Bubble from beneath the nightstand. The gum softens quickly in his mouth, and when he swallows he feels its smooth form pass all the way into his stomach and join with the other pieces to form an even larger gumball, a gumball big as a bowling ball, big as a basketball, big as a beach ball. His will be the largest gumball ever taken from anyone's stomach. People will travel from around the world to see it on its pedestal.
+      <br>
+      <span class="text-indent">The boy's insides ache and his palms are glazed with sweat. </span>Soon he slips from bed, turns the door's hollow knob, and hurries down the darkened hall.
+   </p>
+
+   <br>
+   <br>
+
+
+   <br>
+   <br>
+
+   <h3>JAKE BARTMAN's stories have appeared in <em>Ninth Letter</em>, <em>the minnesota review</em>, <em>Columbia Journal</em>, <em>Booth</em>, and elsewhere.</h3>
+</div>
+     <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+<div class="draggable" id="eight">
+<h6>x</h6>
+ <h1>THE CRYING STATION</h1>
+ <h2>Michael Kaplan</h2>
+ <br>
+    <div class="text" onclick="event.stopPropagation()">
+ <span class="guidelines"><h4>Guidelines</h4></span>
+ <ol>
+     <li>The Crying Station is a space designed for tears.</li>
+     <li>Though the Crying Station is designed for tears, there is no pressure to cry. Embrace whatever thoughts and feelings arise.</li>
+     <li>At the Crying Station, we encourage an atmosphere of sincerity and fluidity.</li>
+     <li>Partners can be referred to as confidants, because all information revealed in the Crying Station must remain in the Crying Station.</li>
+     <li>Confidants should avoid physical contact at all times.</li>
+     <li>If your age is an even number, please use the west entrance of the Crying Station. If your age is an odd number, please enter from the east.</li>
+     <li>Though there are guidelines, one should not have expectations when entering the Crying Station. There is no winning or losing, no success or failure, no triumph or defeat. One cannot accomplish anything in the Crying Station.</li>
+     <li>If you would like to leave the Crying Station in the middle of a session, you may do so at any time.</li>
+     <li>Each pair is allowed a maximum of three sessions.</li>
+     <li>At the end of Session #3, confidants may exchange contact information. We believe that any space can become a Crying Station, as long as one's intention is to cry.</li>
+ </ol>
+ <br>
+ <br>
+  <br>
+ <h4>Session #1</h4>
+<p>
+Entering the Crying Station, B was struck by its emptiness. The space was about the size of a high school gymnasium, with bright, fluorescent lights hanging in rows overhead. In the center of the room was a dining table. Two chairs had been placed close together on a corner. B wondered if she was supposed to walk over and sit down. 
+<br>
+<br>
+The door on the opposite wall swung open. A head poked through the doorway. First, a mop of frizzy hair, then, the body below. Lanky. Loose. B's confidant lit up, spotting her across the room. B hoped she could reflect such positivity. She tried flashing a smile, but imagined, from the outside, that it looked forced, and quickly flattened her mouth again. The stranger didn't seem to notice. They strolled with confidence over to the table, sliding into the nearer chair. Without a thought, B's feet followed. The sound of her footsteps bounced up and down from the hardwood floors to the high ceilings, echoing around the room. 
+<br>
+<br>
+(Was she supposed to be speaking already? What should she say?)
+<br>
+<br>
+Arriving at the table, B discovered that the chairs were bolted to the floor. When she swiveled her head around, she spotted two projectors up on the walls. Was there anything else she hadn't noticed? With the thought came a sudden tickle in her throat. She tried to suppress a cough, but couldn't suppress it, and coughed. The sound reverberated.
+<br>
+<br>
+"I'm sorry," B said, sitting down. "Maybe it's a little dusty in here. I'm not sick."
+<br>
+<br>
+"Oh, we're all sick, babe," said the confidant. "No need to apologize."
+<br>
+<br>
+B half-laughed, but then wondered if the line was actually meant to be a joke. (Maybe she'd laughed inappropriately.)<br>
+<br>
+"What exactly are we supposed do?" B asked. "Did you get any instructions?" 
+<br>
+<br>
+"We're supposed to cry," the stranger replied, with a grin.
+<br>
+<br>
+"Oh, okay. How do you think we should go about it, then?" B asked.
+<br>
+<br>
+"You're a special one, aren't you? I'm Z, by the way. I go by she/her."
+<br>
+<br>
+It took B a moment to realize that this meant she should say her own name and pronouns. "Oh, I'm B. Sorry. She/her too." After another moment of silence, she asked, "Have you done this before?" 
+<br>
+<br>
+"You know the rules. We get three sessions together. Then we're done."
+<br>
+<br>
+"Oh, yeah. Duh, sorry." 
+<br>
+<br>
+"There you go again."
+<br>
+<br>
+"Sor&#8212;"
+<br>
+<br>
+Z raised her right hand in the air and snapped all five fingers together, closing B's lips across the table. 
+<br>
+<br>
+One of the projectors began humming in the corner of the room and, on the wall opposite Z, a faded image came into focus. Slowly, B made out a photograph of a family at the Grand Canyon. Two parents, two children. 
+<br>
+<br>
+"Where did you get that?" Z said to the ceiling. She squeezed her right hand into a fist and tucked it under the table. She repeated the question, her voice dropping an octave. "Where did you get that picture?" 
+<br>
+<br>
+The air in the building shifted. B noticed Z's long lashes starting to shine in the fluorescent light. She blinked and blinked. B couldn't tell if this motion was meant to push down the tears, or to bring them up.
+<br>
+<br>
+"Is that your family?" 
+<br>
+<br>
+Z gritted her teeth and flared her left nostril. 
+<br>
+<br>
+"You can let it out, if you need to," B said.
+<br>
+<br>
+"Are you inviting me to flip the table or to fall into a puddle on the floor?"
+<br>
+<br>
+"I think the table's bolted down." The earnestness with which B said this broke Z's sneer into a giggle. "Why did they put that up there?" B asked, turning back to the photograph. 
+<br>
+<br>
+"That was the last day of my life." 
+<br>
+<br>
+"What do you mean?" 
+<br>
+<br>
+"I don't know how they got that picture," Z said, directing the statement both to B and to the ceiling, "but it was taken about a minute before my little brother stepped back and"&#8212;Z needed a moment to muster the word&#8212;"fell." 
+<br>
+<br>
+"Jesus&#8212;I'm so sorry&#8212;"
+<br>
+<br>
+"There you go again with your sorrys."
+<br>
+<br>
+"S&#8212;Uh. I'm&#8212;I just&#8212;That's just what people say."
+<br>
+<br>
+"Oh, trust me: I know. That's what <em>everyone</em> says." And suddenly B felt awful. (She didn't want to say what everyone said.) Wasn't the Crying Station a place to dig beneath banal condolences? B wanted to be more helpful. This person had lost her brother, and she clearly still felt this loss at the core of her being. 
+<br>
+<br>
+"I want to help you," B said, thinking of the guideline about sincerity. 
+<br>
+<br>
+Z turned away from the image on the wall to lock eyes with B. They gazed into one another. This wasn't something B had ever done with someone she'd just met. 
+<br>
+<br>
+"You really mean that, don't you?" 
+<br>
+<br>
+Silence descended again, the fluorescent lights buzzing overhead.
+<br>
+<br>
+B nodded.
+<br>
+<br>
+"What are you?" Z asked, suddenly suspicious. "Are you some kind of psychiatrist? Or what? An actor? What are you?" 
+<br>
+<br>
+"Are you asking if I work here?" 
+<br>
+<br>
+"You know what I'm asking." 
+<br>
+<br>
+"I don't work here. I'm just"&#8212;B couldn't find the word&#8212;"I'm you." 
+<br>
+<br>
+"You're me?" Z asked.
+<br>
+<br>
+"No, I mean I'm <em>like</em> you. We're both here to try to cry, right?"
+<br>
+<br>
+"Ok," Z finally said. "It doesn't seem like you're lying." She took a long, audible breath, exhaling with her lips pursed together. "I think it's gonna be harder for you though. You don't cry much, do you?"
+<br>
+<br>
+"Like it said in the guidelines, I'm not here to accomplish anything. I just thought it'd be nice to try." B couldn't remember the last time she cried. "Why'd you call that the last day of your life, if you don't mind me asking?" 
+<br>
+<br>
+"Well, I guess I am still alive. But life's different now. This is like Life 2.0, but instead of software updates, it just comes with a bunch of bugs."
+<br>
+<br>
+"What kind of bugs?"
+<br>
+<br>
+"I drop people like it's nothing cause I don't want them to&#8212;" B watched a wave of feeling rise up through Z's throat. She took another deep breath, inhaling the feeling back down to her diaphragm. B turned to the image again. The older sibling had her arm around the younger, their faces the same shape, their hair the same color. "Six months after he"&#8212;Z let a moment of silence signify the word&#8212;"my parents split up. They just couldn't take it. They saw him in each other. They saw him in the house..."
+<br>
+<br>
+"And they saw him in you, right?" B asked. 
+<br>
+<br>
+Z's tears spoke for her now. Sniffles filled the space between each sob. B appreciated how quickly Z had opened up. She had the urge to reach over the table and squeeze her confidant's shoulder, but remembered the guideline about avoiding physical contact. 
+<br>
+<br>
+"That's not easy," B said. 
+<br>
+<br>
+"Each of them met someone within a year. They both started new families. New houses, new kids. And there I was, the forgotten child, just an inconvenient reminder." Her tears had turned to shrugs now. B wished she, too, could move so easily between moods.
+<br>
+<br>
+"Do you talk about him much?"
+<br>
+<br>
+"With them, or with people I meet?" 
+<br>
+<br>
+"With people you meet."
+<br>
+<br>
+"I guess I tell the story from time to time, if I get close enough to someone. But that's all. I just tell the story."
+<br>
+<br>
+"You're saying you just say the same few lines over and over again?" 
+<br>
+<br>
+Z tapped her nose. 
+<br>
+<br>
+"Then what don't you say?"
+<br>
+<br>
+B watched a few different thoughts move through Z's mind. Some internal crash caused her eyelids to collapse, and Z turned away, began blinking, gasping, laboring to speak.
+<br>
+<br>
+"I never tell anyone that I'm&#8212;I'm mad at him. I'm pissed. You have to respect the dead, so I never get to call him an idiot. But that's how I feel. It was stupid. I mean, how dumb do you have to be to step off a cliff? That's not just your life you're ruining." B wanted to sympathize, but instead felt a vague discomfort. "But you're not allowed to call your dead brother <em>dumb</em>. You're not allowed to be pissed at him for dying, for stepping back off the edge of a&#8212;" Z's face fell into her hands. Her shoulders bounced up and down. All of this had been said before. That was it. B could always tell when someone's words had been rehearsed. Z lifted her wet face back into the light. "What's wrong? I thought you wanted me to..."
+<br>
+<br>
+"I wanted you to say what you don't usually say."
+<br>
+<br>
+"You don't think that really happened?"
+<br>
+<br>
+"No, I think it happened. But I think you've said all that a hundred times. Or at least that's what it sounded like. I'm sorry if I'm wrong. I just wanted to hear what you don't usually say. Look where we are," B said, looking around the empty room. "Why not?" 
+<br>
+<br>
+Z's eyes fell to the floor. "I'm sorry," she said. And here came a new set of tears, more of a dribble than a rush. "I don't know why I pretended like that was some big revelation. I just wanted this to feel special."
+<br>
+<br>
+"If it's special," B said, surprised by the sudden sharpness in her own voice, "we'll both feel it."
+</p>
+
+<br>
+<br>
+  <br>
+  <br>
+
+<h4>Session #2</h4>
+<p>
+A strip of LED lights lined the edges of the floor. B wondered if she'd somehow entered the wrong building today. Session #1 had been bright and empty, but Session #2 started dark, with mysterious objects strewn about the room. Was this normal for the second session? Or had the space been designed specifically for Z and B?<br>
+<br>
+"Are you in here?" Z asked. 
+<br>
+<br>
+"Yeah, but I can't see anything. Where are you?" 
+<br>
+<br>
+"Let's follow each other's voices."
+<br>
+<br>
+"Okay." 
+<br>
+<br>
+Then came a moment of silence. (Was it her turn to speak or Z's?) 
+<br>
+<br>
+"I feel like you're not fully grasping the concept of following each other's voices," Z said. 
+<br>
+<br>
+"Oh, sorry. I'm over here. I'm walking closer to you, I think. You say something now."
+<br>
+<br>
+"God, the acoustics in here are messing with my head. First I think you're standing right next to me, and then you're on the other side of the room. Are you near your door?"
+<br>
+<br>
+"Which door?" 
+<br>
+<br>
+Z laughed and B did her best to follow the sound as it echoed. Without warning, she bumped into Z from behind, her face sprung back by Z's big curls. "Oh, sorry," B said. "There you are."
+<br>
+<br>
+"Somebody forget to turn the lights on today?" Z said to the ceiling. 
+<br>
+<br>
+"I think it's on purpose."
+<br>
+<br>
+Z rolled her eyes. "It's a joke, babe."
+<br>
+<br>
+"Oh, sor&#8212;" This time B caught herself.
+<br>
+<br>
+Z clapped her hands together. "Oh my god," she said, "we're learning."
+<br>
+<br>
+B felt her face get flush. (Thank god for the dim lighting.)
+<br>
+<br>
+"I got you a present," Z said. 
+<br>
+<br>
+"Oh, I didn't realize. Should I have&#8212;?" 
+<br>
+<br>
+"No, I'm not expecting anything in return. I just appreciated you calling me on my bullshit last time, so I got you a present. Don't make it into a whole thing, okay?" 
+<br>
+<br>
+B wished everyone spoke to her this way: clear, concise demands. She would not make it into a whole thing. "Okay. What's the present?"<br>
+<br>
+"Well, I used to love getting people flowers, and then I realized that flowers just die, so they have nothing to remember you by." Z grabbed the gift from her back pocket and presented it to B. It looked like a rose. "So now I buy people fake flowers, which never die." 
+<br>
+<br>
+"That's nice of you," B said. She didn't know what else to say. She hadn't received a present in years. (Did people do this often? Give each other spontaneous gifts?) She put the fake flower in her back pocket.
+<br>
+<br>
+"Do you feel, like, <em>dizzy</em> in here?" Z asked. "There's something about the lighting."
+<br>
+<br>
+"Or lack of lighting." 
+<br>
+<br>
+"Yeah." Z took a step back, spread her arms wide, and spun around, nearly disappearing into the darkness. "Am I crazy, or is there playground equipment everywhere?"
+<br>
+<br>
+"I'm not sure. Should we explore?"
+<br>
+<br>
+B approached the closest object. It was, in fact, the sort of structure one might find on a playground, a climbable geometric dome, the LEDs reflected faintly in its steel bars. Z squeezed through one of the triangular openings and sat cross-legged in the center, looking up. B climbed the dome rung by rung, lying down on top, about five feet in the air.
+<br>
+<br>
+"Is this supposed to be some kind of metaphor or something?" Z said, with a hint of sarcasm. She lay back onto the ground and stretched out. Now their torsos were parallel, with B's body bent into a crescent moon. "Why aren't they projecting <em>your</em> trauma onto the walls today? I thought it'd be my turn to dig into you."
+<br>
+<br>
+"What do you want to know?" 
+<br>
+<br>
+"Why are you so quiet?"
+<br>
+<br>
+"I don't know. My dad was pretty quiet, I guess."
+<br>
+<br>
+"Tell me about him."
+<br>
+<br>
+"He was severe. And stern. But he was also surprisingly"&#8212;B could never find the right word when she needed it&#8212;"<em>competent</em>, I guess. Like, for example, his dinners were always delicious, but we wouldn't really talk while we ate. I only learned from movies that families talk at the dinner table. But if, like, the sink was broken, he didn't have to call anyone to fix it. And then&#8212; I don't know." Z brought her hands back behind her head and crossed one leg over the other, her gaze bouncing around B's body, as if it were a constellation. "He just never really opened up. Never made space for that. When I first got to school, I felt like I knew about half as many words as my classmates. Other kids had just been raised talking more. And talking about their feelings more. I think it was that simple."
+<br>
+<br>
+"What about mom? She didn't talk much either?"
+<br>
+<br>
+(Wasn't the implication obvious enough? Was Z just being negligent, or forcing her to say it out loud?) 
+<br>
+<br>
+"I&#8212;uh&#8212;I don't have a mom." 
+<br>
+<br>
+"Hate to break it to you, sweetheart, but everyone has a mom."
+<br>
+<br>
+"I'm not stupid. I know everyone has a mom. That's not what I meant."
+<br>
+<br>
+"Jesus, I'm just kidding. I know you know that. I just&#8212;I'm sorry. I'm being annoying. Please, tell me more. What happened to your mom?"
+<br>
+<br>
+"It's okay. To be honest, I don't know exactly what happened to her." B could barely make out Z's face in the low light, but when she said this, there was a visible wince on the floor, an outline of emotion. "I asked him once, but never got a straight answer. More of a shrug."
+<br>
+<br>
+"I'm sorry to hear that. That's&#8212;Actually, I can't imagine what that's like."
+<br>
+<br>
+B felt as if she was floating right above Z now, face to face. Even from five feet away, she wondered if she could reach down and touch Z's cheek.
+<br>
+<br>
+"This is really nice," B said, "but I don't feel any closer to crying." 
+<br>
+<br>
+"Don't think about it." 
+<br>
+<br>
+"Okay. I'll try not to."
+<br>
+<br>
+"Do you resent him? Do you wish he'd been more open?" 
+<br>
+<br>
+"Sometimes. I don't know. Sometimes I get it, but maybe that's just because I am him. I don't know. Something must have happened to him. Either she ran off or&#8212;or died in childbirth, right? What else could it be? Either way, it's my&#8212;"
+<br>
+<br>
+"Don't say that," Z interrupted.
+<br>
+<br>
+B felt an unfamiliar tightness in her chest. Was it simply the sustained force of the metal bar against her sternum? Or was it another kind of pain? Before B could put a finger on it, the feeling evolved, hardened, as if her lungs had turned to stone. 
+<br>
+<br>
+"Were you jealous of him, growing up?" B asked.
+<br>
+<br>
+"What do you mean? Are you saying, like&#8212;"
+<br>
+<br>
+"I mean <em>after</em>. I assume that, after it happened, he was just perfect, right? Like the most perfect person who'd ever lived, right?" 
+<br>
+<br>
+Z rested her hands over her eyes. She didn't say anything. B heard a few labored breaths move through the room, the sound curling around the faint structures that filled the Crying Station.
+<br>
+<br>
+"I was definitely jealous of <em>her</em>," B said. "Sure, he was quiet, but I felt like I knew exactly what he was thinking. I don't know why I felt like I knew, but I knew. He was thinking about her." 
+<br>
+<br>
+Z's hands, still cupping her face, started to shake. 
+<br>
+<br>
+"Maybe she did die," B continued. "I get that that's devastating. Trading a wife for a daughter. But still. I just got so mad some days. I didn't care if she was dead. I wanted to kill her again. I wanted to kill her in his head. But I knew I couldn't, because I was her. You know what I mean? You and your brother looked exactly alike in that picture. That's just&#8212;It's just the worst feeling in the world. I wanted to zap her out of existence." B didn't know when it happened&#8212;she hadn't been paying attention to her body&#8212;but at some point the rock in her chest had softened. "I'm sorry." Z hadn't removed her hands from her face. B wanted confirmation that she was okay. "You know," she said, "if you were up here and I was down there, your tears would be falling down onto my face. Maybe it would finally feel like I was crying."
+<br>
+<br>
+Z's breath shook. "Would you like that? Do you want to switch places?" 
+<br>
+<br>
+"Yeah, I think I do."
+<br>
+<br>
+B slid her body down the side of the structure. Z exited through one of the triangles on the other side and crawled up the dome like a toddler, lying face down on top in the same crescent shape. B, directly below, oriented her body to mirror Z's. 
+<br>
+<br>
+"You know you're like him?" Z finally said, with new life in her voice. "I guess you said that already." 
+<br>
+<br>
+"Yeah, but I wish you wouldn't have said it again," B said, smiling. At this angle, all B could make out was a tiny gleam of LED light shining in Z's eyes.
+<br>
+<br>
+"The truth isn't always fun, is it?" 
+<br>
+<br>
+"I'm not <em>super</em> like him." (This wasn't true. B didn't know why she'd said it.)
+<br>
+<br>
+"You're quiet."
+<br>
+<br>
+"Plenty of people are quiet." 
+<br>
+<br>
+"Your mind is always elsewhere." 
+<br>
+<br>
+"What do you mean? You don't think I'm here with you?"
+<br>
+<br>
+"You wear it on your face. Sometimes you're here. Sometimes you go away." 
+<br>
+<br>
+"That's not true. I'm always listening to you."
+<br>
+<br>
+"That's not what I'm saying. I know you're listening, but sometimes I just see you go away."
+<br>
+<br>
+And then it hit B, why Z had brought this up. Suddenly, she felt so sad for her confidant that she wanted to cry on her behalf. 
+<br>
+<br>
+"I get it," B said. "You must do this a lot, don't you?" 
+<br>
+<br>
+"Huh? What must I do a lot?" 
+<br>
+<br>
+"You're literally jealous of my thoughts now. You don't want me abandoning you for even just a second, like, even in the privacy of my mind."
+<br>
+<br>
+"What? No, that's not it. That's not it at all," Z said in a voice B hadn't heard before, then leapt off the edge of the dome, disappearing into the darkness. Her words bounced around the room, hitting B from every angle. "This isn't about me! We were talking about <em>you</em>!"
+<br>
+<br>
+"I'm sorry!" B shouted, not knowing where to shout. She crawled out from under the dome and started walking toward the echoey steps. Z seemed to be both in front and behind her. B couldn't make sense of the sounds. "Slow down! Where are you?" she said. Her head turned in every direction. "Goddamnit, your footsteps are all over the place. Where are you?"
+<br>
+<br>
+<br>
+B weaved between the tables and chairs she hadn't noticed upon arrival, set up like a dining room. A few feet further, she found a series of monkey bars and swing sets, the chain links still swaying. Z must have been close. 
+<br>
+<br>
+B weaved between the tables and chairs she hadn't noticed upon arrival, set up like a dining room. A few feet further, she found a series of monkey bars and swing sets, the chain links still swaying. Z must have been close. 
+<br>
+<br>
+Suddenly B heard a loud <em>thump</em> and felt a terrible pain in her septum. What had happened? Z's body hit the floor, but somehow B had been punched in the face. Her eyes started to water. Her nostrils dripped. Before she could wipe herself clean, she found Z, lying supine beside a bookcase near the center of the room, far from any of the LEDs. 
+<br>
+<br>
+"I'm sorry! I'm sorry! Jesus, I didn't mean to hurt you." B stood over Z's sprawled-out body. She could see rivulets of blood trickling down her cheeks.
+<br>
+<br>
+B shouted at the ceiling, "This doesn't count as physical contact. It's an emergency. I'm not breaking the rules." Frantic, she removed her hoodie and dabbed at the blood with both sleeves, trying to stop the flow. 
+<br>
+<br>
+"You're not telling me anything new, you know?" B said, catching her breath. "I know the worst parts of myself are all him."
+<br>
+<br>
+"I know you know. But doesn't it help a little to hear someone else say it?" 
+</p>
+<br>
+<br>
+<br>
+<br>
+
+
+<h4>Session #3</h4>
+<p>
+Today the entire space was filled with thick, white fog. B couldn't see three feet ahead. 
+<br>
+<br>
+"What is this, a middle school dance?" Z asked from the far corner of the room. "Hello? Are you there? I thought I heard your door."
+<br>
+<br>
+"Yeah, sorry. I'm just a little lost."
+<br>
+<br>
+"Do you think there's random furniture and playground equipment in here again? I would prefer not to slam my face into anything today."
+<br>
+<br>
+B's lips broke into a smile. She wished Z could see her reaction. "If we take things slow, I think we can avoid major injuries." 
+<br>
+<br>
+"This is the Crying Station, babe. We don't take anything slow in here."
+<br>
+<br>
+That line brought audible laughter out of B. (She hoped Z could tell it was sincere.)
+<br>
+<br>
+B saw a dark figure sliding through the fog. Its gait was uncanny, out of rhythm with the sound of Z's footfalls. But before B could make sense of it, the figure had faded. "Was that you?" 
+<br>
+<br>
+"I thought it was you?"
+<br>
+<br>
+"What? Are you messing with me?"
+<br>
+<br>
+"No, I swear. I thought&#8212; This is weird." 
+<br>
+<br>
+"Hello?" B said to the fog. "Is there someone else in here?" 
+<br>
+<br>
+The two stood still a moment, listening to the silence. 
+<br>
+<br>
+"I'm kind of, uh, spooked," Z said. "Say something. I wanna make sure you're still alive out there."
+<br>
+<br>
+"I'm alive," B said, approaching what she imagined was the center of the room. No table today. No play structures. "I don't think there's anything in here this time. Try to follow my voice."
+<br>
+<br>
+After a few uneasy steps, Z found B and sat down cross-legged, their torsos perpendicular. Even at this distance, they could barely make out each other's faces.
+<br>
+<br>
+"So are you finally gonna cry today?" Z asked. "You know that's what this place is for, right?"
+<br>
+<br>
+"Shut up," B said, trying to match Z's playfulness. "Maybe I will, maybe I won't. I mean, I don't think I can, but I'll try. That's what we're here for."
+<br>
+<br>
+Z let the conversation rest, rather than striking back with a quip. She looked more comfortable than ever this week. B wondered if they would exchange numbers after this session. She had been hoping they would. She had been worrying. (There was always the possibility that B enjoyed Z's company ten times more than the reverse. B might have mistaken her confidant's social grace for chemistry.)
+<br>
+<br>
+Without warning, Z jolted from knee to shoulder, bracing for some sort of impact. B, confused, mirrored the motion and ducked her head. But nothing came.  
+<br>
+<br>
+"Another shadow," Z said. "Right behind you."
+<br>
+<br>
+"Are you scared?" 
+<br>
+<br>
+"I don't know. It's probably just the projectors again. That wouldn't be too expensive."
+<br>
+<br>
+"Yeah, that makes sense. But how is that supposed to help us cry?"
+ <br>
+<br>
+Z lowered down to her elbows, ruminating. "Well, who can you feel out there in the fog?"
+<br>
+<br>
+What caught B off-guard was not the question but rather the fact that Z clearly had an answer in mind. She wasn't asking; she was forcing a conversation. 
+<br>
+<br>
+"You know who," B said.
+<br>
+<br>
+"If you had the chance to talk to her, like hypothetically, what would you say?" 
+<br>
+<br>
+B sat for a moment. Finally, she let the question out: "I'd ask, what do you hate about yourself?"
+<br>
+<br>
+"You'd ask her that?"
+<br>
+<br>
+"Yeah." 
+<br>
+<br>
+"Why?"
+<br>
+<br>
+"I don't know. I want to know her faults, or at least what she thinks they are. I know all my dad's faults, and I know mine. If I could talk to her, maybe I'd get a clearer sense of what I picked up on my own. Maybe the problems that aren't genetic would be easier to get rid of." 
+<br>
+<br>
+"Why are you so focused on your <em>faults</em>?" 
+<br>
+<br>
+"I guess I just hate myself," B said. She paused, let the words hang in the air. "Jesus, it's true. I <em>hate</em> myself, and I think I just want what's wrong with me to be someone else's fault."
+<br>
+<br>
+"What do you hate about yourself?" 
+<br>
+<br>
+"Everything, I guess. I don't know. I mean, <em>this</em> is definitely part of it."
+<br>
+<br>
+"What do you mean?" 
+<br>
+<br>
+"That I can't cry. It makes me feel like a robot. People should be able to cry with each other. I have plenty to cry about. Yeah, I guess that's one of the things that's wrong with me."
+<br>
+<br>
+"Nothing's wrong with you," Z said, her face swallowed by the fog, lips disembodied. 
+<br>
+<br>
+"But it's not just that I can't cry. I just feel completely...<em>disconnected</em> sometimes. From myself. From everybody."
+<br>
+<br>
+"What about now? Do you feel disconnected from me?"
+<br>
+<br>
+"Do you ever think thoughts in between your thoughts?" 
+<br>
+<br>
+"Maybe. What do you mean?"
+<br>
+<br>
+"Like, at the front of my mind, there's this inner monologue, just constantly running. And it mostly feels like I'm steering it, almost like <em>I'm</em> talking to myself. That's the <em>me</em> in my head. But then when I listen closely and the monologue slows down, there are all these other little thoughts crammed in the spaces between the monologue. And I'm not saying they're, like, other voices in my head. It's still me. But it's more of a&#8212; a whisper. Like a quieter me is saying things that the louder me in front is too scared to say."
+<br>
+<br>
+"Does <em>she</em> ever speak in the space between?"
+<br>
+<br>
+"No, no, that's not what I mean. It's not another voice. Or&#8212; I guess it depends what you mean. She does pop up, but only if the quiet me is thinking <em>about</em> her, if that makes sense. It's never her voice. No, it's more like me reminding myself both that I am her and that I'm not her. It's sort of torturous, now that I say it out loud, this tiny uncontrollable voice just berating me throughout the day. Does he ever pop up like that?" 
+<br>
+<br>
+"We've talked enough about me. I can't be the only one breaking down in here."
+<br>
+<br>
+"I'm trying. Can't you see I'm trying? 
+<br>
+<br>
+"Hello? 
+<br>
+<br>
+"Are you there?
+<br>
+<br>
+"What happened? Where'd you go?
+<br>
+<br>
+"Fine. I'll talk. The more I think about it, the more I realize that the quiet voice between my thoughts is the same voice that always tells me that everything is <em>my fault</em>. Maybe I was too big, and she died in childbirth. Maybe my dad can't bear the sight of my broad shoulders. And, sure, I know that's crazy, but I had to sit at the dinner table growing up wondering these things because he was so quiet. These were the thoughts I couldn't help but think. You know how I said earlier that when I asked my dad about her, he just shrugged?
+<br>
+<br>
+"I lied. It's worse. I don't know why I didn't tell you last time. When I asked what happened, all he said was, 'I loved her very much and she loved me, too.' And somehow, the way he said it, I knew he wouldn't be taking any follow-up questions. Can you believe he said that? 'I loved her very much and she loved me, too.' It's like he was trying to defend himself against some accusation I wasn't even making. I was eight, for God's sake. I had no idea what to say. Listen to it: 'I loved her very much and she loved me, too.' He was making sure I knew he hadn't scared her away, or abused her, or anything like that. But I was eight. I wasn't old enough to wonder if she'd left because of something he'd done. And still that line echoes in my head. Because if it wasn't his fault, it must have been mine. Why couldn't he have just lied? Why couldn't he have told me that she adored me? Or that she valiantly gave her life for me in the hospital? Why not make up a story to make it easier on me? He's my dad. Is that so much to ask for? A different story. Any story. It wouldn't have changed anything for him. But clearly it was my fault somehow, or he at least thought it was, so he wanted to make sure I thought it was, too. Everything stems from that. It's <em>his</em> voice echoing underneath everything all the time, constantly popping up in the space between. It's <em>his</em> pain. When my mom slipped through his fingers, he slipped, too. It's not the dead who slip&#8212;it's the living. He tried his best to raise me, but when I came into this world, he had just fallen. There was no way I could catch him at that age. I was too frail. I was too fresh to it all. It's just so ugly. It's all just so ugly. Why can't I get all these ugly thoughts out of my head? Why can't I control them? Sometimes I worry that my parents thought I <em>wanted</em> him gone, that I was jealous of the attention he got, so I <em>pushed</em> him off the edge. I know that sounds crazy but I've probably had that thought ten thousand times. Because I know they've had it. You know why? God, I can't believe I'm saying this. I didn't cry right away. When it happened&#8212;I'm sorry I wasn't screaming and crying like you were, Mom. I was in shock. I didn't know what was going on. I didn't understand what had happened. That's why I wasn't sobbing&#8212;not because I didn't care. I'm not some kind of psychopath. I just couldn't process it. One moment I had my arm around him. The next moment he was gone. What did you want me to do, Dad? Tell me, what I was supposed to do? I was a child. Do you have any idea the strength it takes to snatch someone straight out of the air?"
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h5>for Alex Denny</h5>
+
+<br>
+<br>
+<br>
+<br>
+
+<h3>MICHAEL KAPLAN is a writer and also other things. He wishes the best for you. He laments that you two cannot know each other better. If there is anything he can do to help, don't hesitate to ask. You can find him in Iowa City, or on the internet somewhere. At the heart of all this, he hopes there is something too bright to see.</h3>
+</div>
+   <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+</div>
+
+
+
+<div class="draggable" id="nine">
+
+   <h6>x</h6>
+
+   <h1>A PRELIMINARY MANUAL OF TARGETED INDIVIDUALS</h1>
+   <h2>J S Khan</h2>
+
+   <br>
+   <div class="text" onclick="event.stopPropagation()">
+   <h4>SOO-JIN (&#xC218;&#51652;) / SOPHIA, OR COAGULATION</h4>
+   <span class="italic">
+   <p>
+      She can never begin at the beginning. To do so is not possible. Not simply because of the memories she's naturally repressed, but also because of what's been destroyed &#8212; literally wiped from the earth's surface &#8212; then lost or rewritten in whatever public or private archives persist. She's traveled too far, lived in too many places. Scattered her self &#8212; piece by piece &#8212; along the way. In this sense, she's inexhaustible. Wealthy. Ripe with potential.
+      <br>
+      <span class="text-indent">But it came to pass &#8212; in the midst of a pregnancy </span>that turned tragic &#8212; that she recalled a dream she'd had as a girl, maybe 5 or 6 years old: a bright circle of light, white and blurry, eclipsed by a dark red wave drawing sharply into focus and just as violently withdrawing. In its wake, a crimson stain shattered. Crumbled. Blackened along its jagged edges.
+      <br>
+      <span class="text-indent">Only, she realized later, it hadn't been a dream at all: </span>she'd been staring through the eyepiece of a microscope, one her father had been peering into just before her &#8212; or had it been her husband? He'd glanced down to see her, the crows' feet crinkling softly around his eyes as he stepped aside, pulled up a stepladder, and beckoned her to have a look. She'd squinted at the specimen on the other side of the aperture but never ascertained what it was, the unexpected sound of weeping tearing her eye away. Turning, she saw her mother in a doorway, her bottom lip trembling. In outstretched arms she held a crinkled canvas-cloth smeared with tiny red handprints &#8212;
+      <br>
+      <span class="text-indent">Was it her fault? Had she done something wrong?</span>
+      <br>
+      <span class="text-indent">She looks up at the man beside her &#8212; only, </span>she cannot recognize him anymore. A faceless shadow, he leans down to press a strand of her hair behind her ear and whisper there &#8212; right before she wakes &#8212; "From this moment on, you will never be alone."  
+   </p>
+   </span>
+
+   <br>
+
+   <h4>DAVID, OR DISTILLATION</h4>
+   <span class="italic">
+   <p>
+      Against the screen of an eye or two or three wash multiple images and symbols. Not all but some, some spill through. Swirl inside. Through the arc of an ear or four or maybe more splash lights/voices/music: all permutating. Oscillating with separate frequencies. Syncing and unsyncing. Sinking and floating. Getting along swimmingly. Drowning in a poisonous luxury. Buzzing snarling all day long around a single desperate signal. Arranging and rearranging.<br>
+      <span class="text-indent">Everything is changing.</span>
+      <br>
+      <span class="text-indent">The sound of steam &#8212; like boiling water from a kettle &#8212; vibrates a yeasty moisture.</span>
+      <br>
+      <span class="text-indent">Elsewhere, the body lies. Lies </span>more and more these days. Breathes, blinks, sweats, sleeps.
+      But what, precisely, changes? All these visions and voices, where do they go? As the mind feeds unconsciously on streams of code it cannot decipher, can the body metabolize such dreams?
+      <br>
+      <span class="text-indent">What is happening inside?</span>
+   </p>
+   </span>
+
+   <br>
+
+   <h4>ARIELA, OR FERMENTATION</h4>
+   <span class="italic">
+   <p>
+     She finds the term "breakdown" exciting &#8212; and why not? When she gazes at the moon still visible in the afternoon, she doesn't see a dead thing torn from the earth's side. Instead, she sees Eve torn from Adam's flesh &#8212; a living bone left adrift in the cold shadow of a remorseless ex-lover. Distant, perhaps, but fully in control of the tidal movements surging in his blood. Sure, she suffers, but that's normal. And the residual psyches of organisms from previous universes &#8212; all collapsed, crushed, and commingled in who-knows-how-many Big Bangs &#8212; she knows they reincarnate in physical matter too. All splitting and reuniting, reuniting and splitting: working out some serious karma. What else could fabled Pangaeas signify? The crust above splits, plates below shift, and magma bubbles up to hiss with networks of broken promises. It's only natural. The Once Upon a Time no different, she insists, than the Great Hereafter. A question only of intensities. Of singularities. She could divine the future if only she could study the fissure lines as they formed.
+      <br>
+      <span class="text-indent">But is she herself not the earth and not </span>the moon? Does she herself not sigh and groan, guts on fire, her core a ball of molten metal careening from one catastrophe to the next? Spinning and spinning &#8212; and getting nowhere fast! But she knows too that shallow seas slide into fresh gulfs daily, and mountains jut up like crooked teeth to bite the sky's white thighs every afternoon. Plains form unseen in the disarray, beneath the glitter of cataclysmic dust, and clear water can suddenly gush from rocks softer than her skin. Vast oceans spread and settle &#8212; why else? &#8212; if for no other reason to reflect the flotsam and jetsam of this universal brainstorm.
+      <br>
+      <span class="text-indent">So why not have a breakdown, or two? Or four? </span>Or maybe more? In this neverending process, what vital new scum might proliferate, penetrate her crust, enliven every crevice? Microbes and metazoa &#8212; monstrous and swarming, vibrant lineages eclipsed by recurrent disasters &#8212; stalk her thoughts like a waking nightmare.
+      <br>
+      <span class="text-indent">Only, she doesn't mind. She will </span>not decay in holy matrimony.
+      <br>
+      <span class="text-indent">Instead, she has decided, </span>she will rise above the rot.
+   </p>
+   </span>
+
+   <br>
+
+   <h4>TIMOTHY, OR PUTREFACTION</h4>
+   <span class="italic">
+   <p>
+     A charcoal heart beckons a drafty cellar. Dribbles down a cold drain. Such organs made fodder for his choicest demons seems not so displeasing to him, now. Before, perhaps &#8212; but not now. That these old familiar fiends not abandon him for waterless places and &#8212; baffled by a dissimilar emptiness &#8212; return enlivened with fresh batteries to assail him: this is something his mind heartily cultivates Has he not enough blood on his hands already? And who among us can distinguish their Muses from their Furies? He's tired of all the jumbled messages, these circuits wound and unwound on networks of confused flesh, our collective breath a finely textured delicacy &#8212; a real frozen treat! &#8212; straining through a sieve of obscene channels...
+      <br>
+      <span class="text-indent">Yet the virus inside him continues </span>its grim work without pause. All iron and blood, battling onward. Sub specie ad aeternatis. Not long ago, he'd thought he'd grapple with God, spirit locked in flesh with spirit enfleshed to shout, "I will not let you go until you bless me!" &#8212; only, this is a fantasy of reckless courage he no longer cherishes
+      <br>
+      <span class="text-indent">To stay here content instead beneath </span>the bridge of what remains. This, he cherishes. To stay here still and waiting with his choicest demons feeding on whatever scraps remain. Waiting, still.
+      <br>
+      <span class="text-indent">Waiting for the glory&#8212;but giving up the ghost.</span>
+   </p>
+   </span>
+
+   <br>
+
+   <h4>JOSE / LYLA, OR CONJUNCTION</h4>
+   <span class="italic">
+   <p>
+      To be one thing is impossible. To be two things is terrifying. To be three things is deadly, but also divine. 
+   </p>
+   </span>
+
+   <br>
+
+   <h4>DANIEL, OR DISSOLUTION</h4>
+   <span class="italic">
+   <p>
+      He cannot understand why they cannot understand. He's never wanted gratitude &#8212; only recognition of the deed done. The mission accomplished. At least, for a while. This is why. For how long until they need salvation again? How does not matter! He is the night in the day &#8212; is this not why? Why white hot stars constellate his body in ethereal stigmata. Why he stands vigil, despite how thin he's become. To persist in guarding both the scepter and the throne. But stretched so thin now, all crumbles inside him. He is constantly expanding to fill the nothingness. He is stretching apart. His body sprawls in nebulous ruins. His limbs uncoil like strands of smoke. He drowns in an invisible crystal light, strands of darkness your hair your eyes &#8212; 
+      <br>
+      <span class="text-indent">He is the night in the day, and </span>this is why. They cannot see him at all.
+   </p>
+   </span>
+
+   <br>
+
+   <h4>ELEUTHERIOS (&#1575;&#1604;&#1608;&#1584;&#1585;&#1740;&#1608;&#1587;) / EZ-KHAL-EL, OR SEPARATION</h4>  
+   <span class="italic">
+   <p>
+      In everything from the first he heard its call, al-Lahan (&#1604;&#1575;&#1726;&#1575;&#1606;). ). In cruel light and mother's warm milk and fearful darkness. Everything its substance, everything its measure. Space its rhythm. Time its beat. Al-Lahan. An enormous resonance that gathered ceaselessly in the folds of the earth, welled up, and exploded behind his eyes. A perpetual machined hum accompanied by the tinkling of distant stars, its deep sonorous tones so overwhelming he could barely grasp the world skittering about him atop its intricate melodies. So he drowned in its swarm, like some bottomfeeding mollusk sealed in on itself only dimly aware of rain hitting the ocean's surface far above.
+      <br>
+      <span class="text-indent">Until, at last, he was captured and contained. </span>Ensnared and prepared. To extract the Quantum Scroll. Torn from an abyss twiceover and raised to wander. Where? The future haunts of ghosts &#8212; where else?
+      <br>
+      <span class="text-indent">In a tower to be razed, exchanged </span>and extracted. Shorn apart for the pearl inside.
+      <br>
+      <span class="text-indent">For the music rolled, </span>he was split open like a shell.
+   </p>
+   </span>
+
+   <br>
+
+   <h4>HELEN, OR CALCINATION</h4>
+   <span class="italic">
+   <p>
+She is neither the twig nor the leaf, neither the root nor the branch. She could be the fruit fallen to alien soil, but really (she understands this now) she is every figuration of the tree; she is its sap. A fiery sap! She runs inside the tree's veins, burning and burning. The tree's history and its future.
+      <br>
+      <span class="text-indent">She will burn it from inside, from its highest branch</span> to its deepest root. Burn the tree down, everywhere furious with delirium.
+      <br>
+      <span class="text-indent">In the ashes flitting away,</span> in the soot sinking into mud, she will start again.
+      <br>
+      <span class="text-indent">No longer prefigured by the tree </span>she has inscribed, she has become the phoenix. A monster of fire.
+   </p>
+   </span>
+
+   <br>
+
+   <h4>THE SATELLITE FISHER, OR META-SYNTHESIS</h4>
+   <p>
+      [EMPLOY THE ARIADNE CIPHER]  
+      </p>
+      <br>
+
+   <img id="cryptogram"src="cryptogram.png" alt="THE ARIADNE CIPHER"></img>
+
+<br>
+<br>
+<br>
+   <br>
+
+   <h3>J S KHAN has published fiction in <em>Post Road Magazine</em>, <em>Fourteen Hills</em>, <em>Yalobusha Review</em>, <em>Your Impossible Voice</em>, and elsewhere. KHAN holds an MFA from Emerson College and is currently a third-year Ph.D. student in creative writing at the University of North Texas. Special thanks to Jesse Samson for assistance with design and illustration of the Satellite Fisher's cryptogram.
+   </h3>
+</div>
+     <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+
+<div class="draggable" id="eleven">
+   <h6>x</h6>
+
+   <br>
+
+   <h1><div class="unitalic">TWO ERASURES</div></h1>
+   <h2>Lisa Huffaker</h2>
+
+   <br>
+   <div class="text" onclick="event.stopPropagation()">
+   <img class="erasure"src="measures.png"alt="[she measures her own...]">
+    
+   <br>
+   <br>
+   <br>
+
+   <img class="erasure"src="dress.png"alt="[In a shining dress...]">
+   <br>
+   <br>
+   <h4>Source text: <em>Fascinating Womanhood</em> by Helen Andelin, originally self-published in 1963. These erasures were composed upon pages of the mass-market paperback, published by Random House, 1982. </h4>
+   <br>
+   <br>
+   <br>
+   <br>
+
+   <h3>LISA HUFFAKER creates poetry, collage, and assemblage. She is a frequent visiting artist at the Nasher Sculpture Center, a recent C3 Visiting Artist at the Dallas Museum of Art, and creator of <em>White Rock Zine Machine</em>, a micropublishing project offering artist's books through sculptural vending machines. Her poetry appears in <em>32 Poems</em>, <em>Spillway</em>, <em>Diode</em>, <em>THRUSH</em>, <em>Tupelo Quarterly</em>, <em>Phoebe</em>, and elsewhere. Her installation, <em>Code Room</em>, is currently on view at Ro2 Art. She is currently working on a book, transforming a 1963 marriage manual through erasure and collage. The project was recently featured at TU Delft and Cornell Tech's 3rd Workshop on Obfuscation. <a href="https://www.lisahuffaker.com">www.lisahuffaker.com.</a>
+   </h3>
+</div>
+    <br>
+   <br>
+<div class="back">
+   <p>BACK</p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+<image id="mixtape-logo" src =mixtape_logo.png alt="MQR Mixtape logo">
+   <div id="logo_menu">
+   <ul>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/">HOME</a></li>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-one/">ISSUE 1</a></li>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-two/">ISSUE 2</a></li>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-three/">ISSUE 3</a></li>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-four/">ISSUE 4</a></li>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-five/">ISSUE 5</a></li>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-six/">ISSUE 6</a></li>
+   	<li><a href="https://sites.lsa.umich.edu/mixtape/category/issues/issue-seven/">ISSUE 7</a></li>
+   </ul>
+
+   </div>
+
+
+</div>
+</div>
+
+
+<!--
+<image id="video-background" src =flowgif3.gif>
+ </image>
+!-->
+
+</body>
+</html>
